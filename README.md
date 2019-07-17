@@ -6,7 +6,7 @@ An asymmetric blend of my personal and professional projects, blog, and philosop
 You'll notice I intentionally did not include Google Analytics (or any other traffic monitoring software) in the code base for this site. I am very curious to know if people are benefiting from my code, but decided not to (for your sake!).
 If you enjoy the code, please watch/star/fork/add an issue or reach out to me at asa55 at pitt dot edu =)
 
-TODO: Add work done for Neurobi.com, could also add some of the reports I did at university, looking at new layout concepts
+TODO: Add work done for Neurobi.com, could also add some of the reports I did at university, and looking at re-designing using vue.js
 
 
                                                             ████                                
