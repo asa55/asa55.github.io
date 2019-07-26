@@ -1,2 +1,0 @@
-#I intend to make my GitHub pages account more like an interactive resume
-##Until recently, I didn't have a sound / coherent methodology driving the organizational scheme for my projects. I think this should do the trick, because in truth I am doing this as continued coding practice
