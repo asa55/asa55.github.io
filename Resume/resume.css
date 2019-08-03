@@ -1,14 +1,85 @@
+.topic{
+    display:inline-block;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .card{
     display:inline-block;
-    width:266px;
-    height:266px;
-    border:5px solid gray;
-    border-radius: 20px;
+
 }
 
 img{
-    padding-left:5px;
-    padding-right:5px;
-    padding-top:5px;
-    padding-bottom:5px;
+    width:128px;
+    border:3px solid gray;
+    border-radius: 10%;
+}
+
+#APIs{
+    background-color: #e1c340;
+}
+
+#ArtificialIntelligenceAndMachineLearning{
+    background-color: #4cd7d0;
+}
+
+#CLIScripting{
+    background-color: #a4e8e0;
+}
+
+#CloudComputing{
+    background-color: #f8ea8c;
+}
+
+#Databases{
+    background-color: #e1c340;
+}
+
+#DistributedComputing{
+    background-color: #4cd7d0;
+}
+
+#DIYProjects{
+    background-color: #a4e8e0;
+}
+
+#Frameworks{
+    background-color: #f8ea8c;
+}
+
+#Libraries{
+    background-color: #e1c340;
+}
+
+#OperatingSystems{
+    background-color: #4cd7d0;
+}
+
+#PackageManagement{
+    background-color: #a4e8e0;
+}
+
+#Preprocessors{
+    background-color: #f8ea8c;
+}
+
+#RuntimeEngines{
+    background-color: #e1c340;
+}
+
+#Standards{
+    background-color: #4cd7d0;
+}
+
+#Vanilla{
+    background-color: #a4e8e0;
+}
+
+#Virtualization{
+    background-color: #f8ea8c;
+}
+
+#WebDevelopment{
+    background-color: #e1c340;
 }
