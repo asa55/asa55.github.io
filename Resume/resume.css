@@ -3,6 +3,8 @@
     margin: 5px;
     padding: 10px;
     border-radius: 5px;
+    border:3px solid darkblue;
+    border-radius: 20px;
 }
 
 .card{
@@ -20,18 +22,19 @@
 #content-container{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0%;
-    margin-bottom: 0%;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding-top: 0%;
     padding-bottom: 0%;
     padding-left: 20px;
     padding-right: 20px;
-    max-width: 80%;
+    max-width: 90%;
     background-attachment: fixed;
-    background-image: linear-gradient(90deg,darkblue, white);
+    background-image: linear-gradient(90deg,darkblue, darkblue, white);
     background-size: cover;
-    display: block;
-    
+    display: block;    
+    border:3px solid darkblue;
+    border-radius: 30px;
 }
 
 body{
@@ -44,6 +47,24 @@ img{
     width:128px;
     border:3px solid gray;
     border-radius: 10%;
+}
+
+#SkillsByTechnology{
+    display: unset;
+    display: block;
+    background-color: gray;
+}
+
+#SkillsByProject{
+    display: unset;
+    display: block;
+    background-color: gray;
+}
+
+#SkillsByDiscipline{
+    display: unset;
+    display: block;
+    background-color: gray;
 }
 
 #APIs{
