@@ -7,7 +7,6 @@
 
 .card{
     display:inline-block;
-
 }
 
 .card-text{
@@ -15,84 +14,104 @@
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: bold;
+    color:white;
+}
+
+#content-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 80%;
+    background-attachment: fixed;
+    background-image: linear-gradient(90deg,darkblue, white);
+    background-size: cover;
+    display: block;
+    
 }
 
 body{
-    background-color: #71A082;
+    background-color: white;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 img{
     width:128px;
-    border:3px solid #71A082;
+    border:3px solid gray;
     border-radius: 10%;
 }
 
 #APIs{
-    background-color: #886891;
+    background-image: linear-gradient(210deg, darkblue, lightblue);
 }
 
 #ArtificialIntelligenceAndMachineLearning{
-    background-color: #DCCA9B;
+    background-image: linear-gradient(210deg, darkblue, lightblue);
 }
 
 #CLIScripting{
-    background-color: #CBDBD1;
+    background-image: linear-gradient(210deg, darkblue, lightblue);
 }
 
 #CloudComputing{
-    background-color: #CFC3D2;
+    background-image: linear-gradient(210deg, darkblue, lightblue);
 }
 
 #Databases{
-    background-color: #FFFAEC;
+    background-image: linear-gradient(210deg, darkblue, lightblue);
 }
 
 #DistributedComputing{
-    background-color: #9BBBA7;
+    background-image: linear-gradient(210deg, darkblue, lightblue);
 }
 
 #DIYProjects{
-    background-color: #A58EAB;
+    background-image: linear-gradient(210deg, darkblue, lightblue);
 }
 
 #Frameworks{
-    background-color: #FFF2D3;
+    background-image: linear-gradient(210deg, darkblue, lightblue);
 }
 
 #Libraries{
-    background-color: #4D8762;
+    background-image: linear-gradient(210deg, darkblue, lightblue);
 }
 
 #OperatingSystems{
-    background-color: #6F487B;
+    background-image: linear-gradient(210deg, darkblue, lightblue);
 }
 
 #PackageManagement{
-    background-color: #B9A36A;
+    background-image: linear-gradient(210deg, darkblue, lightblue);
 }
 
 #Preprocessors{
-    background-color: #316E48;
+    background-image: linear-gradient(210deg, darkblue, lightblue);
 }
 
 #RuntimeEngines{
-    background-color: #582F64;
+    background-image: linear-gradient(210deg, darkblue, lightblue);
 }
 
 #Standards{
-    background-color: #978044 ;
+    background-image: linear-gradient(210deg, darkblue, lightblue);
 }
 
 #Vanilla{
-    background-color: #886891;
+    background-image: linear-gradient(210deg, darkblue, lightblue);
 }
 
 #Virtualization{
-    background-color: #DCCA9B;
+    background-image: linear-gradient(210deg, darkblue, lightblue);
 }
 
 #WebDevelopment{
-    background-color: #CBDBD1;
+    background-image: linear-gradient(210deg, darkblue, lightblue);
 }
 
 
