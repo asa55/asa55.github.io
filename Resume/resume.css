@@ -10,76 +10,113 @@
 
 }
 
+.card-text{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body{
+    background-color: #71A082;
+}
+
 img{
     width:128px;
-    border:3px solid gray;
+    border:3px solid #71A082;
     border-radius: 10%;
 }
 
 #APIs{
-    background-color: #e1c340;
+    background-color: #886891;
 }
 
 #ArtificialIntelligenceAndMachineLearning{
-    background-color: #4cd7d0;
+    background-color: #DCCA9B;
 }
 
 #CLIScripting{
-    background-color: #a4e8e0;
+    background-color: #CBDBD1;
 }
 
 #CloudComputing{
-    background-color: #f8ea8c;
+    background-color: #CFC3D2;
 }
 
 #Databases{
-    background-color: #e1c340;
+    background-color: #FFFAEC;
 }
 
 #DistributedComputing{
-    background-color: #4cd7d0;
+    background-color: #9BBBA7;
 }
 
 #DIYProjects{
-    background-color: #a4e8e0;
+    background-color: #A58EAB;
 }
 
 #Frameworks{
-    background-color: #f8ea8c;
+    background-color: #FFF2D3;
 }
 
 #Libraries{
-    background-color: #e1c340;
+    background-color: #4D8762;
 }
 
 #OperatingSystems{
-    background-color: #4cd7d0;
+    background-color: #6F487B;
 }
 
 #PackageManagement{
-    background-color: #a4e8e0;
+    background-color: #B9A36A;
 }
 
 #Preprocessors{
-    background-color: #f8ea8c;
+    background-color: #316E48;
 }
 
 #RuntimeEngines{
-    background-color: #e1c340;
+    background-color: #582F64;
 }
 
 #Standards{
-    background-color: #4cd7d0;
+    background-color: #978044 ;
 }
 
 #Vanilla{
-    background-color: #a4e8e0;
+    background-color: #886891;
 }
 
 #Virtualization{
-    background-color: #f8ea8c;
+    background-color: #DCCA9B;
 }
 
 #WebDevelopment{
-    background-color: #e1c340;
+    background-color: #CBDBD1;
 }
+
+
+
+
+
+
+
+
+
+.color-primary-0 { color: #71A082 }	/* Main Primary color */
+.color-primary-1 { color: #CBDBD1 }
+.color-primary-2 { color: #9BBBA7 }
+.color-primary-3 { color: #4D8762 }
+.color-primary-4 { color: #316E48 }
+
+.color-secondary-1-0 { color: #886891 }	/* Main Secondary color (1) */
+.color-secondary-1-1 { color: #CFC3D2 }
+.color-secondary-1-2 { color: #A58EAB }
+.color-secondary-1-3 { color: #6F487B }
+.color-secondary-1-4 { color: #582F64 }
+
+.color-secondary-2-0 { color: #DCCA9B }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #FFFAEC }
+.color-secondary-2-2 { color: #FFF2D3 }
+.color-secondary-2-3 { color: #B9A36A }
+.color-secondary-2-4 { color: #978044 }
