@@ -1,10 +1,42 @@
-.topic{
-    display:inline-block;
-    margin: 5px;
-    padding: 10px;
-    border-radius: 5px;
-    border:1px solid white;
-    border-radius: 20px;
+/* Standard tags, alphabetical order */
+body{
+    background-color: white;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+img{
+    width:128px;
+    border:3px solid gray;
+    border-radius: 10%;
+}
+
+table{
+    width:100%;
+    height: 100%;
+}
+
+td{
+    width: 80%;
+    height: 80%;
+    margin:auto;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color:black;
+}
+
+/* Classes, alphabetical order */
+.blank-image{
+    width:128px;
+    height:128px;
+    background-color: white;
+    border:3px solid gray;
+    border-radius: 10%;
+    margin:0;
+    padding:0;
 }
 
 .card{
@@ -27,6 +59,29 @@
     margin: 3%;
 }
 
+.topic{
+    display:inline-block;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid white;
+    border-radius: 20px;
+    background-image: linear-gradient(210deg, darkblue, lightblue);
+}
+
+.topic-title{
+    display: unset;
+    background-image: unset;
+    display: block;
+    background-color: gray;
+}
+
+/* ID's, alphabetical order */
+#AboutMe{
+    display: unset;
+    display: block;
+}
+
 #content-container{
     margin-left: auto;
     margin-right: auto;
@@ -45,138 +100,9 @@
     border-radius: 30px;
 }
 
-body{
-    background-color: white;
-    margin-top: 0%;
-    margin-bottom: 0%;
-}
-
-img{
-    width:128px;
-    border:3px solid gray;
-    border-radius: 10%;
-}
-
-#AboutMe{
-    display: unset;
-    display: block;
-    background-color: gray;
-}
-
 #DisciplinesBySkill{
     display: unset;
+    background-image: unset;
     display: block;
     background-color: gray;
 }
-
-#ProjectsByJobDescription{
-    display: unset;
-    display: block;
-    background-color: gray;
-}
-
-#ProjectsByObjective{
-    display: unset;
-    display: block;
-    background-color: gray;
-}
-
-#SkillsByTechnology{
-    display: unset;
-    display: block;
-    background-color: gray;
-}
-
-#APIs{
-    background-image: linear-gradient(210deg, darkblue, lightblue);
-}
-
-#ArtificialIntelligenceAndMachineLearning{
-    background-image: linear-gradient(210deg, darkblue, lightblue);
-}
-
-#CLIScripting{
-    background-image: linear-gradient(210deg, darkblue, lightblue);
-}
-
-#CloudComputing{
-    background-image: linear-gradient(210deg, darkblue, lightblue);
-}
-
-#Databases{
-    background-image: linear-gradient(210deg, darkblue, lightblue);
-}
-
-#DistributedComputing{
-    background-image: linear-gradient(210deg, darkblue, lightblue);
-}
-
-#DIYProjects{
-    background-image: linear-gradient(210deg, darkblue, lightblue);
-}
-
-#Frameworks{
-    background-image: linear-gradient(210deg, darkblue, lightblue);
-}
-
-#Libraries{
-    background-image: linear-gradient(210deg, darkblue, lightblue);
-}
-
-#OperatingSystems{
-    background-image: linear-gradient(210deg, darkblue, lightblue);
-}
-
-#PackageManagement{
-    background-image: linear-gradient(210deg, darkblue, lightblue);
-}
-
-#Preprocessors{
-    background-image: linear-gradient(210deg, darkblue, lightblue);
-}
-
-#RuntimeEngines{
-    background-image: linear-gradient(210deg, darkblue, lightblue);
-}
-
-#Standards{
-    background-image: linear-gradient(210deg, darkblue, lightblue);
-}
-
-#Vanilla{
-    background-image: linear-gradient(210deg, darkblue, lightblue);
-}
-
-#Virtualization{
-    background-image: linear-gradient(210deg, darkblue, lightblue);
-}
-
-#WebDevelopment{
-    background-image: linear-gradient(210deg, darkblue, lightblue);
-}
-
-
-
-
-
-
-
-
-
-.color-primary-0 { color: #71A082 }	/* Main Primary color */
-.color-primary-1 { color: #CBDBD1 }
-.color-primary-2 { color: #9BBBA7 }
-.color-primary-3 { color: #4D8762 }
-.color-primary-4 { color: #316E48 }
-
-.color-secondary-1-0 { color: #886891 }	/* Main Secondary color (1) */
-.color-secondary-1-1 { color: #CFC3D2 }
-.color-secondary-1-2 { color: #A58EAB }
-.color-secondary-1-3 { color: #6F487B }
-.color-secondary-1-4 { color: #582F64 }
-
-.color-secondary-2-0 { color: #DCCA9B }	/* Main Secondary color (2) */
-.color-secondary-2-1 { color: #FFFAEC }
-.color-secondary-2-2 { color: #FFF2D3 }
-.color-secondary-2-3 { color: #B9A36A }
-.color-secondary-2-4 { color: #978044 }
