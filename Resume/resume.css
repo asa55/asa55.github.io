@@ -63,6 +63,12 @@ img{
     background-color: gray;
 }
 
+#DisciplinesBySkill{
+    display: unset;
+    display: block;
+    background-color: gray;
+}
+
 #ProjectsByJobDescription{
     display: unset;
     display: block;
@@ -76,12 +82,6 @@ img{
 }
 
 #SkillsByTechnology{
-    display: unset;
-    display: block;
-    background-color: gray;
-}
-
-#SkillsByDiscipline{
     display: unset;
     display: block;
     background-color: gray;
