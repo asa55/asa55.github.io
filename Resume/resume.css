@@ -69,13 +69,13 @@ img{
     background-color: gray;
 }
 
-#SkillsByTechnology{
+#ProjectsByObjective{
     display: unset;
     display: block;
     background-color: gray;
 }
 
-#SkillsByProject{
+#SkillsByTechnology{
     display: unset;
     display: block;
     background-color: gray;
