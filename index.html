@@ -1,12 +1,11 @@
 <!--
     TODO:
     (1) Let users navigate to skill-specific pages by double-clicking any technology within Skills by Technology
-    (2) Add resume screenshot
-    (3) Add Projects by Job Description
-    (4) Add Disciplines by Skill
-    (5) Improve site header meta tags, and add a site favicon
-    (6) Let people know that single tapping technologies makes a popper, double tap links to github
-    (7) CSS is messy, make the code prettier and follow alphabetical convention
+    (2) Add Projects by Job Description
+    (3) Add Disciplines by Skill
+    (4) Improve site header meta tags, and add a site favicon
+    (5) Let people know that single tapping technologies makes a popper, double tap links to github
+    (6) CSS is messy, make the code prettier and follow alphabetical convention
 -->
 
 <!DOCTYPE html>
@@ -53,7 +52,7 @@
       <div id="popup-resume" class="popup">
         Hi there, please double-tap / double-click the thumbnail to take a closer look at my current resume.
       </div>
-      <div style="display:table; margin-left:auto;margin-right:auto;" class="card" onclick="togglepop($(this),$('#popup-resume'))" onmouseout="hidepop($('#popup-resume'))" ondblclick="linkto()">
+      <div style="display:table; margin-left:auto;margin-right:auto;" class="card" onclick="togglepop($(this),$('#popup-resume'))" onmouseout="hidepop($('#popup-resume'))" ondblclick="linkto('https://www.dropbox.com/s/cksh9avws5wrwn0/Resume.pdf?dl=0')">
         <img src="assets/Resume-1.png" alt="resume thumb" style="width:256px;">
         </img>
       </div>
@@ -493,6 +492,10 @@
       function hidepop(popup){
         popup.fadeOut();
       };      
+
+      function linkto(_link){
+        window.location = _link;
+      };
 
     </script>
   </body>
