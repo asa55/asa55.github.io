@@ -1,21 +1,8 @@
-.popup{
-    width: 128px;
-    height: auto;
-    background-image: linear-gradient(210deg,lightgray, whitesmoke, whitesmoke, white);
-    border:3px solid gray;
-    border-radius: 20px;
-    border-top-right-radius: 20px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-style: italic;
-    padding: 12px;
-    display: none;
-    pointer-events: visible;
+/* Standard tags, alphabetical order */
+a:link{
+    text-decoration: unset;
 }
 
-
-/* Standard tags, alphabetical order */
 body{
     height: 100%;
     margin: 0%;
@@ -64,6 +51,7 @@ td{
     background-color: white;
     border:3px solid gray;
     border-radius: 10%;
+    box-shadow: -5px 0px 5px rgba(124,124,124,0.5) inset, 10px 0px 15px whitesmoke inset;
     margin:0;
     padding:0;
 }
@@ -79,6 +67,23 @@ td{
     font-size: 20px;
     font-weight: bold;
     color:white;
+}
+
+.popup{
+    width: 128px;
+    height: auto;
+    background-color: white;
+    box-shadow: -5px 0px 5px rgba(124,124,124,0.5) inset, 10px 0px 15px whitesmoke inset;
+    border:3px solid gray;
+    border-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    padding: 12px;
+    display: none;
+    pointer-events: visible;
 }
 
 .subtopic-text{
