@@ -49,8 +49,10 @@
         <div class="card-text">Hi there, thanks for visiting my page!
         </div>
       </div>
-      <div id="popup-resume" class="popup">
-        Hi there, please double-tap / double-click the thumbnail to take a closer look at my current resume.
+      <div style="pointer-events:visible" onclick="linkto('https://www.dropbox.com/s/cksh9avws5wrwn0/Resume.pdf?dl=0')">
+        <div id="popup-resume" class="popup">
+          Hi there, please double-tap the image (or single-tap this popper) to take a closer look at my current resume.
+        </div>
       </div>
       <div style="display:table; margin-left:auto;margin-right:auto;" class="card" onclick="togglepop($(this),$('#popup-resume'))" onmouseout="hidepop($('#popup-resume'))" ondblclick="linkto('https://www.dropbox.com/s/cksh9avws5wrwn0/Resume.pdf?dl=0')">
         <img src="assets/Resume-1.png" alt="resume thumb" style="width:256px;">
