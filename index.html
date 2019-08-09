@@ -5,9 +5,8 @@
     (3) Add Projects by Job Description
     (4) Add Disciplines by Skill
     (5) Improve site header meta tags, and add a site favicon
-    (6) The octocat SVG is a bit small on mobile in portrait mode, fix this
-    (7) Let people know that clicking octocat links to github
-    (8) Let people know that single tapping technologies makes a popper, double tap links to github
+    (6) Let people know that single tapping technologies makes a popper, double tap links to github
+    (7) CSS is messy, make the code prettier and follow alphabetical convention
 -->
 
 <!DOCTYPE html>
@@ -35,18 +34,28 @@
         </svg>
       </div>
     </div>
-    <div style="width:10%; height:10%; margin-left: auto; margin-right:auto; pointer-events: visible;">
+    <div style="width:10%; height:10%; min-width:64px; min-height:64px; margin-left:auto; margin-right:auto; margin-top:2%; pointer-events:visible;">
       <a href="https://github.com/asa55/asa55.github.io">            
         <svg id="id_octicon" style="display: inline-block;fill: #000000;" viewBox="-1 -1 20 20" version="1.1" aria-hidden="true">
           <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z">
           </path>
         </svg>
+        <div style="text-align:center; font-family: 'Roboto', sans-serif; font-size: 14px; color:black;">
+        (Go to GitHub!)
+        </div>
       </a>
     </div>
     <div id="content-container">
       <div class="topic topic-title">
         <div class="card-text">Hi there, thanks for visiting my page!
         </div>
+      </div>
+      <div id="popup-resume" class="popup">
+        Hi there, please double-tap / double-click the thumbnail to take a closer look at my current resume.
+      </div>
+      <div style="display:table; margin-left:auto;margin-right:auto;" class="card" onclick="togglepop($(this),$('#popup-resume'))" onmouseout="hidepop($('#popup-resume'))" ondblclick="linkto()">
+        <img src="assets/Resume-1.png" alt="resume thumb" style="width:256px;">
+        </img>
       </div>
       <div class="subtopic">
         <div class="subtopic-text">My name is Alexander Augenstein, but you can call me Alex for short. I like to think of myself as an engineer, a scientist, and an entrepreneur. Coming up with new ideas is one of my favorite ways to spend time, and executing them is another. I'm more of a science fanatic than a businessman, but I have been working hard to understand how to properly own and operate startup companies since opening the doors to the Stronghold Homes Company in 2017 (and closing a year later). Since then, I've been careful to methodically approach new endeavors, researching, understanding, and executing strategies to prove technical *and* commercial feasibility. <br><br> What you'll find below is a set of technologies I am interested in exploring. Each of these technologies will be understood within the framework and ecosystem of a specific project, designed to expose considerations that would be relevant to deployment in a production setting. <br><br>Some of these technologies I am still exploring. If not a project, you will at minimum be linked to a discussion on why the technology you clicked caught my attention and is worth exploring.<br><br>There is some redundancy built in to this page in the sense that theory is demonstrated through projects which are implemented with technologies. My goal moving forward is to let you either (1) click on a discipline and see what projects I've done in that area (2) click on a project and see what technologies I've used to implement it (3) click on a technology and see what projects I've created using it.<br><br>If you have any questions/comments/concerns or want to contact me, please leave a comment in the issues section for this repo (see ASA55 on GitHub)
