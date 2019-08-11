@@ -324,10 +324,12 @@
           <img src="assets/Skills/Frameworks/Bootstrap/bootstrap_logo.png" alt="bootstrap logo">
           </img>
         </div>
-        <div id="popup-django" class="popup">
-          Because why wouldn't you want to use Python in your backend-driven web applications? 
+        <div style="pointer-events:visible" onclick="linkto('https://repl.it/@asa55/ExperimentsInDjango')">
+          <div id="popup-django" class="popup">
+            Because why wouldn't you want to use Python in your backend-driven web applications? Mine isn't but to take advantage of the built-in template engine, I made a Django-based version of this site, which you can explore through an awesome website called repl.it (the site is built to let you practice and demonstrate precisely these kinds of skills)<br><br>To check it out, double-click the icon (on desktop) or single-tap this pop-up (on mobile).
+          </div>
         </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-django'))" onmouseout="hidepop($('#popup-django'))">
+        <div class="card" onclick="togglepop($(this),$('#popup-django'))" onmouseout="hidepop($('#popup-django'))" ondblclick="linkto('https://repl.it/@asa55/ExperimentsInDjango')">
           <img src="assets/Skills/Frameworks/Django/django_logo.PNG" alt="django logo">
           </img>
         </div>
