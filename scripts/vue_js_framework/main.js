@@ -153,20 +153,10 @@ var app = new Vue({
             togglepopper: `togglepop($(this),$('#popup-bootstrap'))`
         },
 
-        c: {
-            alt: "c logo",
-            description: "Learned in class and later on in embedded devices, specifically multiple Arduino-based projects.",
-            followlink: ``,
-            hidepopper: `hidepop($('#popup-c'))`,
-            id: "popup-c",
-            logo: "assets/Skills/Vanilla/C/c_logo.png",
-            togglepopper: `togglepop($(this),$('#popup-c'))`
-        },
-
         cpp: {
             alt: "cpp logo",
-            description: "Learned in class and later on in embedded devices, specifically multiple Arduino-based projects.",
-            followlink: ``,
+            description: "Learned in class and later on in embedded devices, specifically multiple Arduino-based projects. Double-click the logo or tap the pop-up to see some computer vision work I started into using OpenCV in Visual Studio in an early rev of my pendulum project. (Note I didn't end up using this technique in the final rev - this sensing method using a webcam had too much time delay for stabilizing control that was even close to robust)",
+            followlink: `linkto('https://www.dropbox.com/s/alrs82bqx5ndvv3/CartPoleProject_Update08202017.pdf?dl=0')`,
             hidepopper: `hidepop($('#popup-cpp'))`,
             id: "popup-cpp",
             logo: "assets/Skills/Vanilla/CPlusPlus/cpp_logo.png",
