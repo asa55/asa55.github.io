@@ -115,8 +115,8 @@ var app = new Vue({
 
         arduino: {
             alt: "arduino logo",
-            description: "I've used Arduino tech for a long time, most recently in a self-study course in grad school. Due to the Arduino Sketch API officially supporting C/C++, this is the brunt of my experience with these languages outside of schoolwork.",
-            followlink: ``,
+            description: "I've used Arduino tech for a long time, most recently in a self-study course in grad school. Due to the Arduino Sketch API officially supporting C/C++, this is the brunt of my experience with these languages outside of schoolwork. See some of my recent work using Arduino boards by double-clicking the logo or tapping this pop-up.",
+            followlink: `linkto('https://www.dropbox.com/s/alrs82bqx5ndvv3/CartPoleProject_Update08202017.pdf?dl=0')`,
             hidepopper: `hidepop($('#popup-arduino'))`,
             id: "popup-arduino",
             logo: "assets/Skills/DIYProjects/Hardware/Arduino/arduino_logo.png",
@@ -145,7 +145,7 @@ var app = new Vue({
 
         bootstrap: {
             alt: "bootstrap logo",
-            description: "This is a simple tool that is extremely popular but losing momentum with the emergence of new frontend frameworks. A recent implementation of my site (the one you're currently on) used Bootstrap, but I canned it in favor of vanilla JS due to the tighter control with almost no added complexity (and recently rewrote again using Vue.JS for fun). See the code for the previous Bootstrap implementation of this site by double clicking the logo or tapping this pop-up.",
+            description: "This is a simple tool that is extremely popular but losing momentum with the emergence of new frontend frameworks. A recent implementation of my site (the one you're currently on) used Bootstrap, but I canned it in favor of vanilla JS due to the tighter control with almost no added complexity (and recently rewrote again using Vue.JS for fun). See the code for the previous Bootstrap implementation of this site by double-clicking the logo or tapping this pop-up.",
             followlink: `linkto('https://github.com/asa55/asa55.github.io/tree/62f9a9bf4b6b3446b85c22c24f080b29b7325235')`,
             hidepopper: `hidepop($('#popup-bootstrap'))`,
             id: "popup-bootstrap",
@@ -205,7 +205,7 @@ var app = new Vue({
 
         electron: {
             alt: "electron logo",
-            description: "There is some controversey over deploying HTML/CSS/JS web apps as cross-platform desktop apps, but for many applications I see this as a huge advantage. By way of example, check out the desktop calculator app I made using Electron. You can get to the repo via the project card above or by double clicking the image / tapping this pop-up.",
+            description: "There is some controversey over deploying HTML/CSS/JS web apps as cross-platform desktop apps, but for many applications I see this as a huge advantage. By way of example, check out the desktop calculator app I made using Electron. You can get to the repo via the project card above or by double-clicking the image / tapping this pop-up.",
             followlink: `linkto('https://github.com/asa55/CalculatorApp_DistributedUsingElectron')`,
             hidepopper: `hidepop($('#popup-electron'))`,
             id: "popup-electron",
@@ -293,16 +293,6 @@ var app = new Vue({
             togglepopper: `togglepop($(this),$('#popup-krita'))`
         },
 
-        materialdesign: {
-            alt: "material design logo",
-            description: "Material Design! I have a habit of trying to make my projects beautiful and visually consistent. Material Design is the set of standardized concepts I intend to apply across all of my projects.",
-            followlink: ``,
-            hidepopper: `hidepop($('#popup-material-design'))`,
-            id: "popup-material-design",
-            logo: "assets/Skills/Standards/MaterialDesign/material_design_logo.png",
-            togglepopper: `togglepop($(this),$('#popup-material-design'))`
-        },
-
         matlab: {
             alt: "matlab logo",
             description: "I have 10+ years of experience using Matlab. I don't know everything there is to know, but I am extremely comfortable navigating the docs and doing anything that can be done using this tool (and Simulink). It has gotten to the point that the latest releases are offering functionality I need, and I can really appreciate how far it has come since I started using it back in undergrad. See an example of my work by double-clicking the logo or tapping this pop-up.",
@@ -321,16 +311,6 @@ var app = new Vue({
             id: "popup-node",
             logo: "assets/Skills/RuntimeEngines/NodeJS/node_logo.png",
             togglepopper: `togglepop($(this),$('#popup-node'))`
-        },
-
-        pep8: {
-            alt: "pep8 logo",
-            description: "Because Python enforces good programming practices, but even then can be prettier and more self-consistent within a project.",
-            followlink: ``,
-            hidepopper: `hidepop($('#popup-pep8'))`,
-            id: "popup-pep8",
-            logo: "assets/Skills/Standards/PEP8/pep8_logo.png",
-            togglepopper: `togglepop($(this),$('#popup-pep8'))`
         },
 
         postgresql: {
