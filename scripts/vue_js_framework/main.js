@@ -135,7 +135,7 @@ var app = new Vue({
 
         blender: {
             alt: "blender logo",
-            description: "I do all of my 3D modeling in Blender. I love this tool!",
+            description: "I do all of my 3D modeling in Blender. I love this tool! To see some of my past work using Blender, double-click the logo or tap this pop-up.",
             followlink: `linkto('https://github.com/asa55/asa55.github.io/tree/master/assets/Skills/DIYProjects/GraphicDesign/Blender')`,
             hidepopper: `hidepop($('#popup-blender'))`,
             id: "popup-blender",
