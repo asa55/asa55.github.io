@@ -215,8 +215,8 @@ var app = new Vue({
 
         electron: {
             alt: "electron logo",
-            description: "There is some controversey over deploying HTML/CSS/JS web apps as cross-platform desktop apps, but for many applications I see this as a huge advantage. I have deployed cross platform apps using this tool with great success.",
-            followlink: ``,
+            description: "There is some controversey over deploying HTML/CSS/JS web apps as cross-platform desktop apps, but for many applications I see this as a huge advantage. By way of example, check out the desktop calculator app I made using Electron. You can get to the repo via the project card above or by double clicking the image / tapping this pop-up.",
+            followlink: `linkto('https://github.com/asa55/CalculatorApp_DistributedUsingElectron')`,
             hidepopper: `hidepop($('#popup-electron'))`,
             id: "popup-electron",
             logo: "assets/Skills/Frameworks/ElectronJS/electron_logo.png",
@@ -315,8 +315,8 @@ var app = new Vue({
 
         matlab: {
             alt: "matlab logo",
-            description: "I have 10+ years of experience using Matlab. I don't know everything there is to know, but I am extremely comfortable navigating the docs and doing anything that can be done using this tool (and Simulink). It has gotten to the point that the latest releases are offering functionality I need, and I can really appreciate how far it has come since I started using it back in undergrad.",
-            followlink: ``,
+            description: "I have 10+ years of experience using Matlab. I don't know everything there is to know, but I am extremely comfortable navigating the docs and doing anything that can be done using this tool (and Simulink). It has gotten to the point that the latest releases are offering functionality I need, and I can really appreciate how far it has come since I started using it back in undergrad. See an example of my work by double-clicking the logo or tapping this pop-up.",
+            followlink: `linkto('https://github.com/asa55/NeuralNetsFromScratch')`,
             hidepopper: `hidepop($('#popup-matlab'))`,
             id: "popup-matlab",
             logo: "assets/Skills/Vanilla/Matlab/matlab_logo.png",
@@ -355,8 +355,8 @@ var app = new Vue({
 
         python: {
             alt: "python logo",
-            description: "Because Matlab is not a general purpose programming language, nor is it open-source and free! Python is really awesome in its own right though, and I have almost fully migrated from Matlab to Python as my primary language.",
-            followlink: ``,
+            description: "Because Matlab is not a general purpose programming language, nor is it open-source and free! Python is really awesome in its own right though, and I have almost fully migrated from Matlab to Python as my primary language. See an example of my work interactively in a Jupyter Notebook from your browser (thanks to Binder) by double-clicking the logo or tapping this pop-up.",
+            followlink: `linkto('https://github.com/asa55/PiBlocks')`,
             hidepopper: `hidepop($('#popup-python'))`,
             id: "popup-python",
             logo: "assets/Skills/Vanilla/Python/python_logo.png",
@@ -406,7 +406,7 @@ var app = new Vue({
         sqlite: {
             alt: "sqlite logo",
             description: "Because local storage is often supported with SQLite, this is critical for many applications. You can find a small interactive demo I posted on REPL.IT by double-clicking the icon (on desktop) or single-tapping this icon (on mobile).",
-            followlink: ``,
+            followlink: `linkto('https://repl.it/@asa55/AQuickSQLiteDemoForMySite')`,
             hidepopper: `hidepop($('#popup-sqlite'))`,
             id: "popup-sqlite",
             logo: "assets/Skills/Databases/SQLite/sqlite_logo.png",
@@ -455,8 +455,8 @@ var app = new Vue({
 
         vue: {
             alt: "vue logo",
-            description: "I implemented the latest version of the webpage you're currently looking at using Vue. I couldn't be happier with how clean the new codebase is, but it's a little slower than it was in pure HTML/CSS/JS, so at least when using Vue that's a tradeoff you'll have to consider if it's worth making. See the load time on my Neurobi website for comparison's sake.",
-            followlink: ``,
+            description: "I implemented the latest version of the webpage you're currently looking at using Vue. I couldn't be happier with how clean the new codebase is, but it's a little slower than it was in pure HTML/CSS/JS, so at least when using Vue that's a tradeoff you'll have to consider if it's worth making. See the load time on my Neurobi website for comparison's sake. Check out the main Vue components used for this site by double-clicking the image or tapping this pop-up",
+            followlink: `linkto('https://github.com/asa55/asa55.github.io/tree/master/scripts/popper_effect')`,
             hidepopper: `hidepop($('#popup-vue'))`,
             id: "popup-vue",
             logo: "assets/Skills/Frameworks/VueJS/vue_logo.png",

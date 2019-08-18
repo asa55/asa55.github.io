@@ -219,26 +219,11 @@
       document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/inside.js'><" + "/script>");
       document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/pickAngleInRange.js'><" + "/script>");
       document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/main.js'><" + "/script>");
-    </script>
-    <script>      
-      function togglepop(ref, popup){
-        popup.fadeToggle();
-        var popper = new Popper(ref,popup,{
-          placement:'top'          
-        });
-      };      
-
-      function hidepop(popup){
-        popup.fadeOut();
-      };      
-
-      function linkto(_link){
-        window.location = _link;
-      };
+      document.writeln("<script type='text/javascript' src='./scripts/popper_effect/main.js'><" + "/script>");
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="main.js"></script>
+    <script src="./scripts/vue_js_framework/main.js"></script>
 
   </body>
 </html>
