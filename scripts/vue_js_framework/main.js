@@ -305,8 +305,8 @@ var app = new Vue({
 
         node: {
             alt: "node logo",
-            description: "Because we needed JS in the backend. The fact that we can implement full stacks using JS almost exclusively is amazing for scalable and effective talent acquisition.",
-            followlink: ``,
+            description: "The fact that we can implement full stacks using JS on the frontend and backend is amazing. The implications of this observation on sustainable talent acquisition couldn't be more exciting for JS developers. See a quick demo of node used for a microservice running TensorFlowJS by double-clicking the logo or tapping this pop-up.",
+            followlink: `linkto('https://repl.it/@asa55/NodeAndTFJS')`,
             hidepopper: `hidepop($('#popup-node'))`,
             id: "popup-node",
             logo: "assets/Skills/RuntimeEngines/NodeJS/node_logo.png",
@@ -405,8 +405,8 @@ var app = new Vue({
 
         tensorflowjs: {
             alt: "tfjs logo",
-            description: "TFJS is a lifesaver for bringing tensorflow capability to frontend code. For some applications, it is truly amazing what level of performance can be attained while keeping your data local and thus potentially much more secure.",
-            followlink: ``,
+            description: "TFJS is a lifesaver for bringing tensorflow capability to the frontend, but amazingly it can be used on the backend in a node instance as well. For some applications, the level of performance can be dramatically improved by landing your ML code on the frontend. For demonstration purposes, see TFJS running on a node instance by double-clicking the logo or tapping this link.",
+            followlink: `linkto('https://repl.it/@asa55/NodeAndTFJS')`,
             hidepopper: `hidepop($('#popup-tensorflowjs'))`,
             id: "popup-tensorflowjs",
             logo: "assets/Skills/ArtificialIntelligenceAndMachineLearning/TensorFlowJS/tfjs_logo.PNG",
