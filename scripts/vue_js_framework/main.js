@@ -136,7 +136,7 @@ var app = new Vue({
         blender: {
             alt: "blender logo",
             description: "I do all of my 3D modeling in Blender. I love this tool!",
-            followlink: ``,
+            followlink: `linkto('https://github.com/asa55/asa55.github.io/tree/master/assets/Skills/DIYProjects/GraphicDesign/Blender')`,
             hidepopper: `hidepop($('#popup-blender'))`,
             id: "popup-blender",
             logo: "assets/Skills/DIYProjects/GraphicDesign/blender_logo.png",
@@ -145,8 +145,8 @@ var app = new Vue({
 
         bootstrap: {
             alt: "bootstrap logo",
-            description: "This is a simple tool that is extremely popular but losing momentum with the emergence of new frontend frameworks. A recent implementation of my site (the one you're currently on) used Bootstrap, but I canned it in favor of vanilla JS due to the tighter control with almost no added complexity.",
-            followlink: ``,
+            description: "This is a simple tool that is extremely popular but losing momentum with the emergence of new frontend frameworks. A recent implementation of my site (the one you're currently on) used Bootstrap, but I canned it in favor of vanilla JS due to the tighter control with almost no added complexity (and recently rewrote again using Vue.JS for fun). See the code for the previous Bootstrap implementation of this site by double clicking the logo or tapping this pop-up.",
+            followlink: `linkto('https://github.com/asa55/asa55.github.io/tree/62f9a9bf4b6b3446b85c22c24f080b29b7325235')`,
             hidepopper: `hidepop($('#popup-bootstrap'))`,
             id: "popup-bootstrap",
             logo: "assets/Skills/Frameworks/Bootstrap/bootstrap_logo.png",
@@ -185,8 +185,8 @@ var app = new Vue({
 
         css: {
             alt: "css logo",
-            description: "You're looking at an implementation of my understanding of vanilla CSS right now!",
-            followlink: ``,
+            description: "You're looking at an implementation of my understanding of vanilla CSS right now! My preferred demonstration of my use of vanilla CSS (without the help of any CSS frameworks) is what I did for Neurobi's website implementing a mobile-first design pattern, which you can navigate to by double-clicking the logo or tapping this pop-up.",
+            followlink: `linkto('https://github.com/asa55/asa55.github.io/tree/master/scripts')`,
             hidepopper: `hidepop($('#popup-css'))`,
             id: "popup-css",
             logo: "assets/Skills/Vanilla/CSS/css_logo.png",
@@ -265,8 +265,8 @@ var app = new Vue({
 
         html_: {
             alt: "html logo",
-            description: "You're looking at an implementation of my understanding of vanilla HTML right now!",
-            followlink: ``,
+            description: "You're looking at an implementation of my understanding of vanilla HTML right now! My preferred demonstration of my use of vanilla HTML (without the help of any frontend frameworks) is what I did for Neurobi's website implementing self-imposed internally consistent design patterns, which you can navigate to by double-clicking the logo or tapping this pop-up.",
+            followlink: `linkto('https://github.com/Neurobi/Neurobi.github.io/tree/master')`,
             hidepopper: `hidepop($('#popup-html'))`,
             id: "popup-html",
             logo: "assets/Skills/Vanilla/HTML/html_logo.png",
@@ -275,8 +275,8 @@ var app = new Vue({
 
         js_: {
             alt: "js logo",
-            description: "You're looking at an implementation of my understanding of vanilla JS right now! (Interact with the background by tapping or dragging your mouse if you haven't already).",
-            followlink: ``,
+            description: "You're looking at an implementation of my understanding of javascript right now! (Interact with the background by tapping or dragging your mouse). This code was refactored and repurposed from another one of Prajwal Souza's repos. You can double-click the logo or tap this pop-up to see all the JS used for this site.",
+            followlink: `linkto('https://github.com/asa55/asa55.github.io/tree/master/scripts')`,
             hidepopper: `hidepop($('#popup-js'))`,
             id: "popup-js",
             logo: "assets/Skills/Vanilla/JavaScript/js_logo.png",
@@ -295,8 +295,8 @@ var app = new Vue({
 
         krita: {
             alt: "krita logo",
-            description: "I have done substantial 2D modeling and graphic design in Krita (this tool is a lot like GIMP). I love this tool!",
-            followlink: ``,
+            description: "I have done substantial 2D modeling and graphic design in Krita (this tool is a lot like GIMP). I love this tool! Check out some graphics I made for the Redd Flag Company (displayed with permission) by double-clicking the logo or tapping this pop-up.",
+            followlink: `linkto('https://github.com/asa55/asa55.github.io/tree/master/assets/Skills/DIYProjects/GraphicDesign/Krita')`,
             hidepopper: `hidepop($('#popup-krita'))`,
             id: "popup-krita",
             logo: "assets/Skills/DIYProjects/GraphicDesign/krita_logo.png",
@@ -425,8 +425,8 @@ var app = new Vue({
 
         tensorflow: {
             alt: "tensorflow logo",
-            description: "TensorFlow is an amazing tool for ML and AI. Solving research and engineering challenges however aren't as easy as `import tensorflow`. Understanding the manipulations and having an appreciation for the stable implementations provided by tensorflow is key to effective use.",
-            followlink: ``,
+            description: "TensorFlow is an amazing tool for ML and AI. Solving research and engineering challenges however aren't as easy as `import tensorflow`. Understanding the manipulations and having an appreciation for the stable implementations provided by tensorflow is key to effective use. See my use of tensorflow (in the context of my MS thesis) by double-clicking the icon or tapping this pop-up.",
+            followlink: `linkto('http://d-scholarship.pitt.edu/36179/')`,
             hidepopper: `hidepop($('#popup-tensorflow'))`,
             id: "popup-tensorflow",
             logo: "assets/Skills/ArtificialIntelligenceAndMachineLearning/TensorFlow/tensorflow_logo.png",
@@ -456,7 +456,7 @@ var app = new Vue({
         vue: {
             alt: "vue logo",
             description: "I implemented the latest version of the webpage you're currently looking at using Vue. I couldn't be happier with how clean the new codebase is, but it's a little slower than it was in pure HTML/CSS/JS, so at least when using Vue that's a tradeoff you'll have to consider if it's worth making. See the load time on my Neurobi website for comparison's sake. Check out the main Vue components used for this site by double-clicking the image or tapping this pop-up",
-            followlink: `linkto('https://github.com/asa55/asa55.github.io/tree/master/scripts/popper_effect')`,
+            followlink: `linkto('https://github.com/asa55/asa55.github.io/tree/master/scripts/vue_js_framework')`,
             hidepopper: `hidepop($('#popup-vue'))`,
             id: "popup-vue",
             logo: "assets/Skills/Frameworks/VueJS/vue_logo.png",
