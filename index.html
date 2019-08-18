@@ -14,477 +14,200 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"></link>
   </head>
   <body>
-    <div id="id_effect">
-      <div id="id_effect_div1">
-        <svg id="id_dynamic_svg">
-        </svg>
-      </div>
-      <div id="id_effect_div2">
-        <svg id="id_effect_svg1">
-        </svg>
-      </div>
-    </div>
-    <div style="width:10%; height:10%; min-width:64px; min-height:64px; margin-left:auto; margin-right:auto; margin-top:2%; pointer-events:visible;">
-      <a href="https://github.com/asa55/asa55.github.io">            
-        <svg id="id_octicon" style="display: inline-block;fill: #000000;" viewBox="-1 -1 20 20" version="1.1" aria-hidden="true">
-          <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z">
-          </path>
-        </svg>
-        <div style="text-align:center; font-family: 'Roboto', sans-serif; font-size: 14px; color:black;">
-        (Check Out GitHub!)
-        </div>
-      </a>
-    </div>
-    <div id="content-container">
-      <div class="topic topic-title">
-        <div class="card-text">Hi there, thanks for visiting my page!
-        </div>
-      </div>
-      <div style="pointer-events:visible" onclick="linkto('https://www.dropbox.com/s/cksh9avws5wrwn0/Resume.pdf?dl=0')">
-        <div id="popup-resume" class="popup">
-          Hi there, please double-click the image (on desktop) or single-tap this pop-up (on mobile) to take a closer look at my current resume.
-        </div>
-      </div>
-      <div style="display:table; margin-left:auto;margin-right:auto;" class="card" onclick="togglepop($(this),$('#popup-resume'))" onmouseout="hidepop($('#popup-resume'))" ondblclick="linkto('https://www.dropbox.com/s/cksh9avws5wrwn0/Resume.pdf?dl=0')">
-        <img src="assets/Resume-1.png" alt="resume thumb" style="width:256px;height: auto;">
-        </img>
-      </div>
-      <div class="subtopic">
-        <div class="subtopic-text">
-          My name is Alexander Augenstein, but you can call me Alex for short. I like to think of myself as an engineer, a scientist, and an entrepreneur. Coming up with new ideas is one of my favorite ways to spend time, and executing them is another. I'm more of a science fanatic than a businessman, but I have been working hard to understand how to properly own and operate startup companies since opening the doors to the Stronghold Homes Company in 2017 (and closing a year later). Since then, I've been careful to methodically approach new endeavors, researching, understanding, and executing strategies to prove technical <strong>and</strong> commercial feasibility.<br><br>Feel free to get to know me better by exploring my skills and interests below. As a general rule of thumb for navigating this interactive resume, single-clicking an icon will provide more information while double-clicking may link you to a relevant resource or project.
-        </div>
-      </div>
-    </div>
-    <div id="content-container">
-      <div class="topic topic-title">
-        <div class="card-text">
-          Disciplines by Skill
-        </div>
-      </div>
-      <div style="font-family: 'Roboto', sans-serif; font-size: 16px; margin: 10px;">
-        Check back for updates to this section. I will be adding projects to demonstrate how sound mathematics engineering can add value to your domain of interest. Topics include engineering, finance, robotics, real estate, sales, marketing, advertising, executive decision making, and more.
-      </div>
-    </div>      
-    <div id="content-container">
-      <div class="topic topic-title">
-        <div class="card-text">
-          Projects by Job Description
-        </div>
-      </div>
-      <div style="font-family: 'Roboto', sans-serif; font-size: 16px; margin: 10px;">
-        Check back to see projects inspired by job listings that caught my eye. Note that these were not curated with intention of applying, but with the intention of demonstrating proficiency in each of the listed job qualifications.
-      </div>
-    </div>
-    <div id="content-container">
-      <div class="topic topic-title">
-        <div class="card-text">
-            Objectives by Project
-        </div>
-      </div>
-      <div class="topic">
-        <div class="card-text">
-          Neural Nets from Scratch
-        </div>
-        <div style="pointer-events:visible" onclick="linkto('https://github.com/asa55/NeuralNetsFromScratch')">
-          <div id="popup-handwritten-character-recognition" class="popup">
-            For an ML class in university, I generated a single hidden layer neural net from pure fundamentals using Matlab to classify handwritten characters from an MNIST database.<br><br>See the code and full report by double-clicking the icon or tapping this pop-up.
+    <div id="app">
+        <div id="id_effect">
+            <div id="id_effect_div1">
+              <svg id="id_dynamic_svg">
+              </svg>
+            </div>
+            <div id="id_effect_div2">
+              <svg id="id_effect_svg1">
+              </svg>
+            </div>
           </div>
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-handwritten-character-recognition'))" onmouseout="hidepop($('#popup-handwritten-character-recognition'))" ondblclick="linkto('https://github.com/asa55/NeuralNetsFromScratch')">
-          <div class="blank-image" style="background-image: url('assets/matlab_neural_net_project_thumbnail.png');background-size: 128px 128px;">
-            <table>
-              <td>
-                Handwritten Character Recognition
-              </td>
-            </table>
-          </div>          
-        </div>
-      </div>
-      <div class="topic">
-        <div class="card-text">
-          Build a Web App
-        </div>
-        <div style="pointer-events:visible" onclick="linkto('https://asa55.github.io/CalculatorApp_ForDistributionTestingWithElectron/index.html')">
-          <div id="popup-make-a-simple-calculator" class="popup">
-            In preparation for understanding paths to package & distribute web applications as desktop applications, I needed a simple foundation to practice on. Instead of taking pre-existing code, I whipped this calculator up in HTML/CSS/JS as a basis for the following project.<br><br>See the calculator by double-clicking the icon or tapping this pop-up.
+          <div style="width:10%; height:10%; min-width:64px; min-height:64px; margin-left:auto; margin-right:auto; margin-top:2%; pointer-events:visible;">
+            <a href="https://github.com/asa55/asa55.github.io">            
+              <svg id="id_octicon" style="display: inline-block;fill: #000000;" viewBox="-1 -1 20 20" version="1.1" aria-hidden="true">
+                <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+                </path>
+              </svg>
+              <div style="text-align:center; font-family: 'Roboto', sans-serif; font-size: 14px; color:black;">
+              (Check Out GitHub!)
+              </div>
+            </a>
           </div>
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-make-a-simple-calculator'))" onmouseout="hidepop($('#popup-make-a-simple-calculator'))" ondblclick="linkto('https://asa55.github.io/CalculatorApp_ForDistributionTestingWithElectron/index.html')">
-          <div class="blank-image" style="background-image: url('assets/calculator_thumbnail.png');background-size: 128px 128px;">
-            <table>
-              <td>
-                Make a Simple Calculator
-              </td>
-            </table>
-          </div>          
-        </div>
-      </div>
-      <div class="topic">
-        <div class="card-text">
-          Build a Desktop App
-        </div>
-        <div style="pointer-events:visible" onclick="linkto('https://github.com/asa55/CalculatorApp_DistributedUsingElectron')">
-          <div id="popup-make-a-desktop-calculator" class="popup">
-            I was amazed the first time I heard that tools existed that let you use web app development workflows and distribute them as desktop apps using Electron (or similar tools). I had to try it for myself and was very pleased with the result. This capability speakes volumes towards the ability to hire from a large existing talent pool and integrate new personnel into your software dev workflows seamlessly.<br><br>Download the calculator desktop app by following the instructions on the following page. Start by double-clicking the icon or tapping this pop-up to go to the next page.
+          <div class="content-container">
+            <div class="topic topic-title">
+              <div class="card-text">Hi there, thanks for visiting my page!
+              </div>
+            </div>
+            <div style="pointer-events:visible" onclick="linkto('https://www.dropbox.com/s/cksh9avws5wrwn0/Resume.pdf?dl=0')">
+              <div id="popup-resume" class="popup">
+                Hi there, please double-click the image (on desktop) or single-tap this pop-up (on mobile) to take a closer look at my current resume.
+              </div>
+            </div>
+            <div style="display:table; margin-left:auto;margin-right:auto;" class="card" onclick="togglepop($(this),$('#popup-resume'))" onmouseout="hidepop($('#popup-resume'))" ondblclick="linkto('https://www.dropbox.com/s/cksh9avws5wrwn0/Resume.pdf?dl=0')">
+              <img src="assets/Resume-1.png" alt="resume thumb" style="width:256px;height: auto;">
+              </img>
+            </div>
+            <div class="subtopic">
+              <div class="subtopic-text">
+                My name is Alexander Augenstein, but you can call me Alex for short. I like to think of myself as an engineer, a scientist, and an entrepreneur. Coming up with new ideas is one of my favorite ways to spend time, and executing them is another. I'm more of a science fanatic than a businessman, but I have been working hard to understand how to properly own and operate startup companies since opening the doors to the Stronghold Homes Company in 2017 (and closing a year later). Since then, I've been careful to methodically approach new endeavors, researching, understanding, and executing strategies to prove technical <strong>and</strong> commercial feasibility.<br><br>Feel free to get to know me better by exploring my skills and interests below. As a general rule of thumb for navigating this interactive resume, single-clicking an icon will provide more information while double-clicking may link you to a relevant resource or project.
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-make-a-desktop-calculator'))" onmouseout="hidepop($('#popup-make-a-desktop-calculator'))" ondblclick="linkto('https://github.com/asa55/CalculatorApp_DistributedUsingElectron')">
-          <div class="blank-image" style="background-image: url('assets/demoElectroyarnCalculatorDeployments.png');background-size: 128px 128px;">
-            <table>
-              <td>
-                Distribute a Simple Calculator
-              </td>
-            </table>
-          </div>          
-        </div>
-      </div>
-      <div class="topic">
-        <div class="card-text">
-          Understand an Existing Code Base
-        </div>
-        <div style="pointer-events:visible" onclick="linkto('https://github.com/prajwalsouza/Counting-Collisions')">
-          <div id="popup-prettypi" class="popup">
-            After deriving the math behind the pi-from-collisions problem, as detailed in my PiBlocks repo, and working on some of the code to verify the results, I came across another GitHub user's code regarding this problem that was absolutely amazing. I wanted to learn from Prajwal DSouza's code base, and in the process I refactored it and organized it in a way that made the most sense to me. The original innovator has since thanked me and added a link to my efforts in his own repo! This was an awesome way to connect with someone across the globe with nothing but a common interest! As a side note, the background triangle effects on this site were re-purposed from another open-source project of his.<br><br>See his reference to my work by double-clicking the icon or tapping this pop-up to go to the next page.
+          <div class="content-container">
+            <div class="topic topic-title">
+              <div class="card-text">
+                Disciplines by Skill
+              </div>
+            </div>
+            <div style="font-family: 'Roboto', sans-serif; font-size: 16px; margin: 10px;">
+              Check back for updates to this section. I will be adding projects to demonstrate how sound mathematics engineering can add value to your domain of interest. Topics include engineering, finance, robotics, real estate, sales, marketing, advertising, executive decision making, and more.
+            </div>
+          </div>      
+          <div class="content-container">
+            <div class="topic topic-title">
+              <div class="card-text">
+                Projects by Job Description
+              </div>
+            </div>
+            <div style="font-family: 'Roboto', sans-serif; font-size: 16px; margin: 10px;">
+              Check back to see projects inspired by job listings that caught my eye. Note that these were not curated with intention of applying, but with the intention of demonstrating proficiency in each of the listed job qualifications.
+            </div>
           </div>
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-prettypi'))" onmouseout="hidepop($('#popup-prettypi'))" ondblclick="linkto('https://github.com/prajwalsouza/Counting-Collisions')">
-          <div class="blank-image" style="background-image: url('assets/prettyPi.png');background-size: 128px 128px;">
-            <table>
-              <td>
-                Refactor a GitHub User's Innovative Code
-              </td>
-            </table>
-          </div>          
-        </div>
-      </div>
-      <div class="topic">
-        <div class="card-text">
-          Fun with Newtonian Physics
-        </div>
-        <div style="pointer-events:visible" onclick="linkto('https://github.com/asa55/PiBlocks')">
-          <div id="popup-piblocks" class="popup">
-            There is a neat phenomenon in physics where pi can be calculated to any accuracy by counting elastic collisions. A friend and I worked on the math and in the meantime I went off to validate this phenomenon using Python code.<br><br>Check out our work by double-clicking the icon or tapping this pop-up to go to the next page. There, you'll find a link to a "live" version of the code, implemented as a Jupyter Notebook and accessible through your browser thanks to Binder.
+          <div class="content-container">
+            <div class="topic topic-title">
+              <div class="card-text">
+                  Objectives by Project
+              </div>
+            </div>
+            <div class="topic">
+              <div class="card-text">
+                Neural Nets from Scratch
+              </div>
+              <nologocard :me="handwrittencharacterrecognition"></nologocard>
+            </div>
+            <div class="topic">
+              <div class="card-text">
+                Build a Web App
+              </div>
+              <nologocard :me="makeasimplecalculator"></nologocard>
+            </div>
+            <div class="topic">
+              <div class="card-text">
+                Build a Desktop App
+              </div>
+              <nologocard :me="makeadesktopcalculator"></nologocard>
+            </div>
+            <div class="topic">
+              <div class="card-text">
+                Understand an Existing Code Base
+              </div>
+              <nologocard :me="prettypi"></nologocard>
+            </div>
+            <div class="topic">
+              <div class="card-text">
+                Fun with Newtonian Physics
+              </div>              
+              <nologocard :me="piblocks"></nologocard>
+            </div>
           </div>
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-piblocks'))" onmouseout="hidepop($('#popup-piblocks'))" ondblclick="linkto('https://github.com/asa55/PiBlocks')">
-          <div class="blank-image" style="background-image: url('assets/piblocks_thumbnail.png');background-size: 128px 128px;">
-            <table>
-              <td>
-                Build a Collision Model
-              </td>
-            </table>
-          </div>          
-        </div>
+          <div class="content-container">
+            <div class="topic topic-title">
+              <div class="card-text">
+                Skills by Technology
+              </div>
+            </div>
+            <div class="topic">
+              <div class="card-text">
+                Artificial Intelligence and Machine Learning
+              </div>
+              <logocard :me="keras"></logocard>
+              <logocard :me="tensorflow"></logocard>
+              <logocard :me="tensorflowjs"></logocard>
+            </div>      
+            <div class="topic" id="CloudComputing">
+              <div class="card-text">
+                Cloud Computing
+              </div>
+              <logocard :me="aws"></logocard>
+            </div>      
+            <div class="topic" id="Databases">
+              <div class="card-text">
+                Databases
+              </div>
+              <logocard :me="graphql"></logocard>
+              <logocard :me="postgresql"></logocard>
+              <logocard :me="sqlite"></logocard>
+            </div>      
+            <div class="topic" id="DistributedComputing">
+              <div class="card-text">
+                Distributed Computing
+              </div>
+              <logocard :me="hadoop"></logocard>
+              <logocard :me="hive"></logocard>
+              <logocard :me="spark"></logocard>
+            </div>      
+            <div class="topic" id="DIYProjects">
+              <div class="card-text">
+                DIY Projects
+              </div>
+              <logocard :me="blender"></logocard>
+              <logocard :me="krita"></logocard>
+              <logocard :me="arduino"></logocard>
+              <logocard :me="raspberrypi"></logocard>
+            </div>      
+            <div class="topic" id="Frameworks">
+              <div class="card-text">
+                Frameworks
+              </div>
+              <logocard :me="angular"></logocard>
+              <logocard :me="bootstrap"></logocard>
+              <logocard :me="django"></logocard>
+              <logocard :me="electron"></logocard>
+              <logocard :me="flask"></logocard>
+              <logocard :me="react"></logocard>
+              <logocard :me="semanticui"></logocard>
+              <logocard :me="tailwindcss"></logocard>
+              <logocard :me="unity"></logocard>
+              <logocard :me="vue"></logocard>
+            </div>      
+            <div class="topic" id="Vanilla">
+              <div class="card-text">
+                Languages
+              </div>
+              <logocard :me="c"></logocard>
+              <logocard :me="cpp"></logocard>
+              <logocard :me="csharp"></logocard>
+              <logocard :me="css"></logocard>
+              <logocard :me="html_"></logocard>
+              <logocard :me="js_"></logocard>
+              <logocard :me="matlab"></logocard>
+              <logocard :me="python"></logocard>
+            </div>      
+            <div class="topic" id="RuntimeEngines">
+              <div class="card-text">
+                Runtime Engines
+              </div>
+              <logocard :me="node"></logocard>
+            </div>
+            <div class="topic" id="Standards">
+              <div class="card-text">
+                Standards
+              </div>
+              <logocard :me="materialdesign"></logocard>
+              <logocard :me="pep8"></logocard>
+            </div>      
+            <div class="topic" id="Virtualization">
+              <div class="card-text">
+                Virtualization
+              </div>      
+              <logocard :me="docker"></logocard>     
+            </div>      
+      
       </div>
-    </div>
-    <div id="content-container">
-      <div class="topic topic-title">
-        <div class="card-text">
-          Skills by Technology
-        </div>
-      </div>
-      <div class="topic">
-        <div class="card-text">
-          Artificial Intelligence and Machine Learning
-        </div>
-        <div id="popup-keras" class="popup">
-            Keras is great due to its ability to streamline AI software workflows. But sometimes even Keras has its limitations, and you need to be prepared to fall back to your backend tensor manipulation library (which in my case is TensorFlow).
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-keras'))" onmouseout="hidepop($('#popup-keras'))">
-          <img src="assets/Skills/ArtificialIntelligenceAndMachineLearning/Keras/keras_logo.PNG" alt="keras logo">
-          </img>
-        </div>
-        <div id="popup-tensorflow" class="popup">
-            TensorFlow is an amazing tool for ML and AI. Solving research and engineering challenges however aren't as easy as `import tensorflow`. Understanding the manipulations and having an appreciation for the stable implementations provided by tensorflow is key to effective use.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-tensorflow'))" onmouseout="hidepop($('#popup-tensorflow'))">
-          <img src="assets/Skills/ArtificialIntelligenceAndMachineLearning/TensorFlow/tensorflow_logo.png" alt="tensorflow logo">
-          </img>
-        </div>
-        <div id="popup-tensorflowjs" class="popup">
-          TFJS is a lifesaver for bringing tensorflow capability to frontend code. For some applications, it is truly amazing what level of performance can be attained while keeping your data local and thus potentially much more secure.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-tensorflowjs'))" onmouseout="hidepop($('#popup-tensorflowjs'))">
-          <img src="assets/Skills/ArtificialIntelligenceAndMachineLearning/TensorFlowJS/tfjs_logo.PNG" alt="tfjs logo">
-          </img>
-        </div>
-      </div>      
-      <div class="topic" id="CloudComputing">
-        <div class="card-text">
-          Cloud Computing
-        </div>
-        <div id="popup-aws" class="popup">
-          Amazon Web Services is how I gain access to world-class memory, storage, and compute. Implementations using AWS are fully scalable both horizontally and vertically.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-aws'))" onmouseout="hidepop($('#popup-aws'))">
-          <img src="assets/Skills/CloudComputing/AmazonWebServices/aws_logo.PNG" alt="aws logo">
-          </img>
-        </div>
-      </div>      
-      <div class="topic" id="Databases">
-        <div class="card-text">
-          Databases
-        </div>
-        <div id="popup-graphql" class="popup">
-          Graph Databases are taking the world by storm. When you're given the ability to model your data as a computational graph (arguably the most natural method out there), why wouldn't you?
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-graphql'))" onmouseout="hidepop($('#popup-graphql'))">
-          <img src="assets/Skills/Databases/GraphQL/graphql_logo.PNG" alt="graphql logo">
-          </img>
-        </div>
-        <div id="popup-postgresql" class="popup">
-          My experience with PostgreSQL comes largely from Django, which integrates well with PostgreSQL as the backend database due to its official support.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-postgresql'))" onmouseout="hidepop($('#popup-postgresql'))">
-          <img src="assets/Skills/Databases/PostgreSQL/postgresql_logo.png" alt="postgresql logo">
-          </img>
-        </div>
-        <div id="popup-sqlite" class="popup" style="pointer-events:visible" onclick="linkto('https://repl.it/@asa55/AQuickSQLiteDemoForMySite')">
-          Because local storage is often supported with SQLite, this is critical for many applications.<br><br>You can find a small interactive demo I posted on REPL.IT by double-clicking the icon (on desktop) or single-tapping this icon (on mobile).
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-sqlite'))" onmouseout="hidepop($('#popup-sqlite'))">
-          <img src="assets/Skills/Databases/SQLite/sqlite_logo.png" alt="sqlite logo">
-          </img>
-        </div>
-      </div>      
-      <div class="topic" id="DistributedComputing">
-        <div class="card-text">
-          Distributed Computing
-        </div>
-        <div id="popup-hadoop" class="popup">
-          This is a technology I still need to dive into - distributed compute is the way of the future.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-hadoop'))" onmouseout="hidepop($('#popup-hadoop'))">
-          <img src="assets/Skills/DistributedComputing/Hadoop/hadoop_logo.png" alt="hadoop logo">
-          </img>
-        </div>
-        <div id="popup-hive" class="popup">
-          This is a technology I still need to dive into - distributed compute is the way of the future.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-hive'))" onmouseout="hidepop($('#popup-hive'))">
-          <img src="assets/Skills/DistributedComputing/Hive/hive_logo.png" alt="hive logo">
-          </img>
-        </div>
-        <div id="popup-spark" class="popup">
-          This is a technology I still need to dive into - distributed compute is the way of the future.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-spark'))" onmouseout="hidepop($('#popup-spark'))">
-          <img src="assets/Skills/DistributedComputing/Spark/spark_logo.png" alt="spark logo">
-          </img>
-        </div>
-      </div>      
-      <div class="topic" id="DIYProjects">
-        <div class="card-text">
-          DIY Projects
-        </div>
-        <div id="popup-blender" class="popup">
-          I do all of my 3D modeling in Blender. I love this tool!
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-blender'))" onmouseout="hidepop($('#popup-blender'))">
-          <img src="assets/Skills/DIYProjects/GraphicDesign/blender_logo.png" alt="blender logo">
-          </img>
-        </div>
-        <div id="popup-krita" class="popup">
-          I have done substantial 2D modeling and graphic design in Krita (this tool is a lot like GIMP). I love this tool!
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-krita'))" onmouseout="hidepop($('#popup-krita'))">
-          <img src="assets/Skills/DIYProjects/GraphicDesign/krita_logo.png" alt="krita logo">
-          </img>
-        </div>
-        <div id="popup-arduino" class="popup">
-          I've used Arduino tech for a long time, most recently in a self-study course in grad school. Due to the Arduino Sketch API officially supporting C/C++, this is the brunt of my experience with these languages outside of schoolwork.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-arduino'))" onmouseout="hidepop($('#popup-arduino'))">
-          <img src="assets/Skills/DIYProjects/Hardware/Arduino/arduino_logo.png" alt="arduino logo">
-          </img>
-        </div>
-        <div id="popup-raspberry-pi" class="popup">
-          Raspberry Pi is awesome! I have used Raspbian and Ubuntu MATE OS's in Pi's of my own. These make for greate experience with compute clusters and more advanced embedded devices that can be programmed easily in Python (when Arduino's won't cut it).
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-raspberry-pi'))" onmouseout="hidepop($('#popup-raspberry-pi'))">
-          <img src="assets/Skills/DIYProjects/Hardware/RaspberryPi/raspberry_pi_logo.png" alt="raspberry pi logo">
-          </img>
-        </div>
-      </div>      
-      <div class="topic" id="Frameworks">
-        <div class="card-text">
-          Frameworks
-        </div>
-        <div id="popup-angular" class="popup">
-          This is a tech I still need to dive into. Right now I stick to vanilla JS with jQuery if needed, but due to market trends I intend to add this to my toolkit immediately.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-angular'))" onmouseout="hidepop($('#popup-angular'))">
-          <img src="assets/Skills/Frameworks/AngularJS/angular_logo.png" alt="angular logo">
-          </img>
-        </div>
-        <div id="popup-bootstrap" class="popup">
-          This is a simple tool that is extremely popular but losing momentum with the emergence of new frontend frameworks. A recent implementation of my site (the one you're currently on) used Bootstrap, but I canned it in favor of vanilla JS due to the tighter control with almost no added complexity.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-bootstrap'))" onmouseout="hidepop($('#popup-bootstrap'))">
-          <img src="assets/Skills/Frameworks/Bootstrap/bootstrap_logo.png" alt="bootstrap logo">
-          </img>
-        </div>
-        <div id="popup-django" class="popup" style="pointer-events:visible" onclick="linkto('https://repl.it/@asa55/ExperimentsInDjango')">
-          Because why wouldn't you want to use Python in your backend-driven web applications? Mine isn't but to take advantage of the built-in template engine, I made a Django-based version of this site, which you can explore through an awesome website called repl.it (the site is built to let you practice and demonstrate precisely these kinds of skills)<br><br>To check it out, double-click the icon (on desktop) or single-tap this pop-up (on mobile).
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-django'))" onmouseout="hidepop($('#popup-django'))" ondblclick="linkto('https://repl.it/@asa55/ExperimentsInDjango')">
-          <img src="assets/Skills/Frameworks/Django/django_logo.PNG" alt="django logo">
-          </img>
-        </div>
-        <div id="popup-electron" class="popup">
-          There is some controversey over deploying HTML/CSS/JS web apps as cross-platform desktop apps, but for many applications I see this as a huge advantage. I have deployed cross platform apps using this tool with great success.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-electron'))" onmouseout="hidepop($('#popup-electron'))">
-          <img src="assets/Skills/Frameworks/ElectronJS/electron_logo.png" alt="electron logo">
-          </img>
-        </div>
-        <div id="popup-flask" class="popup">
-          When you want a Python-based backend framework byt Django is too heavy. Flask does not have "batteries included", but gives the portability and modularity I've come to know and love using Python.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-flask'))" onmouseout="hidepop($('#popup-flask'))">
-          <img src="assets/Skills/Frameworks/Flask/flask_logo.png" alt="flask logo">
-          </img>
-        </div>
-        <div id="popup-react" class="popup">
-          This is a tech I still need to dive into. Right now I stick to vanilla JS with jQuery if needed, but due to market trends I intend to add this to my toolkit immediately.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-react'))" onmouseout="hidepop($('#popup-react'))">
-          <img src="assets/Skills/Frameworks/ReactJS/react_logo.png" alt="react logo">
-          </img>
-        </div>
-        <div id="popup-semanticui" class="popup">
-          An awesome CSS framework that's not Bootstrap.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-semanticui'))" onmouseout="hidepop($('#popup-semanticui'))">
-          <img src="assets/Skills/Frameworks/SemanticUI/semanticui_logo.png" alt="semantic ui logo">
-          </img>
-        </div>
-        <div id="popup-tailwindcss" class="popup">
-          Another awesome CSS framework that's totally different in design philosophy than its competitors.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-tailwindcss'))" onmouseout="hidepop($('#popup-tailwindcss'))">
-          <img src="assets/Skills/Frameworks/TailwindCSS/tailwindcss_logo.png" alt="tailwind css logo">
-          </img>
-        </div>
-        <div id="popup-unity" class="popup">
-          A physics engine for real time simulations and VR! Among other things like cross-platform deployments of 2D and 3D mobile apps. This is the brunt of my experience with C#.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-unity'))" onmouseout="hidepop($('#popup-unity'))">
-          <img src="assets/Skills/Frameworks/Unity/unity_logo.png" alt="unity logo">
-          </img>
-        </div>
-        <div id="popup-vue" class="popup">
-          This is a tech I still need to dive into. Right now I stick to vanilla JS with jQuery if needed, but due to market trends I intend to add this to my toolkit immediately.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-vue'))" onmouseout="hidepop($('#popup-vue'))">
-          <img src="assets/Skills/Frameworks/VueJS/vue_logo.png" alt="vue logo">
-          </img>
-        </div>
-      </div>      
-      <div class="topic" id="Vanilla">
-        <div class="card-text">
-          Languages
-        </div>
-        <div id="popup-c" class="popup">
-          Learned in class and later on in embedded devices, specifically multiple Arduino-based projects.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-c'))" onmouseout="hidepop($('#popup-c'))">
-          <img src="assets/Skills/Vanilla/C/c_logo.png" alt="c logo">
-          </img>
-        </div>
-        <div id="popup-cpp" class="popup">
-          Learned in class and later on in embedded devices, specifically multiple Arduino-based projects.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-cpp'))" onmouseout="hidepop($('#popup-cpp'))">
-          <img src="assets/Skills/Vanilla/CPlusPlus/cpp_logo.png" alt="c++ logo">
-          </img>
-        </div>    
-        <div id="popup-csharp" class="popup">
-          Learned largely in using Unity in an industrial .NET framework wrapper called WonderWare.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-csharp'))" onmouseout="hidepop($('#popup-csharp'))">
-          <img src="assets/Skills/Vanilla/CSharp/csharp_logo.png" alt="c# logo">
-          </img>
-        </div>
-        <div id="popup-css" class="popup">
-          You're looking at an implementation of my understanding of vanilla CSS right now!
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-css'))" onmouseout="hidepop($('#popup-css'))">
-          <img src="assets/Skills/Vanilla/CSS/css_logo.png" alt="css logo">
-          </img>
-        </div>
-        <div id="popup-html" class="popup">
-          You're looking at an implementation of my understanding of vanilla HTML right now!
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-html'))" onmouseout="hidepop($('#popup-html'))">
-          <img src="assets/Skills/Vanilla/HTML/html_logo.png" alt="html logo">
-          </img>
-        </div>
-        <div id="popup-js" class="popup">
-          You're looking at an implementation of my understanding of vanilla JS right now! (Interact with the background by tapping or dragging your mouse if you haven't already).
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-js'))" onmouseout="hidepop($('#popup-js'))">
-          <img src="assets/Skills/Vanilla/JavaScript/js_logo.png" alt="js logo">
-          </img>
-        </div>
-        <div id="popup-matlab" class="popup">
-          I have 10+ years of experience using Matlab. I don't know everything there is to know, but I am extremely comfortable navigating the docs and doing anything that can be done using this tool (and Simulink). It has gotten to the point that the latest releases are offering functionality I need, and I can really appreciate how far it has come since I started using it back in undergrad.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-matlab'))" onmouseout="hidepop($('#popup-matlab'))">
-          <img src="assets/Skills/Vanilla/Matlab/matlab_logo.png" alt="matlab logo">
-          </img>
-        </div>
-        <div id="popup-python" class="popup">
-          Because Matlab is not a general purpose programming language, nor is it open-source and free! Python is really awesome in its own right though, and I have almost fully migrated from Matlab to Python as my primary language.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-python'))" onmouseout="hidepop($('#popup-python'))">
-          <img src="assets/Skills/Vanilla/Python/python_logo.png" alt="python logo">
-          </img>
-        </div>
-      </div>      
-      <div class="topic" id="RuntimeEngines">
-        <div class="card-text">
-          Runtime Engines
-        </div>
-        <div id="popup-node" class="popup">
-          Because we needed JS in the backend. The fact that we can implement full stacks using JS almost exclusively is amazing for scalable and effective talent acquisition.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-node'))" onmouseout="hidepop($('#popup-node'))">
-          <img src="assets/Skills/RuntimeEngines/NodeJS/node_logo.png" alt="node logo">
-          </img>
-        </div>
-      </div>
-      <div class="topic" id="Standards">
-        <div class="card-text">
-          Standards
-        </div>
-        <div id="popup-material-design" class="popup">
-          Material Design! I have a habit of trying to make my projects beautiful and visually consistent. Material Design is the set of standardized concepts I intend to apply across all of my projects.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-material-design'))" onmouseout="hidepop($('#popup-material-design'))">
-          <img src="assets/Skills/Standards/MaterialDesign/material_design_logo.png" alt="material design logo">
-          </img>
-        </div>
-        <div id="popup-pep8" class="popup">
-          Because Python enforces good programming practices, but even then can be prettier and more self-consistent within a project.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-pep8'))" onmouseout="hidepop($('#popup-pep8'))">
-          <img src="assets/Skills/Standards/PEP8/pep8_logo.png" alt="pep8 logo">
-          </img>
-        </div>
-      </div>      
-      <div class="topic" id="Virtualization">
-        <div class="card-text">
-          Virtualization
-        </div>
-        <div id="popup-docker" class="popup">
-          Docker is great for OS level virtualization, a relatively recent concept that supports stable and portable software distribution by packaging all OS level dependencies with the shipped product.
-        </div>
-        <div class="card" onclick="togglepop($(this),$('#popup-docker'))" onmouseout="hidepop($('#popup-docker'))">
-          <img src="assets/Skills/Virtualization/OperatingSystem/Containerization/Docker/docker_logo.png" alt="docker logo">
-          </img>
-        </div>
-      </div>      
+      
     </div>
     <script type="text/javascript">
       document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/colorPick.js'><" + "/script>");
@@ -512,7 +235,10 @@
       function linkto(_link){
         window.location = _link;
       };
-
     </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+
   </body>
 </html>
