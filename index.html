@@ -14,198 +14,199 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"></link>
   </head>
   <body>
+    <div id="id_effect">
+      <div id="id_effect_div1">
+        <svg id="id_dynamic_svg">
+        </svg>
+      </div>
+      <div id="id_effect_div2">
+        <svg id="id_effect_svg1">
+        </svg>
+      </div>
+    </div>
+    <div style="width:10%; height:10%; min-width:64px; min-height:64px; margin-left:auto; margin-right:auto; margin-top:2%; pointer-events:visible;">
+      <a href="https://github.com/asa55/asa55.github.io">            
+        <svg id="id_octicon" style="display: inline-block;fill: #000000;" viewBox="-1 -1 20 20" version="1.1" aria-hidden="true">
+          <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+          </path>
+        </svg>
+        <div style="text-align:center; font-family: 'Roboto', sans-serif; font-size: 14px; color:black;">
+          (Check Out GitHub!)
+        </div>
+      </a>
+    </div>
+
     <div id="app">
-        <div id="id_effect">
-            <div id="id_effect_div1">
-              <svg id="id_dynamic_svg">
-              </svg>
-            </div>
-            <div id="id_effect_div2">
-              <svg id="id_effect_svg1">
-              </svg>
-            </div>
+      <div class="content-container">
+        <div class="topic topic-title">
+          <div class="card-text">Hi there, thanks for visiting my page!
           </div>
-          <div style="width:10%; height:10%; min-width:64px; min-height:64px; margin-left:auto; margin-right:auto; margin-top:2%; pointer-events:visible;">
-            <a href="https://github.com/asa55/asa55.github.io">            
-              <svg id="id_octicon" style="display: inline-block;fill: #000000;" viewBox="-1 -1 20 20" version="1.1" aria-hidden="true">
-                <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z">
-                </path>
-              </svg>
-              <div style="text-align:center; font-family: 'Roboto', sans-serif; font-size: 14px; color:black;">
-              (Check Out GitHub!)
-              </div>
-            </a>
+        </div>
+        <div style="pointer-events:visible" onclick="linkto('https://www.dropbox.com/s/cksh9avws5wrwn0/Resume.pdf?dl=0')">
+          <div id="popup-resume" class="popup">
+            Hi there, please double-click the image (on desktop) or single-tap this pop-up (on mobile) to take a closer look at my current resume.
           </div>
-          <div class="content-container">
-            <div class="topic topic-title">
-              <div class="card-text">Hi there, thanks for visiting my page!
-              </div>
-            </div>
-            <div style="pointer-events:visible" onclick="linkto('https://www.dropbox.com/s/cksh9avws5wrwn0/Resume.pdf?dl=0')">
-              <div id="popup-resume" class="popup">
-                Hi there, please double-click the image (on desktop) or single-tap this pop-up (on mobile) to take a closer look at my current resume.
-              </div>
-            </div>
-            <div style="display:table; margin-left:auto;margin-right:auto;" class="card" onclick="togglepop($(this),$('#popup-resume'))" onmouseout="hidepop($('#popup-resume'))" ondblclick="linkto('https://www.dropbox.com/s/cksh9avws5wrwn0/Resume.pdf?dl=0')">
-              <img src="assets/Resume-1.png" alt="resume thumb" style="width:256px;height: auto;">
-              </img>
-            </div>
-            <div class="subtopic">
-              <div class="subtopic-text">
-                My name is Alexander Augenstein, but you can call me Alex for short. I like to think of myself as an engineer, a scientist, and an entrepreneur. Coming up with new ideas is one of my favorite ways to spend time, and executing them is another. I'm more of a science fanatic than a businessman, but I have been working hard to understand how to properly own and operate startup companies since opening the doors to the Stronghold Homes Company in 2017 (and closing a year later). Since then, I've been careful to methodically approach new endeavors, researching, understanding, and executing strategies to prove technical <strong>and</strong> commercial feasibility.<br><br>Feel free to get to know me better by exploring my skills and interests below. As a general rule of thumb for navigating this interactive resume, single-clicking an icon will provide more information while double-clicking may link you to a relevant resource or project.
-              </div>
-            </div>
+        </div>
+        <div style="display:table; margin-left:auto;margin-right:auto;" class="card" onclick="togglepop($(this),$('#popup-resume'))" onmouseout="hidepop($('#popup-resume'))" ondblclick="linkto('https://www.dropbox.com/s/cksh9avws5wrwn0/Resume.pdf?dl=0')">
+          <img src="assets/Resume-1.png" alt="resume thumb" style="width:256px;height: auto;">
+          </img>
+        </div>
+        <div class="subtopic">
+          <div class="subtopic-text">
+            My name is Alexander Augenstein, but you can call me Alex for short. I like to think of myself as an engineer, a scientist, and an entrepreneur. Coming up with new ideas is one of my favorite ways to spend time, and executing them is another. I'm more of a science fanatic than a businessman, but I have been working hard to understand how to properly own and operate startup companies since opening the doors to the Stronghold Homes Company in 2017 (and closing a year later). Since then, I've been careful to methodically approach new endeavors, researching, understanding, and executing strategies to prove technical <strong>and</strong> commercial feasibility.<br><br>Feel free to get to know me better by exploring my skills and interests below. As a general rule of thumb for navigating this interactive resume, single-clicking an icon will provide more information while double-clicking may link you to a relevant resource or project.
           </div>
-          <div class="content-container">
-            <div class="topic topic-title">
-              <div class="card-text">
-                Disciplines by Skill
-              </div>
-            </div>
-            <div style="font-family: 'Roboto', sans-serif; font-size: 16px; margin: 10px;">
-              Check back for updates to this section. I will be adding projects to demonstrate how sound mathematics engineering can add value to your domain of interest. Topics include engineering, finance, robotics, real estate, sales, marketing, advertising, executive decision making, and more.
-            </div>
+        </div>
+      </div>
+      <div class="content-container">
+        <div class="topic topic-title">
+          <div class="card-text">
+            Disciplines by Skill
+          </div>
+        </div>
+        <div style="font-family: 'Roboto', sans-serif; font-size: 16px; margin: 10px;">
+          Check back for updates to this section. I will be adding projects to demonstrate how sound mathematics engineering can add value to your domain of interest. Topics include engineering, finance, robotics, real estate, sales, marketing, advertising, executive decision making, and more.
+        </div>
+      </div>      
+      <div class="content-container">
+        <div class="topic topic-title">
+          <div class="card-text">
+            Projects by Job Description
+          </div>
+        </div>
+        <div style="font-family: 'Roboto', sans-serif; font-size: 16px; margin: 10px;">
+          Check back to see projects inspired by job listings that caught my eye. Note that these were not curated with intention of applying, but with the intention of demonstrating proficiency in each of the listed job qualifications.
+        </div>
+      </div>
+      <div class="content-container">
+        <div class="topic topic-title">
+          <div class="card-text">
+              Objectives by Project
+          </div>
+        </div>
+        <div class="topic">
+          <div class="card-text">
+            Neural Nets from Scratch
+          </div>
+          <nologocard :me="handwrittencharacterrecognition"></nologocard>
+        </div>
+        <div class="topic">
+          <div class="card-text">
+            Build a Web App
+          </div>
+          <nologocard :me="makeasimplecalculator"></nologocard>
+        </div>
+        <div class="topic">
+          <div class="card-text">
+            Build a Desktop App
+          </div>
+          <nologocard :me="makeadesktopcalculator"></nologocard>
+        </div>
+        <div class="topic">
+          <div class="card-text">
+            Understand an Existing Code Base
+          </div>
+          <nologocard :me="prettypi"></nologocard>
+        </div>
+        <div class="topic">
+          <div class="card-text">
+            Fun with Newtonian Physics
+          </div>              
+          <nologocard :me="piblocks"></nologocard>
+        </div>
+      </div>
+      <div class="content-container">
+        <div class="topic topic-title">
+          <div class="card-text">
+            Skills by Technology
+          </div>
+        </div>
+        <div class="topic">
+          <div class="card-text">
+            Artificial Intelligence and Machine Learning
+          </div>
+          <logocard :me="keras"></logocard>
+          <logocard :me="tensorflow"></logocard>
+          <logocard :me="tensorflowjs"></logocard>
+        </div>      
+        <div class="topic" id="CloudComputing">
+          <div class="card-text">
+            Cloud Computing
+          </div>
+          <logocard :me="aws"></logocard>
+        </div>      
+        <div class="topic" id="Databases">
+          <div class="card-text">
+            Databases
+          </div>
+          <logocard :me="graphql"></logocard>
+          <logocard :me="postgresql"></logocard>
+          <logocard :me="sqlite"></logocard>
+        </div>      
+        <div class="topic" id="DistributedComputing">
+          <div class="card-text">
+            Distributed Computing
+          </div>
+          <logocard :me="hadoop"></logocard>
+          <logocard :me="hive"></logocard>
+          <logocard :me="spark"></logocard>
+        </div>      
+        <div class="topic" id="DIYProjects">
+          <div class="card-text">
+            DIY Projects
+          </div>
+          <logocard :me="blender"></logocard>
+          <logocard :me="krita"></logocard>
+          <logocard :me="arduino"></logocard>
+          <logocard :me="raspberrypi"></logocard>
+        </div>      
+        <div class="topic" id="Frameworks">
+          <div class="card-text">
+            Frameworks
+          </div>
+          <logocard :me="angular"></logocard>
+          <logocard :me="bootstrap"></logocard>
+          <logocard :me="django"></logocard>
+          <logocard :me="electron"></logocard>
+          <logocard :me="flask"></logocard>
+          <logocard :me="react"></logocard>
+          <logocard :me="semanticui"></logocard>
+          <logocard :me="tailwindcss"></logocard>
+          <logocard :me="unity"></logocard>
+          <logocard :me="vue"></logocard>
+        </div>      
+        <div class="topic" id="Vanilla">
+          <div class="card-text">
+            Languages
+          </div>
+          <logocard :me="c"></logocard>
+          <logocard :me="cpp"></logocard>
+          <logocard :me="csharp"></logocard>
+          <logocard :me="css"></logocard>
+          <logocard :me="html_"></logocard>
+          <logocard :me="js_"></logocard>
+          <logocard :me="matlab"></logocard>
+          <logocard :me="python"></logocard>
+        </div>      
+        <div class="topic" id="RuntimeEngines">
+          <div class="card-text">
+            Runtime Engines
+          </div>
+          <logocard :me="node"></logocard>
+        </div>
+        <div class="topic" id="Standards">
+          <div class="card-text">
+            Standards
+          </div>
+          <logocard :me="materialdesign"></logocard>
+          <logocard :me="pep8"></logocard>
+        </div>      
+        <div class="topic" id="Virtualization">
+          <div class="card-text">
+            Virtualization
           </div>      
-          <div class="content-container">
-            <div class="topic topic-title">
-              <div class="card-text">
-                Projects by Job Description
-              </div>
-            </div>
-            <div style="font-family: 'Roboto', sans-serif; font-size: 16px; margin: 10px;">
-              Check back to see projects inspired by job listings that caught my eye. Note that these were not curated with intention of applying, but with the intention of demonstrating proficiency in each of the listed job qualifications.
-            </div>
-          </div>
-          <div class="content-container">
-            <div class="topic topic-title">
-              <div class="card-text">
-                  Objectives by Project
-              </div>
-            </div>
-            <div class="topic">
-              <div class="card-text">
-                Neural Nets from Scratch
-              </div>
-              <nologocard :me="handwrittencharacterrecognition"></nologocard>
-            </div>
-            <div class="topic">
-              <div class="card-text">
-                Build a Web App
-              </div>
-              <nologocard :me="makeasimplecalculator"></nologocard>
-            </div>
-            <div class="topic">
-              <div class="card-text">
-                Build a Desktop App
-              </div>
-              <nologocard :me="makeadesktopcalculator"></nologocard>
-            </div>
-            <div class="topic">
-              <div class="card-text">
-                Understand an Existing Code Base
-              </div>
-              <nologocard :me="prettypi"></nologocard>
-            </div>
-            <div class="topic">
-              <div class="card-text">
-                Fun with Newtonian Physics
-              </div>              
-              <nologocard :me="piblocks"></nologocard>
-            </div>
-          </div>
-          <div class="content-container">
-            <div class="topic topic-title">
-              <div class="card-text">
-                Skills by Technology
-              </div>
-            </div>
-            <div class="topic">
-              <div class="card-text">
-                Artificial Intelligence and Machine Learning
-              </div>
-              <logocard :me="keras"></logocard>
-              <logocard :me="tensorflow"></logocard>
-              <logocard :me="tensorflowjs"></logocard>
-            </div>      
-            <div class="topic" id="CloudComputing">
-              <div class="card-text">
-                Cloud Computing
-              </div>
-              <logocard :me="aws"></logocard>
-            </div>      
-            <div class="topic" id="Databases">
-              <div class="card-text">
-                Databases
-              </div>
-              <logocard :me="graphql"></logocard>
-              <logocard :me="postgresql"></logocard>
-              <logocard :me="sqlite"></logocard>
-            </div>      
-            <div class="topic" id="DistributedComputing">
-              <div class="card-text">
-                Distributed Computing
-              </div>
-              <logocard :me="hadoop"></logocard>
-              <logocard :me="hive"></logocard>
-              <logocard :me="spark"></logocard>
-            </div>      
-            <div class="topic" id="DIYProjects">
-              <div class="card-text">
-                DIY Projects
-              </div>
-              <logocard :me="blender"></logocard>
-              <logocard :me="krita"></logocard>
-              <logocard :me="arduino"></logocard>
-              <logocard :me="raspberrypi"></logocard>
-            </div>      
-            <div class="topic" id="Frameworks">
-              <div class="card-text">
-                Frameworks
-              </div>
-              <logocard :me="angular"></logocard>
-              <logocard :me="bootstrap"></logocard>
-              <logocard :me="django"></logocard>
-              <logocard :me="electron"></logocard>
-              <logocard :me="flask"></logocard>
-              <logocard :me="react"></logocard>
-              <logocard :me="semanticui"></logocard>
-              <logocard :me="tailwindcss"></logocard>
-              <logocard :me="unity"></logocard>
-              <logocard :me="vue"></logocard>
-            </div>      
-            <div class="topic" id="Vanilla">
-              <div class="card-text">
-                Languages
-              </div>
-              <logocard :me="c"></logocard>
-              <logocard :me="cpp"></logocard>
-              <logocard :me="csharp"></logocard>
-              <logocard :me="css"></logocard>
-              <logocard :me="html_"></logocard>
-              <logocard :me="js_"></logocard>
-              <logocard :me="matlab"></logocard>
-              <logocard :me="python"></logocard>
-            </div>      
-            <div class="topic" id="RuntimeEngines">
-              <div class="card-text">
-                Runtime Engines
-              </div>
-              <logocard :me="node"></logocard>
-            </div>
-            <div class="topic" id="Standards">
-              <div class="card-text">
-                Standards
-              </div>
-              <logocard :me="materialdesign"></logocard>
-              <logocard :me="pep8"></logocard>
-            </div>      
-            <div class="topic" id="Virtualization">
-              <div class="card-text">
-                Virtualization
-              </div>      
-              <logocard :me="docker"></logocard>     
-            </div>      
-      
+          <logocard :me="docker"></logocard>     
+        </div>      
+  
       </div>
       
     </div>
