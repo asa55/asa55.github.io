@@ -316,7 +316,7 @@ var app = new Vue({
         postgresql: {
             alt: "postgresql logo",
             description: "My experience with PostgreSQL comes largely from Django, which integrates well with PostgreSQL as the backend database due to its official support. To demo some PostgreSQL interactions live in your browser, double-click the logo or tap this popup to start a Binder session. When it all fires up, click the .ipynb file and run each line of code one-by-one. Feel free to interact with the PostgreSQL DB yourself if you know some commands! It's a lot of fun. There are security settings and other admin concerns that can't be demonstrated with this method, but I feel it's perfect for the purpose of this interactive resume.",
-            followlink: `https://mybinder.org/v2/gist/asa55/63ccb15e22f9a24edc786d56a863b2b5/master`,
+            followlink: `linkto('https://mybinder.org/v2/gist/asa55/63ccb15e22f9a24edc786d56a863b2b5/master')`,
             hidepopper: `hidepop($('#popup-postgresql'))`,
             id: "popup-postgresql",
             logo: "assets/Skills/Databases/PostgreSQL/postgresql_logo.png",
