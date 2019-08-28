@@ -405,7 +405,7 @@ var app = new Vue({
 
         tensorflowjs: {
             alt: "tfjs logo",
-            description: "TFJS is a lifesaver for bringing tensorflow capability to the frontend, but amazingly it can be used on the backend in a node instance as well. For some applications, the level of performance can be dramatically improved by landing your ML code on the frontend. Train a neural net to recognize characters live in your browser by double-clicking the logo or tapping this link. (This demo is pre-beta and currently only supported on desktop. Check back for more updates soon!).",
+            description: "TFJS is a lifesaver for bringing tensorflow capability to the frontend, but amazingly it can be used on the backend in a node instance as well. For some applications, the level of performance can be dramatically improved by landing your ML code on the frontend. Train a neural net to recognize characters live in your browser by double-clicking the logo or tapping this link.",
             followlink: `linkto('https://asa55.github.io/InBrowserCharacterRecognition/index.html')`,
             hidepopper: `hidepop($('#popup-tensorflowjs'))`,
             id: "popup-tensorflowjs",
