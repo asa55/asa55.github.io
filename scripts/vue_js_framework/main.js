@@ -47,7 +47,7 @@ var app = new Vue({
         handwrittencharacterrecognition: {
             alt: "handwritten character recognition logo",
             backgroundimage: `url('assets/matlab_neural_net_project_thumbnail.png')`,
-            description: "For an ML class in university, I generated a single hidden layer neural net from pure fundamentals using Matlab to classify handwritten characters from an MNIST database. See the code and full report by double-clicking the icon or tapping this pop-up.",
+            description: "For an ML class in university, I generated a single hidden layer neural net from pure fundamentals using Matlab to classify handwritten characters from an MNIST database. See the code and full report by double-clicking the icon or tapping this pop-up. See my TensorFlow-JS demo (on a separate button below) for a related but much more interactive demo of neural nets applied to the character recognition problem.",
             followlink: `linkto('https://github.com/asa55/NeuralNetsFromScratch')`,
             hidepopper: `hidepop($('#popup-handwritten-character-recognition'))`,
             id: "popup-handwritten-character-recognition",
