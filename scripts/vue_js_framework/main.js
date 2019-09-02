@@ -277,7 +277,7 @@ var app = new Vue({
             alt: "java logo",
             description: "Java's write-once-run-anywhere design philosophy is interesting though less relevant in comparison to other languages by the day. I still vastly prefer it over Kotlin for Android app development. Double-click the logo or tap this pop-up for further discussion and a small demo.",
             followlink: `linkto('https://repl.it/@asa55/InLieuOfAnAndroidApp')`,
-            hidepopper: `hidepop($('#popup-js'))`,
+            hidepopper: `hidepop($('#popup-java'))`,
             id: "popup-java",
             logo: "assets/Skills/Vanilla/Java/java_logo.png",
             togglepopper: `togglepop($(this),$('#popup-java'))`
