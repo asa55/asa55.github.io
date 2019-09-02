@@ -153,6 +153,16 @@ var app = new Vue({
             togglepopper: `togglepop($(this),$('#popup-bootstrap'))`
         },
 
+        clang: {
+            alt: "clang logo",
+            description: "Learned in class and later on in embedded devices, specifically multiple Arduino-based projects. Double-click the logo or tap the pop-up to see more discussion and a web accessible demo",
+            followlink: `linkto('https://repl.it/@asa55/CIsForEmbeddedDevices')`,
+            hidepopper: `hidepop($('#popup-clang'))`,
+            id: "popup-clang",
+            logo: "assets/Skills/Vanilla/CLang/c_logo.png",
+            togglepopper: `togglepop($(this),$('#popup-clang'))`
+        },
+
         cpp: {
             alt: "cpp logo",
             description: "Learned in class and later on in embedded devices, specifically multiple Arduino-based projects. Double-click the logo or tap the pop-up to see some computer vision work I started into using OpenCV in Visual Studio in an early rev of my pendulum project. (Note I didn't end up using this technique in the final rev - this sensing method using a webcam had too much time delay for stabilizing control that was even close to robust)",
@@ -165,8 +175,8 @@ var app = new Vue({
 
         csharp: {
             alt: "csharp logo",
-            description: "Learned largely in using Unity in an industrial .NET framework wrapper called WonderWare.",
-            followlink: ``,
+            description: "Learned largely in using Unity in an industrial .NET framework wrapper called WonderWare. You can see a simple live demo on REPL.IT by double-clicking the logo or tapping this link.",
+            followlink: `linkto('https://repl.it/@asa55/InLieuOfAUnityDemo')`,
             hidepopper: `hidepop($('#popup-csharp'))`,
             id: "popup-csharp",
             logo: "assets/Skills/Vanilla/CSharp/csharp_logo.png",
@@ -263,6 +273,16 @@ var app = new Vue({
             togglepopper: `togglepop($(this),$('#popup-html'))`
         },
 
+        java: {
+            alt: "java logo",
+            description: "Java's write-once-run-anywhere design philosophy is interesting though less relevant in comparison to other languages by the day. I still vastly prefer it over Kotlin for Android app development. Double-click the logo or tap this pop-up for further discussion and a small demo.",
+            followlink: `linkto('https://repl.it/@asa55/InLieuOfAnAndroidApp')`,
+            hidepopper: `hidepop($('#popup-js'))`,
+            id: "popup-java",
+            logo: "assets/Skills/Vanilla/Java/java_logo.png",
+            togglepopper: `togglepop($(this),$('#popup-java'))`
+        },
+
         js_: {
             alt: "js logo",
             description: "You're looking at an implementation of my understanding of javascript right now! (Interact with the background by tapping or dragging your mouse). This code was refactored and repurposed from another one of Prajwal Souza's repos. You can double-click the logo or tap this pop-up to see all the JS used for this site.",
@@ -351,6 +371,16 @@ var app = new Vue({
             id: "popup-react",
             logo: "assets/Skills/Frameworks/ReactJS/react_logo.png",
             togglepopper: `togglepop($(this),$('#popup-react'))`
+        },
+
+        rlang: {
+            alt: "rlang logo",
+            description: "R is very popular among data scientists. It's not my language of choice because I can do everything R can do using Python and/or Matlab just as beautifully, concisely, and easily. But it is an option I am aware of and familiar with. See a quick demo of plotting in R used to help visualize the Central Limit Theorem from statistics by double-clicking the logo or tapping this pop-up.",
+            followlink: `linkto('https://repl.it/@asa55/CentralLimitTheoremInR')`,
+            hidepopper: `hidepop($('#popup-rlang'))`,
+            id: "popup-rlang",
+            logo: "assets/Skills/Vanilla/Rlang/rlang_logo.png",
+            togglepopper: `togglepop($(this),$('#popup-rlang'))`
         },
 
         semanticui: {
