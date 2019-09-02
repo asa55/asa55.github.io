@@ -125,8 +125,8 @@ var app = new Vue({
 
         aws: {
             alt: "aws logo",
-            description: "Amazon Web Services is how I gain access to world-class memory, storage, and compute. Implementations using AWS are fully scalable both horizontally and vertically.",
-            followlink: ``,
+            description: "Amazon Web Services is how I gain access to world-class memory, storage, and compute. Implementations using AWS are fully scalable both horizontally and vertically. But you may have noticed there are tons of services offered, and it's difficult to know what to use and why. Enter AWS Elastic Beanstalk. This is the perfect tool for securely deploying scalable web apps and more without doing IT work as a primary function (if that's not what you're into). Double-click the logo or single-tap this popup to see a simple Flask application deployed on AWS using Elastic Beanstalk.",
+            followlink: `linkto('http://flask-env.xwyvfmucs4.us-east-2.elasticbeanstalk.com/')`,
             hidepopper: `hidepop($('#popup-aws'))`,
             id: "popup-aws",
             logo: "assets/Skills/CloudComputing/AmazonWebServices/aws_logo.PNG",
@@ -215,8 +215,8 @@ var app = new Vue({
 
         flask: {
             alt: "flask logo",
-            description: `When you want a Python-based backend framework byt Django is too heavy. Flask does not have "batteries included", but gives the portability and modularity I've come to know and love using Python.`,
-            followlink: ``,
+            description: `When you want a Python-based backend framework but Django is too heavy. Flask does not have "batteries included", but gives the portability and modularity I've come to know and love using Python.  Double-click the logo or single-tap this popup to see a simple Flask application deployed on AWS using Elastic Beanstalk.`,
+            followlink: `linkto('http://flask-env.xwyvfmucs4.us-east-2.elasticbeanstalk.com/')`,
             hidepopper: `hidepop($('#popup-flask'))`,
             id: "popup-flask",
             logo: "assets/Skills/Frameworks/Flask/flask_logo.png",
