@@ -355,7 +355,7 @@ var app = new Vue({
 
         raspberrypi: {
             alt: "raspberry pi logo",
-            description: "Raspberry Pi is awesome! I have used Raspbian and Ubuntu MATE OS's in Pi's of my own. These make for greate experience with compute clusters and more advanced embedded devices that can be programmed easily in Python (when Arduino's won't cut it).",
+            description: "Raspberry Pi is awesome! These make for great experience with compute clusters and several use-cases for embedded devices. I'm currently working on a Rust on Linux Ubuntu MATE OS on RasPi demo... Check back soon for more!",
             followlink: ``,
             hidepopper: `hidepop($('#popup-raspberry-pi'))`,
             id: "popup-raspberry-pi",
@@ -365,7 +365,7 @@ var app = new Vue({
 
         react: {
             alt: "react logo",
-            description: "This is a tech I still need to dive into. Right now I stick to vanilla JS with jQuery if needed, but due to market trends I intend to add this to my toolkit immediately.",
+            description: "In the tutorial space for ReactJS as we speak. This tech is extremely promising and already shines in comparison to what I am familiar with in the competing VueJS framework. Check back for a demo soon!",
             followlink: ``,
             hidepopper: `hidepop($('#popup-react'))`,
             id: "popup-react",
