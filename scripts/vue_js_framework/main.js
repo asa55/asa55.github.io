@@ -101,7 +101,7 @@ var app = new Vue({
         
 
 
-        /*  Data for cards with primary logos is alphabetized below:  */    
+        /*  Data for cards with official logos is alphabetized below:  */    
 
         angular: {
             alt: "angular logo",
