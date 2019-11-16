@@ -22,81 +22,93 @@
     <div class="container">
         <div class="topic color-secondary-1-0">
             <div class="content">
-                Hi!
+                <canvas id="detail-1" class="detail"></canvas>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="topic color-secondary-2-0">
             <div class="content">
-                Hi!
+                <canvas id="detail-2" class="detail"></canvas>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="topic color-primary-1">
             <div class="content">
-                Hi!
+                <canvas id="detail-3" class="detail"></canvas>
             </div>
         </div>
     </div>
     <!-- DOM BOTTLENECK IMPORTS -->
     <script>
-      var canvas = document.querySelector("canvas")
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-      var c = canvas.getContext('2d');
-      c.strokeStyle = '#00000000'
+      var wallpapercanvas = document.getElementById("wallpaper")
+      wallpapercanvas.width = window.innerWidth;
+      wallpapercanvas.height = window.innerHeight;
+      var wc = wallpapercanvas.getContext('2d');
+      wc.strokeStyle = '#00000000'
 
       function screensaver(listOfColors, startingAtTop){
           var i;
+          var x;
           for (i in listOfColors) {
               if (startingAtTop) {
-              c.fillStyle = '#00000066';
-              c.beginPath();
-              c.moveTo(0,0);
-              c.lineTo(innerWidth*(3/4)/(2**i) + Math.min(innerWidth/4*Math.sin(pageYOffset/innerHeight*Math.PI/2)/2, innerWidth/4)/(2**i)+3,0);
-              c.lineTo(0,innerHeight);
-              c.closePath();
-              c.fill();
-              c.stroke();
-              c.fillStyle = listOfColors[i];
-              c.beginPath();
-              c.moveTo(0,0);
-              c.lineTo(innerWidth*(3/4)/(2**i) + Math.min(innerWidth/4*Math.sin(pageYOffset/innerHeight*Math.PI/2)/2, innerWidth/4)/(2**i),0);
-              c.lineTo(0,innerHeight);
-              c.closePath();
-              c.fill();
-              c.stroke();
+              x = (innerWidth*(3/4) + Math.min(innerWidth*Math.sin(pageYOffset/innerHeight*Math.PI/2)/4, innerWidth/4))/(2**i);
+              wc.fillStyle = '#00000066';
+              wc.beginPath();
+              wc.moveTo(0,0);
+              wc.lineTo(x+3,0);
+              wc.lineTo(0,innerHeight);
+              wc.closePath();
+              wc.fill();
+              wc.stroke();
+              wc.fillStyle = listOfColors[i];
+              wc.beginPath();
+              wc.moveTo(0,0);
+              wc.lineTo(x,0);
+              wc.lineTo(0,innerHeight);
+              wc.closePath();
+              wc.fill();
+              wc.stroke();
           } else {
-              c.fillStyle = '#00000066';
-              c.beginPath();
-              c.moveTo(0,innerHeight);
-              c.lineTo(innerWidth*(3/4)/(2**i) + Math.min(innerWidth/4*Math.sin(pageYOffset/innerHeight*Math.PI)/2, innerWidth/4)/(2**i)+5,innerHeight);
-              c.lineTo(0,0);
-              c.closePath();
-              c.fill();
-              c.stroke();
-              c.fillStyle = listOfColors[i];
-              c.beginPath();
-              c.moveTo(0,innerHeight);
-              c.lineTo(innerWidth*(3/4)/(2**i) + Math.min(innerWidth/4*Math.sin(pageYOffset/innerHeight*Math.PI)/2, innerWidth/4)/(2**i),innerHeight);
-              c.lineTo(0,0);
-              c.closePath();
-              c.fill();
-              c.stroke();
+              x = (innerWidth*(3/4) + Math.min(innerWidth*Math.sin(pageYOffset/innerHeight*Math.PI)/4, innerWidth/4))/(2**i);
+              wc.fillStyle = '#00000066';
+              wc.beginPath();
+              wc.moveTo(0,innerHeight);
+              wc.lineTo(x+5,innerHeight);
+              wc.lineTo(0,0);
+              wc.closePath();
+              wc.fill();
+              wc.stroke();
+              wc.fillStyle = listOfColors[i];
+              wc.beginPath();
+              wc.moveTo(0,innerHeight);
+              wc.lineTo(x,innerHeight);
+              wc.lineTo(0,0);
+              wc.closePath();
+              wc.fill();
+              wc.stroke();
           }
           };
       };
 
       function animate() {
           requestAnimationFrame(animate);
-          c.clearRect(0,0,innerWidth,innerHeight);
+          wc.clearRect(0,0,innerWidth,innerHeight);
           screensaver(['#1DD600', '#21F400', '#47FF2A', '#9AFF8A'].reverse(), true);
           screensaver(['#00A1E7', '#32C2FF', '#8FDDFF'].reverse(), false);
       };
       animate();
 
     </script>
+
+
+
+<script>
+    var detail1canvas = document.getElementById("detail-1")
+    var d1c = detail1canvas.getContext('2d');
+</script>
+
+
   </body>
 </html>
