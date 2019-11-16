@@ -40,15 +40,13 @@
     <div class="container">
         <div class="topic color-primary-1">
             <div class="content">
-              <div class="detail" style="position: relative;margin:auto;font-size: 3vw; font-family: 'Roboto', sans-serif;background-image:url('resources/images/ourbandofcomrades.png');background-repeat: no-repeat;background-size: cover;background-position: center;">
-                <table>
-                  <tr>
-                    <td>
-                    </td>
-                    <td>
-                    </td>
-                  </tr>
-                </table>
+              <div class="detail" style="position: relative;margin:auto;font-size: 3vw; font-family: 'Roboto', sans-serif;">
+                <video width="60%" controls style="transform: translateY(3vw)">
+                  <source src="resources/videos/ReddFlagAd01.mp4" type="video/mp4">
+                </video>
+                <div style="position: relative;margin:auto;font-size: 2.5vw; font-family: 'Roboto', sans-serif;transform: translateY(-25vw)">
+                  I've spun-up a few startups with very different value propositions.<br>Here's an ad for a web-app based company I worked on late 2018
+                </div>
               </div>
             </div>
         </div>
@@ -100,6 +98,9 @@
     <script>
         var detail1canvas = document.getElementById("detail-1")
         var d1c = detail1canvas.getContext('2d');
+    </script>
+    <script>
+      document.getElementsByTagName('video')[0].volume = 0.25
     </script>
 
   </body>
