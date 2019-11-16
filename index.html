@@ -1,173 +1,113 @@
-<!--
-    TODO:
-    (1) Update resume (add AWS certified cloud practitioner cridential)
-    (2) Overhaul website. Project based, A++ quality work, only!
--->
-
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Resume: Alex Augenstein</title>
+    <!-- META -->
+    <title>About me!</title>
     <meta charset="UTF-8">
-    <meta name="description" content="An interactive resume.">
-  	<meta name="keywords" content="Interactive, Resume, Website, Open, Source, Code, HTML, CSS, Javascript, JS, Vue, Technology">
-	  <meta name="author" content="Alexander Augenstein">
+    <meta name="description" content="About me!">
+  	<meta name="keywords" content="Blog">
+	  <meta name="author" content="Alex Augenstein">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, max-width=device-width, initial-scale=1.0, max-scale=1.0">
+    <meta name="viewport" content="width=device-width, max-width=device-width, height=device-height, max-height=device-height, initial-scale=1.0, max-scale=1.0">
+    <!-- QUICK IMPORTS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles.css"></link>
+    <link rel="stylesheet" type="text/css" href="resources/styles/main.css"></link>
+    <link rel="stylesheet" type="text/css" href="resources/styles/colors.css"></link>
+    <link rel="stylesheet" type="text/css" href="resources/styles/fonts.css"></link>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"></link>
   </head>
   <body>
-    <div id="id_effect">
-      <div id="id_effect_div1">
-        <svg id="id_dynamic_svg">
-        </svg>
-      </div>
-      <div id="id_effect_div2">
-        <svg id="id_effect_svg1">
-        </svg>
-      </div>
+    <!-- MAIN -->
+    <canvas id="wallpaper"></canvas>
+    <div class="ppt-slide">
+        Hi!
     </div>
-    <div style="width:10%; height:10%; min-width:64px; min-height:64px; margin-left:auto; margin-right:auto; margin-top:2%; pointer-events:visible;">
-      <a href="https://github.com/asa55/asa55.github.io">            
-        <svg id="id_octicon" style="display: inline-block;fill: #000000;" viewBox="-1 -1 20 20" version="1.1" aria-hidden="true">
-          <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z">
-          </path>
-        </svg>
-        <div style="text-align:center; font-family: 'Roboto', sans-serif; font-size: 14px; color:black;">
-          (Check Out GitHub!)
-        </div>
-      </a>
-    </div>
+    <!-- DOM BOTTLENECK IMPORTS -->
+    <script>
+      var canvas = document.querySelector("canvas")
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      var c = canvas.getContext('2d');
+      c.strokeStyle = '#00000000'
 
-    <div id="app">
-      <div class="content-container">
-        <div class="topic topic-title">
-          <div class="card-text">Hi there, thanks for visiting my page!
-          </div>
-        </div>
-        <div style="pointer-events:visible" onclick="linkto('https://www.dropbox.com/s/cksh9avws5wrwn0/Resume.pdf?dl=0')">
-          <div id="popup-resume" class="popup">
-            Hi there, please double-click the image (on desktop) or single-tap this pop-up (on mobile) to take a closer look at my current resume.
-          </div>
-        </div>
-        <div style="display:table; margin-left:auto;margin-right:auto;" class="card" onclick="togglepop($(this),$('#popup-resume'))" onmouseout="hidepop($('#popup-resume'))" ondblclick="linkto('https://www.dropbox.com/s/cksh9avws5wrwn0/Resume.pdf?dl=0')">
-          <img src="assets/Resume-1.png" alt="resume thumb" style="width:256px;height: auto;">
-          </img>
-        </div>
-        <div class="subtopic">
-          <div class="subtopic-text">
-            My name is Alexander Augenstein, but you can call me Alex for short. I like to think of myself as an engineer, a scientist, and an entrepreneur. Coming up with new ideas is one of my favorite ways to spend time, and executing them is another. I'm more of a science fanatic than a businessman, but I have been working hard to understand how to properly own and operate startup companies since opening the doors to the Stronghold Homes Company in 2017 (and closing a year later). Since then, I've been careful to methodically approach new endeavors, researching, understanding, and executing strategies to prove technical <strong>and</strong> commercial feasibility.<br><br>Feel free to get to know me better by exploring my skills and interests below. As a general rule of thumb for navigating this interactive resume, single-clicking an icon will provide more information while double-clicking may link you to a relevant resource or project.<br><br>As somewhat of a tangent and comment to myself, I just realized there are no demos provided that really demonstrate the level of mathematical finesse I feel I've achieved. I'm extremely comfortable navigating the literature, but it's not necessarily straightforward to demonstrate this in code projects. (Thinking about this now - check back soon for some resolution to this challenge!) <br><br> In recent days I've been studying AWS cloud computing tools and took an interest in serverless computing. I'll be taking this down very soon but am passively interested in how much it costs to keep this serverless dynamic website running for a while... Check out <a href='wildstyle-three-thousand.s3-website.us-east-2.amazonaws.com/'>wildstyle-three-thousand.s3-website.us-east-2.amazonaws.com/</a>
-          </div>
-        </div>
-      </div>
-      <div class="content-container">
-        <div class="topic topic-title">
-          <div class="card-text">
-            Skills by Technology
-          </div>
-        </div>
-        <div class="topic">
-          <div class="card-text">
-            Artificial Intelligence and Machine Learning
-          </div>
-          <!-- logocard :me="keras"></logocard -->
-          <logocard :me="tensorflow"></logocard>
-          <logocard :me="tensorflowjs"></logocard>
-        </div>      
-        <!-- div class="topic" id="CloudComputing">
-          <div class="card-text">
-            Cloud Computing
-          </div>
-          <logocard :me="aws"></logocard>
-        </div -->      
-        <div class="topic" id="Databases">
-          <div class="card-text">
-            Databases
-          </div>
-          <!-- logocard :me="graphql"></logocard -->
-          <logocard :me="postgresql"></logocard>
-          <logocard :me="sqlite"></logocard>
-        </div>      
-        <!--div class="topic" id="DistributedComputing">
-          <div class="card-text">
-            Distributed Computing
-          </div>
-          <logocard :me="hadoop"></logocard>
-          <logocard :me="hive"></logocard>
-          <logocard :me="spark"></logocard>
-        </div-->      
-        <div class="topic" id="DIYProjects">
-          <div class="card-text">
-            DIY Projects
-          </div>
-          <logocard :me="blender"></logocard>
-          <logocard :me="krita"></logocard>
-          <logocard :me="arduino"></logocard>
-          <logocard :me="raspberrypi"></logocard>
-        </div>      
-        <div class="topic" id="Frameworks">
-          <div class="card-text">
-            Frameworks
-          </div>
-          <!--logocard :me="angular"></logocard-->
-          <logocard :me="bootstrap"></logocard>
-          <logocard :me="django"></logocard>
-          <logocard :me="electron"></logocard>
-          <!-- logocard :me="flask"></logocard -->
-          <logocard :me="react"></logocard>
-          <!--logocard :me="semanticui"></logocard>
-          <logocard :me="tailwindcss"></logocard-->
-          <logocard :me="vue"></logocard>
-        </div>      
-        <div class="topic" id="Vanilla">
-          <div class="card-text">
-            Languages
-          </div>
-          <logocard :me="clang"></logocard>
-          <logocard :me="cpp"></logocard>
-          <logocard :me="csharp"></logocard>
-          <logocard :me="css"></logocard>
-          <logocard :me="html_"></logocard>
-          <logocard :me="java"></logocard>
-          <logocard :me="js_"></logocard>
-          <logocard :me="matlab"></logocard>
-          <logocard :me="python"></logocard>
-          <logocard :me="rlang"></logocard>
-        </div>      
-        <div class="topic" id="RuntimeEngines">
-          <div class="card-text">
-            Runtime Engines
-          </div>
-          <logocard :me="node"></logocard>
-        </div>
-        <!--div class="topic" id="Virtualization">
-          <div class="card-text">
-            Virtualization
-          </div>      
-          <logocard :me="docker"></logocard>     
-        </div-->      
-  
-      </div>
+      function screensaver(listOfColors, startingAtTop){
+          var i;
+          for (i in listOfColors) {
+              c.fillStyle = listOfColors[i];
+              c.beginPath();
+              if (startingAtTop) {
+              c.moveTo(0,0);
+              c.lineTo(innerWidth*(3/4)/(2**i) + Math.min(window.pageYOffset/3, innerWidth/4)/(2**i),0);
+              c.lineTo(0,innerHeight);
+          } else {
+              c.moveTo(0,innerHeight);
+              c.lineTo(innerWidth*(3/4)/(2**i) + Math.min(window.pageYOffset/3, innerWidth/4)/(2**i),innerHeight);
+              c.lineTo(0,0);
+          }
+              c.closePath();
+              c.fill();
+              c.stroke();
+          };
+      };
+
+      screensaver(['#1DD600AA', '#21F400AA', '#47FF2AAA', '#9AFF8AAA'], true);
+      screensaver(['#0075A866', '#00A1E766', '#32C2FF66', '#8FDDFF66'], false);
+
+      function animate() {
+          requestAnimationFrame(animate);
+          c.clearRect(0,0,innerWidth,innerHeight);
+          screensaver(['#1DD600AA', '#21F400AA', '#47FF2AAA', '#9AFF8AAA'], true);
+          screensaver(['#0075A866', '#00A1E766', '#32C2FF66', '#8FDDFF66'], false);
+      };
+      animate();
       
-    </div>
-    <script type="text/javascript">
-      document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/colorPick.js'><" + "/script>");
-      document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/drawPrism.js'><" + "/script>");
-      document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/formPrism.js'><" + "/script>");
-      document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/getPossibilityRange.js'><" + "/script>");
-      document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/giveColor.js'><" + "/script>");
-      document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/indexOfmin.js'><" + "/script>");
-      document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/inside.js'><" + "/script>");
-      document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/pickAngleInRange.js'><" + "/script>");
-      document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/main.js'><" + "/script>");
-      document.writeln("<script type='text/javascript' src='./scripts/popper_effect/main.js'><" + "/script>");
+
+
+
+
+/*      
+      c.fillStyle = 'rgba(255,0,0,0.5)';
+      c.fillRect(100,100,100,100);
+      c.fillStyle = 'rgba(0,255,0,0.5)';
+      c.fillRect(300,300,100,100);
+      c.fillStyle = 'rgba(0,0,255,0.5)';
+      c.fillRect(250,250,100,100);
+      
+      c.beginPath();
+      c.moveTo(50,300);
+      c.lineTo(300,100);
+      c.lineTo(400,300);
+      c.strokeStyle = "#0000FF";
+      c.stroke();
+
+      c.beginPath();
+      c.arc(300,300,30,0, Math.PI*2, false);
+      c.stroke();
+
+      var x = 200;
+      var y = 200;
+      var dx = 4;
+      var dy = 4;
+      function animate() {
+            requestAnimationFrame(animate);
+            c.clearRect(0,0,innerWidth, innerHeight);
+
+            c.beginPath();
+            c.arc(x, y, 30, 0, Math.PI*2, false);
+            c.strokeStyle = 'blue';
+            c.stroke();
+
+            if ((x>innerWidth)||(x<=0)) {
+              dx=-dx;
+            }
+            if ((y>innerHeight)||(y<=0)) {
+              dy=-dy;
+            }
+            x+=dx;
+            y+=dy;
+      };
+      animate();*/
+
     </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    <script src="./scripts/vue_js_framework/main.js"></script>
-
   </body>
 </html>

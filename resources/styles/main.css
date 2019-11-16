@@ -1,0 +1,15 @@
+body{
+    margin:0%;
+}
+
+#wallpaper {
+    position:fixed;
+    z-index: -1;
+}
+
+.ppt-slide {
+    /* Each slide should take up a full screen, just like a PowerPoint slide */
+    width: 100vw;
+    height: 100vw;
+    display: inline-block;
+}
