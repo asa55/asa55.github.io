@@ -136,6 +136,9 @@
 
       function animate() {
           requestAnimationFrame(animate);
+          wallpapercanvas.width = window.innerWidth;
+          wallpapercanvas.height = window.innerHeight;
+          wc.strokeStyle = '#00000000'
           wc.clearRect(0,0,innerWidth,innerHeight);
           screensaver(['#1DD600', '#21F400', '#47FF2A', '#9AFF8A'].reverse(), true);
           screensaver(['#00A1E7', '#32C2FF', '#8FDDFF'].reverse(), false);
