@@ -22,6 +22,12 @@
     <div class="ppt-slide">
         Hi!
     </div>
+    <div class="ppt-slide">
+        Hi!
+    </div>
+    <div class="ppt-slide">
+        Hi!
+    </div>
     <!-- DOM BOTTLENECK IMPORTS -->
     <script>
       var canvas = document.querySelector("canvas")
@@ -33,80 +39,51 @@
       function screensaver(listOfColors, startingAtTop){
           var i;
           for (i in listOfColors) {
-              c.fillStyle = listOfColors[i];
-              c.beginPath();
               if (startingAtTop) {
+              c.fillStyle = '#00000066';
+              c.beginPath();
               c.moveTo(0,0);
-              c.lineTo(innerWidth*(3/4)/(2**i) + Math.min(window.pageYOffset/3, innerWidth/4)/(2**i),0);
+              c.lineTo(innerWidth*(3/4)/(2**i) + Math.min(innerWidth/4*Math.sin(pageYOffset/innerHeight*Math.PI/2)/4, innerWidth/4)/(2**i)+3,0);
               c.lineTo(0,innerHeight);
-          } else {
-              c.moveTo(0,innerHeight);
-              c.lineTo(innerWidth*(3/4)/(2**i) + Math.min(window.pageYOffset/3, innerWidth/4)/(2**i),innerHeight);
-              c.lineTo(0,0);
-          }
               c.closePath();
               c.fill();
               c.stroke();
+              c.fillStyle = listOfColors[i];
+              c.beginPath();
+              c.moveTo(0,0);
+              c.lineTo(innerWidth*(3/4)/(2**i) + Math.min(innerWidth/4*Math.sin(pageYOffset/innerHeight*Math.PI/2)/4, innerWidth/4)/(2**i),0);
+              c.lineTo(0,innerHeight);
+              c.closePath();
+              c.fill();
+              c.stroke();
+          } else {
+              c.fillStyle = '#00000066';
+              c.beginPath();
+              c.moveTo(0,innerHeight);
+              c.lineTo(innerWidth*(3/4)/(2**i) + Math.min(innerWidth/4*Math.sin(pageYOffset/innerHeight*Math.PI)/4, innerWidth/4)/(2**i)+5,innerHeight);
+              c.lineTo(0,0);
+              c.closePath();
+              c.fill();
+              c.stroke();
+              c.fillStyle = listOfColors[i];
+              c.beginPath();
+              c.moveTo(0,innerHeight);
+              c.lineTo(innerWidth*(3/4)/(2**i) + Math.min(innerWidth/4*Math.sin(pageYOffset/innerHeight*Math.PI)/4, innerWidth/4)/(2**i),innerHeight);
+              c.lineTo(0,0);
+              c.closePath();
+              c.fill();
+              c.stroke();
+          }
           };
       };
-
-      screensaver(['#1DD600AA', '#21F400AA', '#47FF2AAA', '#9AFF8AAA'], true);
-      screensaver(['#0075A866', '#00A1E766', '#32C2FF66', '#8FDDFF66'], false);
 
       function animate() {
           requestAnimationFrame(animate);
           c.clearRect(0,0,innerWidth,innerHeight);
-          screensaver(['#1DD600AA', '#21F400AA', '#47FF2AAA', '#9AFF8AAA'], true);
-          screensaver(['#0075A866', '#00A1E766', '#32C2FF66', '#8FDDFF66'], false);
+          screensaver(['#1DD600', '#21F400', '#47FF2A', '#9AFF8A'].reverse(), true);
+          screensaver(['#00A1E7', '#32C2FF', '#8FDDFF'].reverse(), false);
       };
       animate();
-      
-
-
-
-
-/*      
-      c.fillStyle = 'rgba(255,0,0,0.5)';
-      c.fillRect(100,100,100,100);
-      c.fillStyle = 'rgba(0,255,0,0.5)';
-      c.fillRect(300,300,100,100);
-      c.fillStyle = 'rgba(0,0,255,0.5)';
-      c.fillRect(250,250,100,100);
-      
-      c.beginPath();
-      c.moveTo(50,300);
-      c.lineTo(300,100);
-      c.lineTo(400,300);
-      c.strokeStyle = "#0000FF";
-      c.stroke();
-
-      c.beginPath();
-      c.arc(300,300,30,0, Math.PI*2, false);
-      c.stroke();
-
-      var x = 200;
-      var y = 200;
-      var dx = 4;
-      var dy = 4;
-      function animate() {
-            requestAnimationFrame(animate);
-            c.clearRect(0,0,innerWidth, innerHeight);
-
-            c.beginPath();
-            c.arc(x, y, 30, 0, Math.PI*2, false);
-            c.strokeStyle = 'blue';
-            c.stroke();
-
-            if ((x>innerWidth)||(x<=0)) {
-              dx=-dx;
-            }
-            if ((y>innerHeight)||(y<=0)) {
-              dy=-dy;
-            }
-            x+=dx;
-            y+=dy;
-      };
-      animate();*/
 
     </script>
   </body>
