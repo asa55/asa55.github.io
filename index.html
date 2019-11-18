@@ -198,7 +198,7 @@ var pat1 = d5c.createPattern(img1,'')
           //d5c.arc(this.x,this.y,this.radius,0,Math.PI*2,false);
         //d5c.fillStyle = pat1;
           //d5c.fill();
-          d5c.drawImage(this.image,this.x,this.y, this.image.width * .25 * screen_.canvasWidthToScreenWidth * this.radius, this.image.height * .25 * screen_.canvasWidthToScreenWidth * this.radius)
+          d5c.drawImage(this.image,this.x,this.y, this.image.width * .25 * screen_.canvasWidthToScreenWidth * Math.max(1,Math.min(this.radius,2.5)), this.image.height * .25 * screen_.canvasWidthToScreenWidth * Math.max(1,Math.min(this.radius,2.5)))
         }
 
         this.update = function() {
@@ -221,9 +221,9 @@ var pat1 = d5c.createPattern(img1,'')
 
 
 
-          if ((Math.abs(mouse.x - this.circXPosRelToScreenTopLeftX) < .15)&&
-              (Math.abs(mouse.y - this.circYPosRelToScreenTopLeftY) < .15)&&
-              (this.radius < 2.5)) {
+          if ((Math.abs(mouse.x - this.circXPosRelToScreenTopLeftX - 0.15) < .15)&&
+              (Math.abs(mouse.y - this.circYPosRelToScreenTopLeftY - 0.15) < .15)&&
+              (this.radius < 4)) {
               this.radius += .1;
           } else if (this.radius > 1) {
               this.radius -= 0.025;
