@@ -96,6 +96,9 @@
             </div>
         </div>
     </div>
+
+<img src="resources/images/avatar.png" id="lamp" width="32" height="32" style="display: none">
+
     <!-- DOM BOTTLENECK IMPORTS -->
     <script type="text/javascript" src="resources/scripts/screensaver.js"></script>
     <script>
@@ -121,6 +124,19 @@
         canvasHeightToScreenHeight : undefined,
       }
 
+      var colorArray = [
+        '#ffaa33',
+        '#99ffaa',
+        '#00ff00',
+        '#4411aa',
+        '#ff1100',
+      ]
+
+var img1 = document.getElementById("lamp");
+var pat1 = d5c.createPattern(img1,'')
+var imgObj = new Image();
+    imgObj.src = "resources/images/avatar.png";
+
       window.addEventListener('mousemove', 
         function(event) {
           mouse.x = event.x/window.innerWidth;  ////////
@@ -133,12 +149,14 @@
         this.dx = dx;
         this.dy = dy;
         this.radius=radius;
+        this.color = colorArray[Math.floor(Math.random()*colorArray.length)];
 
         this.draw = function() {
-          d5c.beginPath();
-          d5c.arc(this.x,this.y,this.radius,0,Math.PI*2,false);
-          d5c.strokeStyle = 'blue';
-          d5c.stroke();
+          //d5c.beginPath();
+          //d5c.arc(this.x,this.y,this.radius,0,Math.PI*2,false);
+        //d5c.fillStyle = pat1;
+          //d5c.fill();
+          d5c.drawImage(imgObj,this.x,this.y, imgObj.width * 0.1, imgObj.height * 0.1)
         }
 
         this.update = function() {
@@ -175,7 +193,7 @@
 
       var circleArray = [];
 
-      for (var i = 0; i<75; i++) {
+      for (var i = 0; i<1; i++) {
         var x = d5canvas.width/2;
         var y = d5canvas.height/2;
         var dx = (Math.random() - 0.5)*3;
@@ -186,6 +204,14 @@
 
       function animate(){
         requestAnimationFrame(animate);
+
+        wallpapercanvas.width = window.innerWidth;
+        wallpapercanvas.height = window.innerHeight;
+        wc.strokeStyle = '#00000000';
+        wc.clearRect(0,0,innerWidth,innerHeight);
+        screensaver(['#1DD600', '#21F400', '#47FF2A', '#9AFF8A'].reverse(), true);
+        screensaver(['#00A1E7', '#32C2FF', '#8FDDFF'].reverse(), false);
+
         d5c.clearRect(0,0,d5canvas.width,d5canvas.height);
         screen_.topLeftScreenToCanvasTopLeftX = d5canvas.getBoundingClientRect().x/window.innerWidth;
         screen_.topLeftScreenToCanvasTopLeftY = d5canvas.getBoundingClientRect().y/window.innerHeight;
