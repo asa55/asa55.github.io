@@ -35,7 +35,7 @@
       <div class="topic color-secondary-2-0">
         <div class="content">
           <div class="detail" style="color:white;position: relative;margin:auto;font-size: 3vw; font-family: 'Roboto', sans-serif;background-image:url('resources/images/ourbandofcomrades.png');background-repeat: no-repeat;background-size: cover;background-position: center;">
-            I love anime<br><br><br><br><br>While looking forward to playing D&D for the first time,<br>my artistic fianc&eacute;e created our anime doppelgangers.<br>(I'm the bindlestiff in the capelet)
+            I enjoy a good anime now and then<br><br><br><br><br>While looking forward to playing D&D for the first time,<br>my artistic fianc&eacute;e created our anime doppelgangers<br>(I'm the bindlestiff in the capelet)
           </div>
         </div>
       </div>
@@ -44,20 +44,20 @@
         <div class="topic color-primary-1">
             <div class="content">
               <div class="detail" style="position: relative;margin:auto;font-size: 3vw; font-family: 'Roboto', sans-serif;background-color: rgb(122, 235, 233)">
-                <video width="60%" controls style="transform: translateY(3vw)">
+                <div style="position: relative;margin:auto;font-size: 2.5vw; font-family: 'Roboto', sans-serif;transform:translateX(0.5vw) translateY(1.25vw);color:white;text-align: left;">
+                  I've had an entrepreneurial spirit for<br>as long as I can remember, starting<br>with a lemonade stand in the strip-<br>district of downtown Pittsburgh,<br>trading stocks since 16, and starting<br>LLCs with various value propositions<br><br>For example, here's an ad for an<br>app I worked on in late 2018
+                </div>
+                <video width="40%" controls style="transform:translateX(21vw) translateY(-20vw)">
                   <source src="resources/videos/ReddFlagAd01.mp4" type="video/mp4">
                 </video>
-                <div style="position: relative;margin:auto;font-size: 2.5vw; font-family: 'Roboto', sans-serif;transform: translateY(-25vw);">
-                  I've spun-up a few startups with very different value propositions.<br>Here's an ad for a web-app based company I worked on late 2018
-                </div>
               </div>
             </div>
         </div>
     </div>
     <div class="container">
       <div class="topic color-secondary-1-0">
-        <div style="font-size: 2.5vw; font-family: 'Roboto', sans-serif; color:white;height:34vw;width: 79vw;margin:auto;text-align: center;transform: translateY(12vw)">
-          The background is part of my "material design", programmatically generated and animated using the canvas in vanilla HTML/CSS/JS<br><br>(Scroll to view. This window is just so you can see it a bit easier)
+        <div style="font-size: 2.5vw; font-family: 'Roboto', sans-serif; color:white;height:34vw;width: 79vw;margin:auto;text-align: center;transform: translateY(8vw)">
+          Even though quality visualizations aren't always "required"<br>I enjoy adding the panache and it tells a much better story<br><br>The background is part of my material design for this site<br>(animated using a canvas element in vanilla HTML/CSS/JS)<br><br>(Scroll to view. This window is just so you can see it a bit easier)
         </div>
       </div>
     </div>
@@ -65,13 +65,20 @@
         <div class="topic color-secondary-2-0">
             <div class="content">
               <canvas id="detail-5" class="detail"></canvas>
+              <div style="position:absolute;transform:translateX(4.5vw) translateY(-25vw);font-size: 2.5vw; font-family: 'Roboto', sans-serif;">
+                I've dived into a variety of technologies,<br>typically driven by the need to solve some higher level objective<br><br><br><br><br><br>Here are a few I've used lately
+              </div>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="topic color-primary-1">
             <div class="content">
-                <canvas id="detail-6" class="detail"></canvas>
+                <div class="detail" style="position: relative;margin:auto;font-size: 2.5vw; font-family: 'Roboto', sans-serif;">
+                  <div>
+                    <br>I've always enjoyed learning. After a thesis-based MS in engineering and starting my PhD, is it awful that I still feel my best learning happens outside of the classroom?<br><br><br>There is so much to know and I feel the semester-based schedule is like trying to run through molasses. So I am a big fan of MOOCs and online learning! I consume new classes this way all the time
+                  </div>
+                </div>
             </div>
         </div>
     </div>
@@ -219,11 +226,11 @@ var pat1 = d5c.createPattern(img1,'')
           this.circXPosRelToScreenTopLeftX = this.circXPosRelToCanvas*screen_.canvasWidthToScreenWidth + screen_.topLeftScreenToCanvasTopLeftX;
           this.circYPosRelToScreenTopLeftY = this.circYPosRelToCanvas*screen_.canvasHeightToScreenHeight + screen_.topLeftScreenToCanvasTopLeftY;
 
-
-
-          if ((Math.abs(mouse.x - this.circXPosRelToScreenTopLeftX - 0.15) < .15)&&
-              (Math.abs(mouse.y - this.circYPosRelToScreenTopLeftY - 0.15) < .15)&&
-              (this.radius < 4)) {
+          if (((mouse.x - this.circXPosRelToScreenTopLeftX) < 0.1)&&
+              ((mouse.x - this.circXPosRelToScreenTopLeftX) > 0)&&
+              ((mouse.y - this.circYPosRelToScreenTopLeftY) < 0.1) &&
+              ((mouse.y - this.circYPosRelToScreenTopLeftY) > 0)&&
+               (this.radius < 4)) {
               this.radius += .1;
           } else if (this.radius > 1) {
               this.radius -= 0.025;
