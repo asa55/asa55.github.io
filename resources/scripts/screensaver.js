@@ -9,7 +9,7 @@ function screensaver(listOfColors, startingAtTop){
     var x;
     for (i in listOfColors) {
         if (startingAtTop) {
-        x = (innerWidth*(3/4) + Math.min(innerWidth*Math.sin(pageYOffset/innerHeight*Math.PI/2)/4, innerWidth/4))/(2**i);
+        x = (innerWidth*(1/4) + Math.min(innerWidth*Math.sin(pageYOffset/innerHeight*Math.PI/2)/8, innerWidth/4))/(2**i);
         wc.fillStyle = '#00000066';
         wc.beginPath();
         wc.moveTo(0,0);
@@ -27,7 +27,7 @@ function screensaver(listOfColors, startingAtTop){
         wc.fill();
         wc.stroke();
     } else {
-        x = (innerWidth*(3/4) + Math.min(innerWidth*Math.sin(pageYOffset/innerHeight*Math.PI)/4, innerWidth/4))/(2**i);
+        x = (innerWidth*(1/4) + Math.min(innerWidth*Math.sin(pageYOffset/innerHeight*Math.PI)/8, innerWidth/4))/(2**i);
         wc.fillStyle = '#00000066';
         wc.beginPath();
         wc.moveTo(0,innerHeight);
