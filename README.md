@@ -49,7 +49,7 @@
 | object properties (attributes and methods) | `class MyClass(object):`<br>....`def __init__(self):`<br>........`self.attrib=5`<br>....`def myMethod(self):`<br>........`pass`<br>`myInstance = MyClass()` | | there is a lot more to properly comparing OOP between JS and Python - I will update soon.<br>`myInst={myAttrib:5,myMethod:function(){},};` |
 | promises | not built in | | `var promise1 = new Promise(function(resolve, reject) {`<br>....`setTimeout(function() {`<br>........`resolve('foo'); }, 300); });`<br>`promise1.then(function(value) {`<br>....`console.log(value); });`<br>`console.log(promise1);` |
 | lambdas | `def addTen(myNum):`<br>....`return myNum + 10`<br>can be written as<br>`addTen = lambda myNum: myNum + 10` | | `function addTen(myNum) { return myNum + 10 };`<br>can be written as<br>`const addTen = (myNum) => myNum + 10;` |
-| map example | `def double(x):`<br>....`return x*2`<br>`doubles = map(double,[1,2,3])`<br>can be written as<br>`doubles=list(map(lambda x: x*2, [1,2,3]))` | | `const doubles = [1,2,3].map( x => x*2 );` |
+| map example | `def double(x):`<br>....`return x*2`<br>`y = map( double,[1,2,3] )`<br>can be written as<br>`y = map( lambda x: x*2, [1,2,3] )` | | `const y = [1,2,3].map( x => x*2 );` |
 
 ### I have some updates to make regarding OOP and examples. I'm thinking it will be helpful to show implementations of linked lists, max heaps, binary search trees, graphs, and possibly to highlight some of the environment differences given that JS is typically running in Node or a browser.
 
