@@ -28,7 +28,7 @@
 | clear array | `arr.clear()` | | `arr.length = 0;` |
 | array methods | `arr.append(5)`<br>`arr.extend([5,6])`<br>`.insert()`<br>`.remove()`<br>`.index()` | `.reverse()`<br>`.sort()`<br>`.pop()` | `arr.push(5)`<br>`arr.push(5,6)`<br>`.filter()  .map()  .reduce()`<br>`.every()  .some()`<br>`.keys()`<br>`.shift()  .unshift()` |
 | in |`in` refers to values | `in` | `in` refers to indexes |
-| range array | `x=[i for i in range(10)]` | | `x=[];`<br>`for (i=0;i<10;i++) {x[i]=i};` |
+| range array | `x=list(range(10))`<br>or<br>`x=[i for i in range(10)]` | | `x=[];`<br>`for (i=0;i<10;i++) {x[i]=i};` |
 | string element indexing | | `'hello'[1]` returns `'e'` | |
 |string overloaded ops |`*` |`+` | `'2'*'50'` returns type number `100`<br>so does `'2'*50` |
 | string methods | `capitalize()`<br>`find()`<br>`upper()  lower()`<br>`isupper()  islower()`<br>`split()  count()` | | `.length` (no parens)<br>`.indexOf()  .lastIndexOf()`<br>`.slice(,)  .replace(,)`<br>`.toUpperCase()  .toLowerCase()`<br>`.concat(,)  .charAt()`<br>`.split()` |
