@@ -1,8 +1,6 @@
 # Check out [my GitHub Pages site (asa55.github.io)](https://asa55.github.io)!
 
-## I'm particularly interested in 'full stack python' which is kind of a misnomer because you still need to have a good handle on JS in order to handle some of the frontend work. But both languages are widely used and also a lot of fun, so I'm highly motivated to master both. Here are a few of my notes:
-
-
+## I'm particularly interested in 'full stack python' which is kind of a misnomer because you still need to have a good handle on JS in order to handle some of the frontend work. To exercise, I typically keep a python shell up next to a node shell and code the same idea in both. Here are a few of my notes:
 
 
 
