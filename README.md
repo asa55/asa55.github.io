@@ -20,7 +20,7 @@
 | array data structure| `[]` is called a 'list' but is implemented as an array | [1,2,3] | `[]` is aptly referred to as an array |
 | indexing | `[1,2][0][0]` returns `TypeError` | `[1,2][0]` returns `1` |`[1,2][0][0]` returns `undefined` |
 | immutable arrays | `(1,2,3)` called a tuple | |  `(2,3)` is syntactically valid but not useful (returns last element only (`3`)) |
-| inserting array element | `a=[]`<br>`a[0]=10` returns `SyntaxError`| | `var a = []`<br>`a[0]=10`<br>`a[100]=20`<br>returns length 101 array (`[10, undefined, ... , undefined, 20]`) |
+| inserting array element | `a=[]`<br>`a[0]=10` returns `SyntaxError`| | `var a = []`<br>`a[0]=10`<br>`a[100]=20`<br>returns length 101 array (`[10, <99 empty items>, 20]`) |
 | removing array element | `arr=['h','i','!']`<br>`del arr[1]`<br> returns `['h','!']` | | `var arr=['h','i','!'];`<br>`delete arr[1]`<br>returns `['h','!']` |
 | array length | `len([1,2,3])` | | `[1,2,3].length` |
 | access last array element | `[1,2,3][-1]` | | `arr=[1,2,3];`<br>`arr[arr.length-1];` |
