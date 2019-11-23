@@ -28,7 +28,7 @@
 | clear array | `arr.clear()` | | `arr.length = 0;` |
 | array methods | `arr.append(5)`<br>`arr.extend([5,6])`<br>`.insert()`<br>`.remove()`<br>`.index()` | `.reverse()`<br>`.sort()`<br>`.pop()` | `arr.push(5)`<br>`arr.push(5,6)`<br>`.filter()  .map()  .reduce()`<br>`.every()  .some()`<br>`.keys()`<br>`.shift()  .unshift()` |
 | in |`in` refers to values | `in` | `in` refers to indexes |
-| range array | `x=list(range(10))`<br>or<br>`x=[i for i in range(10)]` | | `x=[];`<br>`for (i=0;i<10;i++) {x[i]=i};` |
+| range array | `x=list(range(10))`<br>or as a list comprehension<br>`x=[i for i in range(10)]`<br>or in Python3 with unpacking operator<br>`x=[*range(10)]` | | `x=[];`<br>`for (i=0;i<10;i++) {x[i]=i};` |
 | string element indexing | | `'hello'[1]` returns `'e'` | |
 |string overloaded ops |`*` |`+` | `'2'*'50'` returns type number `100`<br>so does `'2'*50` |
 | string methods | `capitalize()`<br>`find()`<br>`upper()  lower()`<br>`isupper()  islower()`<br>`split()  count()` | | `.length` (no parens)<br>`.indexOf()  .lastIndexOf()`<br>`.slice(,)  .replace(,)`<br>`.toUpperCase()  .toLowerCase()`<br>`.concat(,)  .charAt()`<br>`.split()` |
@@ -49,7 +49,7 @@
 | object properties (attributes and methods) | `class MyClass(object):`<br>....`def __init__(self):`<br>........`self.attrib=5`<br>....`def myMethod(self):`<br>........`pass`<br>`myInstance = MyClass()` | | there is a lot more to properly comparing OOP between JS and Python - I will update soon.<br>`myInst={myAttrib:5,myMethod:function(){},};` |
 | promises | not built in | | `var promise1 = new Promise(function(resolve, reject) {`<br>....`setTimeout(function() {`<br>........`resolve('foo'); }, 300); });`<br>`promise1.then(function(value) {`<br>....`console.log(value); });`<br>`console.log(promise1);` |
 | lambdas | `def addTen(myNum):`<br>....`return myNum + 10`<br>can be written as<br>`addTen = lambda myNum: myNum + 10` | | `function addTen(myNum) { return myNum + 10 };`<br>can be written as<br>`const addTen = (myNum) => myNum + 10;` |
-| map example | `def double(x):`<br>....`return x*2`<br>`y=map(double,[1,2,3])`<br>can be written as<br>`y=list(map(lambda x: x*2, [1,2,3]))` | | `const y=[1,2,3].map(x => x*2);` |
+| map example | `def double(x):`<br>....`return x*2`<br>`y=map(double,[1,2,3])`<br>can be written as<br>`y= list(map(lambda x: x*2, [1,2,3]))`<br>or as a list comprehension (not a map)<br>`y=[i*2 for i in [1,2,3]]` | | `const y=[1,2,3].map(x => x*2);` |
 
 ### I have some updates to make regarding OOP and examples. I'm thinking it will be helpful to show implementations of linked lists, max heaps, binary search trees, graphs, and possibly to highlight some of the environment differences given that JS is typically running in Node or a browser.
 
