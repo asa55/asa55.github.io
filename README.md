@@ -30,7 +30,7 @@
 | in |`in` refers to values | `in` | `in` refers to indexes |
 | range array | `x=[i for i in range(10)]` | | `x=[];`<br>`for (i=0;i<10;i++) {x[i]=i};` |
 | string element indexing | | `'hello'[1]` returns `'e'` | |
-|string overloaded ops |`*` |`+` | |
+|string overloaded ops |`*` |`+` | `'2'*'50'` returns type number `100`<br>so does `'2'*50` |
 | string methods | `capitalize()`<br>`find()`<br>`upper()  lower()`<br>`isupper()  islower()`<br>`split()  count()` | | `.length` (no parens)<br>`.indexOf()  .lastIndexOf()`<br>`.slice(,)  .replace(,)`<br>`.toUpperCase()  .toLowerCase()`<br>`.concat(,)  .charAt()`<br>`.split()` |
 | array-of-string concatenation | `['hello'] + [' world']` | | `['hello'].concat([' world'])` |
 | string casting | `list('hi')` returns `['h','i']`<br>`tuple('hi')` returns `('h','i')`| | `var arr = new Array('4')` returns `['4']`<br>this next one is not sting casting, but `var arr = new Array(4)` returns length 4 array `[,,,,]` (note that JS ignores the last comment when there is no data between it and the bracket) |
