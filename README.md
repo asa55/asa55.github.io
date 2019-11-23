@@ -54,4 +54,4 @@
 
 ### I have some updates to make regarding OOP and examples. I'm thinking it will be helpful to show implementations of linked lists, max heaps, binary search trees, graphs, and possibly to highlight some of the environment differences given that JS is typically running in Node or a browser.
 
-####That's all I've thought of so far but maybe when I get to that point more will come to mind. It's easy to look all of this up, but the primary objective of this table is to help keep these points straight in my own mind when I'm asked to code on a whiteboard. But I can't afford to focus on a single language just to mitigate risk of mix-ups at whiteboard coding, so memorizing this table is my solution
+#### That's all I've thought of so far but maybe when I get to that point more will come to mind. It's easy to look all of this up, but the primary objective of this table is to help keep these points straight in my own mind when I'm asked to code on a whiteboard. But I can't afford to focus on a single language just to mitigate risk of mix-ups at whiteboard coding, so memorizing this table is my solution
