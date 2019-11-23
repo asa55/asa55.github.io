@@ -5,22 +5,23 @@
 
 
 
+
 |Topic| Python | both | JavaScript |
 |-|-|-|-|
 | comments | `#`<br>`"""  """` | | `//`<br>`/*  */` |
 | declaration |`my_var = 5`| | `var myVar = 5`<br>`let myVar = 5` <br>`const myVar = 5` |
-| casting | `str()`<br>`int()`<br>`float()`<br>`bool()`| |`String()`<br>`Number()`<br>`Boolean()` |
 | operators|`//` |`+`<br>`-`<br>`*`<br>`**`<br>`/`<br>`%` | |
-| assignment| |`+=`<br>`-=`<br>`*=`<br>`**=`<br>`/=`<br>`%=` | |
+| assignment| |`=`<br>`+=`<br>`-=`<br>`*=`<br>`**=`<br>`/=`<br>`%=` | |
+| deletion | `del(my_var)` | | `delete(myVar)` |
 |increment<br>decrement | | |`++`<br>`--` |
-|equality |`is` |`==`<br>`!=` |`===`<br>`!==` |
-|string overloaded ops |`*` |`+` | |
-| in |`in` refers to values | `in` | `in` refers to indexes |
+|equivalence |`is` |`==`<br>`!=` |`===`<br>`!==` |
+| equivalence rules | `[]==[]` returns `True` | | `[]==[]` returns `false` (because not referring to the same instance) |
+| casting | `str()`<br>`int()`<br>`float()`<br>`bool()`| |`String()`<br>`Number()`<br>`Boolean()` |
+| special types | without imports, `float('inf')`<br>`float(nan)` | | `NaN`<br>`undefined`<br>`null`<br>`Infinity` |
+| type checking | `type()` | | `typeof()`<br>`isNaN()`<br>`isInteger()`<br>`isFinite()` |
 | array data structure| `[]` is called a 'list' but is implemented as an array | [1,2,3] | `[]` is aptly referred to as an array |
 | indexing | `[1,2][0][0]` returns `TypeError` | `[1,2][0]` returns `1` |`[1,2][0][0]` returns `undefined` |
 | immutable arrays | `(1,2,3)` called a tuple | |  `(2,3)` is syntactically valid but not useful (returns last element only (`3`)) |
-| deletion | `del(my_var)` | | `delete(myVar)` |
-| JSON-like syntax | `i,j='k',1`<br>`b={i:j}` returns hash table (dictionary) `{'k':1}`| | `i='k';j=1; b={i:j}` returns object `{i:'k',j:1}` |
 | inserting array element | `a=[]`<br>`a[0]=10` returns `SyntaxError`| | `var a = []`<br>`a[0]=10`<br>`a[100]=20`<br>returns length 101 array (`[10, undefined, ... , undefined, 20]`) |
 | removing array element | `arr=['h','i','!']`<br>`del arr[1]`<br> returns `['h','!']` | | `var arr=['h','i','!'];`<br>`delete arr[1]`<br>returns `['h','!']` |
 | array length | `len([1,2,3])` | | `[1,2,3].length` |
@@ -28,15 +29,15 @@
 | slicing | `[1,2,3][:1]`<br>`[1,2,3][1:]` | | `[1,2,3].slice(null,2)`<br>`[1,2,3].slice(1)` |
 | clear array | `arr.clear()` | | `arr.length = 0;` |
 | array methods | `arr.append(5)`<br>`arr.extend([5,6])`<br>`.insert()`<br>`.remove()`<br>`.index()` | `.reverse()`<br>`.sort()`<br>`.pop()` | `arr.push(5)`<br>`arr.push(5,6)`<br>`.filter()  .map()  .reduce()`<br>`.every()  .some()`<br>`.keys()`<br>`.shift()  .unshift()` |
+| in |`in` refers to values | `in` | `in` refers to indexes |
+| string element indexing | | `'hello'[1]` returns `'e'` | |
+|string overloaded ops |`*` |`+` | |
 | string methods | `capitalize()`<br>`find()`<br>`upper()  lower()`<br>`isupper()  islower()`<br>`split()  count()` | | `.length` (no parens)<br>`.indexOf()  .lastIndexOf()`<br>`.slice(,)  .replace(,)`<br>`.toUpperCase()  .toLowerCase()`<br>`.concat(,)  .charAt()`<br>`.split()` |
-| printing | `print()` | | `console.log()` |
 | array-of-string concatenation | `['hello'] + [' world']` | | `['hello'].concat([' world'])` |
 | string casting | `list('hi')` returns `['h','i']`<br>`tuple('hi')` returns `('h','i')`| | `var arr = new Array('4')` returns `['4']`<br>this next one is not sting casting, but `var arr = new Array(4)` returns length 4 array `[,,,,]` (note that JS ignores the last comment when there is no data between it and the bracket) |
-| equivalence rules | `[]==[]` returns `True` | | `[]==[]` returns `false` (because not referring to the same instance) |
-| string element indexing | | `'hello'[1]` returns `'e'` | |
-| type checking | `type()` | | `typeof()`<br>`isNaN()`<br>`isInteger()`<br>`isFinite()` |
-| special types | without imports, `float('inf')`<br>`float(nan)` | | `NaN`<br>`undefined`<br>`null`<br>`Infinity` |
 | regular expressions | not built in, `import re`| | `var a = myStr.search(/mySearchStr/i)`|
+| JSON-like syntax | `i,j='k',1`<br>`b={i:j}` returns hash table (dictionary) `{'k':1}`| | `i='k';j=1; b={i:j}` returns object `{i:'k',j:1}` |
+| printing | `print()` | | `console.log()` |
 | datetime | `import datetime as dt`<br>`d=dt.datetime.now().timestamp()`<br> gets seconds with millisecond precision since 1970 | | `var d = new Date()`<br>`d.getTime();`<br> gets milliseconds since 1970 |
 | control flow keywords | `pass` | `continue`<br>`break` | |
 | if | `if (conditions):`<br>`elif (conditions):`<br>`else:` | | `if(conditions) { }`<br>`else if (conditions) { }`<br>`else { };` |
@@ -51,4 +52,6 @@
 | lambdas | `def addTen(myNum):`<br>....`return myNum + 10`<br>can be written as<br>`addTen = lambda myNum: myNum + 10` | | `function addTen(myNum) { return myNum + 10 };`<br>can be written as<br>`const addTen = (myNum) => myNum + 10;` |
 | map example | `def double(x):`<br>....`return x*2`<br>`doubles = map(double,[1,2,3])`<br>can be written as<br>`doubles=list(map(lambda x: x*2, [1,2,3]))` | | `const doubles = [1,2,3].map( x => x*2 );` |
 
-### I have some updates to make regarding OOP and generally re-ordering smoe of the rows in this table - come back soon for more updates!
+### I have some updates to make regarding OOP and examples. I'm thinking it will be helpful to show implementations of linked lists, max heaps, binary search trees, graphs, and possibly to highlight some of the environment differences given that JS is typically running in Node or a browser.
+
+####That's all I've thought of so far but maybe when I get to that point more will come to mind. It's easy to look all of this up, but the primary objective of this table is to help keep these points straight in my own mind when I'm asked to code on a whiteboard. But I can't afford to focus on a single language just to mitigate risk of mix-ups at whiteboard coding, so memorizing this table is my solution
