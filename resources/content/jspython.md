@@ -46,3 +46,6 @@
 | promises | not built in | | `var promise1 = new Promise(function(resolve, reject) {`<br>....`setTimeout(function() {`<br>........`resolve('foo'); }, 300); });`<br>`promise1.then(function(value) {`<br>....`console.log(value); });`<br>`console.log(promise1);` |
 | lambdas | `def addTen(myNum):`<br>....`return myNum + 10`<br>can be written as<br>`addTen = lambda myNum: myNum + 10` | | `function addTen(myNum) { return myNum + 10 };`<br>can be written as<br>`const addTen = (myNum) => myNum + 10;` |
 | map example | `def double(x):`<br>....`return x*2`<br>`y=map(double,[1,2,3])`<br>can be written as<br>`y= list(map(lambda x: x*2, [1,2,3]))`<br>or as a list comprehension (not a map)<br>`y=[i*2 for i in [1,2,3]]` | | `const y=[1,2,3].map(x => x*2);` |
+
+
+# I am excited to get some algorithm demos up using both JS and Python. While I love Jupyter notebooks, I think I can do what I need to do using Brython! (It parses Python using JS so you can use Python as an in-browser scripting language!) It's slower than JS but I need to showcase Python, and I would rather incur minor in-browser overhead as opposed to redirecting users to another page just to demo some algorithms
