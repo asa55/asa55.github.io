@@ -1,5 +1,7 @@
-# UPDATE: We completed the migration from GoDaddy hosting to GitHub! See our new site at [neurobi.com](https://neurobi.com)! You can find all of the code that powers this website in the code repository you're looking at. This is live code (not a copy of the site code - it's the real deal).
-## This site was migrated from WordPress so that we could manage clean, open-source code and share our approach on Github
-## The code was structured modularly. It reflects our software engineering best-practices, and was commented appropriately with its intended use (on Github) as a learning resource.
-### Special thanks to @prajwalsouza for posting his excellent Random-Triangle-Mesh-Generation repo! This was re-purposed to give our site some neat effects. The code has been modified and refactored to fit our use-case for this website, but the core algorithm is the same.
-### For the sake of comparison, check out the below screenshot as to how our site used to look when it was hosted on WordPress: ![Screenshot of Past Neurobi Site using WordPress](./assets/images/ObsoleteWordpressCompanyWebsite.jpg)
+# Check out [my GitHub Pages site (asa55.github.io)](https://asa55.github.io)!
+
+## I'm going to restructure this site once more... A hint as to what you'll see is in my resources/content folder
+
+### I have some updates to make regarding OOP and examples. I'm thinking it will be helpful to show implementations of data structures singly/doubly linked lists, max/min heaps, binary search trees and AVL trees, a few types of graphs, and possibly to highlight some of the environment differences given that JS is typically running in Node or a browser. I don't know if I'll show implementations of hashes, stacks, or queues because these are both built in to Python and JS. I'll consider throwing a few algorithms in as well - likely the most common comparison model and non-comparison model sorts, shortest path problems with Dijkstras algorithm and some variants, dynamic programming, the knapsack problem, maybe others
+
+#### That's all I've thought of so far but maybe when I get to that point more will come to mind. It's easy to look all of this up, but the primary objective of this table is to help keep these points straight in my own mind when I'm asked to code on a whiteboard. But I can't afford to focus on a single language just to mitigate risk of mix-ups at whiteboard coding, so memorizing this table is my solution
