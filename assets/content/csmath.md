@@ -7,3 +7,11 @@ But it chewed me up for a long time that I couldn't get my head around the probl
 How does this relate to the Catalan numbers? Check out the link to Wikipedia above and it will become immediately obvious.
 
 I realize this discussion probably makes little sense to anybody else reading this. It is not polished, it is out of context, it is a wall of text. But that's OK - I wanted to get the thought written down while it was on my mind and I'll clean it up later. If you're interested in seeing this thought presented in its final form, check back soon! And thanks for reading
+
+## New Topic: Any sane person would conjecture that P does not equal NP... But hear me out
+
+In the 2015 version of MIT 6.006 posted online, Dr. Eric comments that saying P=NP is similar to saying that we can construct some magic box that can pick the right guess on the first try every time. This is an oversimplification of his claim. But I'm jotting this down to remind myself of the thought that crossed my mind. Isn't this exactly what quantum computers are doing? All answers are true and false simultaneously and the right answer is returned in a single op. This is my assumption but I recall this being one of the major advantages of quantum computing. So if that's the case, didn't we build the 'magic box'? My conjecture is that there is a reduction that can be applied here that would get us to P=NP
+
+## Recursion is a great topic here as it implements inductive logic... Maybe put an example up of the Towers of Hanoi
+
+## I took out the section for classic problems, but I think I still need a place to answer some common coding interview questions. Rotate a matrix in place, detect unique chars, etc..
