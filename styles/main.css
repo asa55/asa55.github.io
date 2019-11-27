@@ -30,14 +30,14 @@ body {
 
   div.scrollmenu {
     background-color: #333;
-    overflow: auto;
-    white-space: nowrap;
+    overflow-y: auto;
     width:20%;
     height:100%;
     display: inline-block;
     position: fixed;
     direction : rtl;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.9);
+    font-family: 'Roboto', sans-serif;
   }
   
   div.scrollmenu a {

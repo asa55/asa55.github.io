@@ -28,30 +28,47 @@
     <!-- MAIN -->
 
     <div class="scrollmenu">
-      <a href="#home">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
-      <a href="#support">Support</a>
-      <a href="#blog">Blog</a>
-      <a href="#tools">Tools</a>  
-      <a href="#base">Base</a>
-      <a href="#custom">Custom</a>
-      <a href="#more">More</a>
-      <a href="#logo">Logo</a>
-      <a href="#friends">Friends</a>
-      <a href="#partners">Partners</a>
-      <a href="#people">People</a>
-      <a href="#work">Work</a>
+      <a id="home">Home</a>
+      <a id="programming">Programming Languages</a>
+      <a id="csmath">Math for CS</a>
+      <a id="datastructures">Data Structures</a>
+      <a id="algorithms">Algorithms</a>
+      <a id="operatingsystems">Operating Systems</a>
+      <a id="networking">Networking</a>
+      <a id="distributed">Distributed Systems</a>
+      <a id="security">Security</a>
+      <a id="classics">Classic Problems</a>
+      <a id="dbs">Databases</a>
+      <a id="parallel">Parallel Processing</a>
+      <a id="serverless">Serverless</a>
+      <a id="cloud">Cloud</a>
+      <a id="gamedesign">Game Design</a>
+      <a id="controls">Real Time Control</a>
+      <a id="mlai">ML/AI Algorithms</a>
     </div>
-    <div class="splash"></div>
+    <div class="splash">........Quick note to readers - this is in active dev. Please check back soon for updates!</div>
     <div  class="mymd">
       <zero-md id="mdcontent" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/README.md"></zero-md>
     </div>
 
     <!-- DOM BOTTLENECK IMPORTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
-      zeromd = document.getElementById('mdcontent')
+      $("#home").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/about.md"></zero-md>';
+        });
+      });
+      $("#programming").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/jspython.md"></zero-md>';
+        });
+      });
+      $("#csmath").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/discretemath.md"></zero-md>';
+        });
+      });
     </script>
   </body>
 </html>
