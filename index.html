@@ -37,7 +37,6 @@
       <a id="networking">Networking</a>
       <a id="distributed">Distributed Systems</a>
       <a id="security">Security</a>
-      <a id="classics">Classic Problems</a>
       <a id="dbs">Databases</a>
       <a id="parallel">Parallel Processing</a>
       <a id="serverless">Serverless</a>
@@ -48,7 +47,7 @@
     </div>
     <div class="splash">........Quick note to readers - this is in active dev. Please check back soon for updates!</div>
     <div  class="mymd">
-      <zero-md id="mdcontent" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/README.md"></zero-md>
+        <zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/home.md"></zero-md>
     </div>
 
     <!-- DOM BOTTLENECK IMPORTS -->
@@ -56,17 +55,82 @@
     <script>
       $("#home").click(function(){
         $("#mdcontent").replaceWith(function(){
-          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/about.md"></zero-md>';
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/home.md"></zero-md>';
         });
       });
       $("#programming").click(function(){
         $("#mdcontent").replaceWith(function(){
-          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/jspython.md"></zero-md>';
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/programming.md"></zero-md>';
         });
       });
       $("#csmath").click(function(){
         $("#mdcontent").replaceWith(function(){
-          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/discretemath.md"></zero-md>';
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/csmath.md"></zero-md>';
+        });
+      });
+      $("#datastructures").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/datastructures.md"></zero-md>';
+        });
+      });
+      $("#algorithms").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/algorithms.md"></zero-md>';
+        });
+      });
+      $("#operatingsystems").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/operatingsystems.md"></zero-md>';
+        });
+      });
+      $("#networking").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/networking.md"></zero-md>';
+        });
+      });
+      $("#distributed").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/distributed.md"></zero-md>';
+        });
+      });
+      $("#security").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/security.md"></zero-md>';
+        });
+      });
+      $("#dbs").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/dbs.md"></zero-md>';
+        });
+      });
+      $("#parallel").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/programming.md"></zero-md>';
+        });
+      });
+      $("#serverless").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/serverless.md"></zero-md>';
+        });
+      });
+      $("#cloud").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/cloud.md"></zero-md>';
+        });
+      });
+      $("#gamedesign").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/gamedesign.md"></zero-md>';
+        });
+      });
+      $("#controls").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/controls.md"></zero-md>';
+        });
+      });
+      $("#mlai").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/mlai.md"></zero-md>';
         });
       });
     </script>
