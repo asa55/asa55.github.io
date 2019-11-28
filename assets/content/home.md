@@ -3,7 +3,7 @@
 ![me](https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/images/me.png)
 ### Alex Augenstein: Engineer, Scientist, Entrepreneur
 
-## This site is in active development. I'm using it primarily as a professional demonstration, but I think there are some great nuggets on here that everyone might enjoy. I hope you find this resource helpful as you browse around, and if you have any suggestions for this site please feel free to [let me know in the repo on GitHub](https://github.com/asa55/asa55.github.io/issues)
+## This site is in active development. In a sense this is for professional demonstration, but the content of this site is a compilation of my own personal reference notes I actually use and come back to. I hope you find this resource insightful as you browse around, and if you have any suggestions please feel free to [share your thoughts with me on GitHub](https://github.com/asa55/asa55.github.io/issues)
 
 ## A little bit about me
 ### Work

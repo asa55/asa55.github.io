@@ -1,4 +1,10 @@
-## I'm particularly interested in 'full stack python' which is kind of a misnomer because you still need to have a good handle on JS in order to handle some of the frontend work. To exercise, I typically keep a python shell up next to a node shell and code the same idea in both. Here are a few of my notes:
+# Programming
+
+## Every software enthusiast needs to be comfortable in at least one language. If I could stick to Python, I would. But the web demands JS, embedded demands (whatever language compiler you can get that targets your device) mostly C/C++, and cross-platform mobile app development using Unity engine needs C# while MultiOS Engine needs Java (or Kotlin). I love Matlab so very much, but it's not general purpose and it's extremely expensive for professional use
+
+## Compounding all of the above concerns is the fact that you need to be comfortable enough in a single language that you can code on a whiteboard, most notoriously during a big coding interview but also for presentation purposes
+
+## I'm particularly interested in 'full stack python' which is kind of a misnomer because you still need to have a good handle on JS in order to handle some of the frontend work. To exercise, I typically keep a Python shell up next to a NodeJS shell and code the same idea in both. Here are a few of my notes:
 
 |Topic| Python | both | JavaScript |
 |-|-|-|-|
@@ -47,3 +53,4 @@
 | lambdas | `def addTen(myNum):`<br>....`return myNum + 10`<br>can be written as<br>`addTen = lambda myNum: myNum + 10` | | `function addTen(myNum) { return myNum + 10 };`<br>can be written as<br>`const addTen = (myNum) => myNum + 10;` |
 | map example | `def double(x):`<br>....`return x*2`<br>`y=map(double,[1,2,3])`<br>can be written as<br>`y= list(map(lambda x: x*2, [1,2,3]))`<br>or as a list comprehension (not a map)<br>`y=[i*2 for i in [1,2,3]]` | | `const y=[1,2,3].map(x => x*2);` |
 
+### I have examples of more advanced concepts in the data structures and algorithms section of this site - feel free to check them out for more language comparisons
