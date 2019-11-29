@@ -23,6 +23,9 @@
     <!--Zero-MD Imports-->
     <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
     <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+    <!-- MatterJS Imports -->
+    <script src="scripts/matter.js" type="text/javascript"></script>
+    <script src="scripts/decomp.js" type="text/javascript"></script>
 </head>
   <body>
     <!-- MAIN -->
@@ -52,13 +55,16 @@
 
     <!-- DOM BOTTLENECK IMPORTS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="scripts/matter.js" type="text/javascript"></script>
-    <script src="scripts/decomp.js" type="text/javascript"></script>
     <script src="scripts/cartpole.js" type="text/javascript"></script>
     <script>
       $("#home").click(function(){
         $("#mdcontent").replaceWith(function(){
           return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/home.md"></zero-md>';
+        });
+      });
+      $("#home").click(function(){
+        $("#cartpole").replaceWith(function(){
+          return '<div id="cartpole"></div>';
         });
       });
       $("#programming").click(function(){

@@ -9,7 +9,7 @@
 ### The navbar on the left scrolls separately from the content window (where you're reading now) - depending on your screen size you might be able to find more content this way
 ### The content is stored in markdown (.md) files. This is rendered nicely in your browser thanks to zero-md
 ### Markdown supports inline html, which I will use liberally as I update this site. For example, here is a cart-pole demo (that you can interact by clicking and dragging) thanks to the MatterJS physics engine
-####It's just a skeleton right now but soon I'll add some control-system smarts to it and drop it in the real-time control section of this site...
+#### It's just a skeleton right now but soon I'll add some control-system smarts to it and drop it in the real-time control section of this site...
 <div id="cartpole"></div>
 
 ## A little bit about me
