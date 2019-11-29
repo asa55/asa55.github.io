@@ -1,6 +1,6 @@
 # Controls
 
-## I need to get OpenAI Gym in browser, but if I can't get that to work I'll opt for MaterialJS
+## I need to get OpenAI Gym in browser, but if I can't get that to work I'll opt for MatterJS
 
 ## Classical Control
 
