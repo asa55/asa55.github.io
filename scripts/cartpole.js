@@ -1,4 +1,3 @@
-function loadCartpole() {
 var engine = Matter.Engine.create(),
 world = engine.world;
 var render = Matter.Render.create({
@@ -57,4 +56,3 @@ mouseConstraint = Matter.MouseConstraint.create(engine, {
 Matter.World.add(world, mouseConstraint);
 render.mouse = mouse;
 mouseConstraint.collisionFilter.mask = cartCategory;
-};
