@@ -2,7 +2,7 @@ function loadCartpole() {
 var engine = Matter.Engine.create(),
 world = engine.world;
 var render = Matter.Render.create({
-element: temp0.getElementById('cartpole'),
+element: document.getElementById('cartpole'),
 engine: engine,
 options: {
     width: 800,
