@@ -11,6 +11,11 @@
 ### Markdown supports inline html, which I will use liberally as I update this site. For example, here is a cart-pole demo (that you can interact by clicking and dragging) thanks to the MatterJS physics engine
 #### It's just a skeleton right now but soon I'll add some control-system smarts to it and drop it in the real-time control section of this site...
 <div onload="loadCartpole()" id="cartpole"></div>
+<script>
+get getCartpole() {
+    return this.shadowRoot.getElementById('cartpole');
+}
+</script>
 
 ## A little bit about me
 ### Work
