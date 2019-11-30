@@ -65,11 +65,8 @@
         loadCartpole()
       });
       $("#home").click(function(){
-        $("#mdcontent").replaceWith(function(){
-          return '<div id="mdcontent"><zero-md style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/home1.md"></zero-md><div id="cartpole"></div><zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/home2.md"></zero-md></div>';
+        location.reload(); // This is a hack just to decrease the likelihood there will be many MatterJS engine instances running in the background at once. I'll handle this with better JS scope handling later...
         });
-        loadCartpole()
-      });
       $("#programming").click(function(){
         $("#mdcontent").replaceWith(function(){
           return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/programming.md"></zero-md>';

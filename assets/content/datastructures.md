@@ -44,12 +44,12 @@ Heap operations:
 * build_max_heap: produces a max heap from an unordered array. O(n).
 * max_heapify: correct a single violation of the heap property in a subtree's root. O(lg(n)).
 * heap_size: returns size of heap. (O(1) in Python).
-* heap_sort:
+* heap_sort ( O(n lg(n)) ):
    1. build_max_heap from unordered array
    2. find max element A[1]
    3. (key step - could do extract_max instead) swap elements A[n] with A[1]. Now max element is at the end of array.
    4. discard node node n from the heap simply by decrementing heap size
-   5. new root after the swap may violate Max-Heap Property (MHP) but the children are max heaps, so we can run max_heapify to fix this, then go back to step 2 and repeat
+   5. new root after the swap may violate Max-Heap Property (MHP) but the children are max heaps, so we can run max_heapify to fix this, then go back to step 2 and repeat.
 
 ## Binary Search Trees
 
