@@ -19,9 +19,17 @@ A doubly-linked list can be thought of as a sequence of tables, each storing a v
 
 The Python model offers both a RAM perspective and a Pointer Machine perspective for implementing linked lists, and it even offers the basic operations (load,modify,insert), it also has other features built in (sort for instance). Python has a data type called a list, but it is actually implemented as an array. For reasonably sized lists, Python offers modification and accessing the "next list item" in constant time. Python also allows for appending new items to the list in amortized constant time using a technique called table doubling. Concatenating two lists can be done in O(1 + length of first list + length of second list). Finding if an element is in a list using keyword "in" takes linear time. Python implements lists with a counter built in, so finding the length of a list takes constant time. If you want to sort a list, this takes O(n log(n)) time. A hash table in Python is called a dictionary, and with high probability it takes constant time to access a value in a dictionary given a key. If x and y each contain more than 1 word, Python can sum these in O((|x| + |y|)^(lg(3))) time.
 
+## Visualize a LIFO Stack as.. a Stack!
+
+![wikipedia stack abstract data type](https://upload.wikimedia.org/wikipedia/commons/b/b4/Lifo_stack.png)
+
 ## Stacks
 
 Stacks work on the principle of "last in, first out" (LIFO). In most languages, there are built-in operations that let you implement this efficiently using pre-existing data types. For instance, in Python there are built-in list methods called .append() and .pop() that will concatenate a new item to the end of the list, or pop the item off that same end of the list.
+
+## Visualize a Queue like the Cafeteria Lunch-Line
+
+![wikipedia FIFO](https://upload.wikimedia.org/wikipedia/commons/d/d3/Fifo_queue.png)
 
 ## Priority Queues
 
@@ -30,6 +38,10 @@ Priority Queues implements a set of elements, each associated with a key. You wa
 Priority Queues work on the principle of "first in, first out". Because Python implements lists as arrays, it would be inefficient to keep fiddling around with the front end of the list because it may require shifting or in some way modifying all of the other elements - but we can still implement Priority Queues as lists using tools optimized for this purpose (from collections import deque).
 
 As a very important implementation detail, in many cases algorithms requiring Priority Queues benefit from being implemented as a max heap or a min heap.
+
+## Visualize a (Max) Heap as a Binary Tree
+
+![wikipedia heap](https://upload.wikimedia.org/wikipedia/commons/b/bf/Max-heap.png)
 
 ## Heaps
 
@@ -54,8 +66,14 @@ Heap operations:
    4. discard node node n from the heap simply by decrementing heap size
    5. new root after the swap may violate Max-Heap Property (MHP) but the children are max heaps, so we can run max_heapify to fix this, then go back to step 2 and repeat.
 
+# Visualize an AVL Tree as a Balanced Binary Search Tree
+
+![wikipedia binary search tree](https://upload.wikimedia.org/wikipedia/commons/d/da/Binary_search_tree.svg)
+
 ## Binary Search Trees
 
 ## AVL Trees
 
 ## Hashing with Chaining
+
+## Hashing with Open Addressing
