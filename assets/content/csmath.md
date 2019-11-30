@@ -2,6 +2,21 @@
 
 ## I haven't decided how far I'm going to take this outside of discrete math. There are tons of concepts worth exploring, so I'll have to iterate over this a few times at least as I consider how I want to constrain the scope of this page. A few notes from me to myself are below
 
+* Complexity (Theta, O, Omega)
+* Recursion (and logical induction)
+* Set theory (including N0, N1, Z, Q, R, C, cardinality)
+* Combinatorics, counting probabilities, possibly some notes on distributions
+* Possibly some design of experiments (full/fractional factorial, latin hypercube)
+* A few topics from information theory
+* Logic, K-Maps
+* Graph theory
+* Optimization
+* Possibly some stats and stochastic processes, markov chains
+* Functions, functionals
+* Linear algebra, ODEs
+* Matrix / Tensor calculus
+* Orthogonal functions, encoding/decoding, PDEs
+
 ## A topic I've been thinking about recently is related to counting probabilities
 
 Years ago in a class called Analysis of Stochastic Processes, my instructor asked a toy problem on a quiz. His favorite Boston baseball team went to the world series, where the best team out of 7 games wins it all. I chewed on that for a few minutes thinking about it as a tree diagram, and trying to wrap my head around accounting for early termination by winning it all after only 4 games. After a meager attempt at drawing the tree on the back of the exam, I realized this method was too complex to draw out. One way to come to the right answer, and I suspect the way he was looking for, was to use a few observations in disjointed sets and the pigeonhole property to realize that there is only one way to win 4 games, (4 choose 3) ways to win 3 games out of 4 then win the 5th, (5 choose 3) ways to win 3 games out of 5 then win the 6th, and (6 choose 3) ways to make it to game 7 then win it all. Adding these all together gives you 35 possible winning outcomes, and by symmetry there are 35 more outcomes where the other team wins.
