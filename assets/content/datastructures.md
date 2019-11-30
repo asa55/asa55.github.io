@@ -8,6 +8,9 @@
 
 The Random Access Machine (RAM - which conveniently Random Access Memory implements) is a model of computation. Think of it as giant array of words (stored in a constant number of registers) that you can navigate by index. In constant time an algorithm used on an array can load and store a constant number of words, and do a constant number of computations.
 
+## Visualize Arrays as "Random Access" and Linked Lists as "Sequential Access"
+![wikipedia random access page](https://upload.wikimedia.org/wikipedia/commons/a/a7/Random_vs_sequential_access.svg)
+
 ## Linked Lists
 
 The Pointer Machine allows for dynamically allocated objects, each with a constant number of "fields" (either a word or a pointer). A pointer is something that points to another object or to some special value null (referred to as null in JavaScript, None in Python). Modern languages tend to call pointers "references".
