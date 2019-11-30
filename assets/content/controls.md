@@ -40,20 +40,56 @@ I'm going to skip the theory on this one, because there is a lot but the only th
 * If you can't "just try" PID or if you did and the performance wasn't good enough, you'll probably need to turn to other control system methods
    * How easy is it to model? 
       * Easy --> optimal or nonlinear control
-      * Easy but with uncertainties --> robust or optimal control
+      * Easy but with uncertainties --> robust or adaptive control
       * Difficult --> underactuated control
    * I didn't comment on the fact that classical control lives in an analog world, but the control system implementations are all digital. If you're in an industrial setting and using industrial control equipment (like a PLC or PAC), it probably has PID functionality built-in. If not and you need to implement your own from scratch (like on an embedded processor), you'll probably need to take a look at digital control to make sure you know the impact of how you decide to implement derivatives/integrals/a whole host of fun new numerics and sampling challenges
 
 ## Digital Control
 
-### I don't have a place for signal processing on this site yet... But for now here is a good place to discuss canonical sampling concerns, ADC/DAC, frequency domain and more
+I don't have a place for signal processing on this site yet... But for now here is a good place to discuss canonical sampling concerns, ADC/DAC, frequency domain and more
 
 ## Robust Control
 
+Robust control is an extension of linear control theory. Even though technically linear multivariable control systems could be considered a separate topic, I'm wrapping it up into robust control just to give the complete look at all things linear beyond classical control.
+
+The discussion on robust control will start with regular MIMO control, pole placement, and then dive into Q-parameterization, quantifying uncertainty, and mu-synthesis.
+
 ## Adaptive Control
+
+What do you do when you don't have a model? Adaptive control isn't it, but the good news is that if you have a model where the parameters are linearly seperable, then we can use adaptive control to estimate the parameters online, which is pretty cool and extremely useful (even as an alternative method for system identification).
+
+Also, a little less strictly, you can pick among certain reasonable models in standard-form and adapt to the parameters of that model. This is basically just a minor workaround to the situation where you don't have an existing form for a model for your system, but you still want the benefits of adaptive control (namely that performance can be optimized in real-time online while the system is live).
 
 ## Optimal Control
 
+* Discrete time optimal control
+* Continuous time optimal control
+* LQ
+* LQR
+* Finite horizon
+* Infinite horizon
+* Pontryagin's Principle, Hamilton-Jacobi-Bellman Equation
+* Calculus of Variations, cost, Lagrangian, constraints
+* The Riccati Equation and the Algebraic Riccati Equation
+* Model Predictive Control (MPC) (Receding Horizon Control)
+
 ## Nonlinear Control
 
+* [Models for common nonlinearities](https://abrarhashmi.files.wordpress.com/2017/03/hassan-k-khalil-nonlinear-systems-prentice-hall-2002.pdf) (static friction, Coulomb friction, linear viscous friction, Stribeck effect, relay, saturation, quantization, dead zone)
+* Lyapunov stability
+* limit cycles
+* bifurcation
+* chaos
+* multiple equilibria
+* finite escape time
+* gain scheduling
+* feedback linearization
+* sliding mode control
+* integral backstepping
+* passivity based control
+* Lyapunov redesign
+* sliding mode control
+
 ## Underactuated Control
+
+I didn't know Russ Tedrake recorded [this class](http://underactuated.mit.edu/underactuated.html) again earlier this year!! I met someone who took this class with him not too long ago, and I've watched the recordings and read the course notes from a few years ago. I'm due for a refresh and can't wait to see how his team has evolved their nonlinear systems software package, Drake. So much to say here, but the learning-based controls are our path to the future for certain
