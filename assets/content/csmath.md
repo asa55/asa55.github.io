@@ -1,4 +1,8 @@
-## Another topic I've been thinking about recently is related to counting probabilities
+# Math!
+
+## I haven't decided how far I'm going to take this outside of discrete math. There are tons of concepts worth exploring, so I'll have to iterate over this a few times at least as I consider how I want to constrain the scope of this page. A few notes from me to myself are below
+
+## A topic I've been thinking about recently is related to counting probabilities
 
 Years ago in a class called Analysis of Stochastic Processes, my instructor asked a toy problem on a quiz. His favorite Boston baseball team went to the world series, where the best team out of 7 games wins it all. I chewed on that for a few minutes thinking about it as a tree diagram, and trying to wrap my head around accounting for early termination by winning it all after only 4 games. After a meager attempt at drawing the tree on the back of the exam, I realized this method was too complex to draw out. One way to come to the right answer, and I suspect the way he was looking for, was to use a few observations in disjointed sets and the pigeonhole property to realize that there is only one way to win 4 games, (4 choose 3) ways to win 3 games out of 4 then win the 5th, (5 choose 3) ways to win 3 games out of 5 then win the 6th, and (6 choose 3) ways to make it to game 7 then win it all. Adding these all together gives you 35 possible winning outcomes, and by symmetry there are 35 more outcomes where the other team wins.
 
@@ -10,7 +14,7 @@ I realize this discussion probably makes little sense to anybody else reading th
 
 ## New Topic: Any sane person would conjecture that P does not equal NP... But hear me out
 
-In the 2015 version of MIT 6.006 posted online, Dr. Eric comments that saying P=NP is similar to saying that we can construct some magic box that can pick the right guess on the first try every time. This is an oversimplification of his claim. But I'm jotting this down to remind myself of the thought that crossed my mind. Isn't this exactly what quantum computers are doing? All answers are true and false simultaneously and the right answer is returned in a single op. This is my assumption but I recall this being one of the major advantages of quantum computing. So if that's the case, didn't we build the 'magic box'? My conjecture is that there is a reduction that can be applied here that would get us to P=NP
+In the 2015 version of MIT 6.006 posted online, Dr. Eric comments that saying [P=NP](https://www.win.tue.nl/~gwoegi/P-versus-NP.htm) is similar to saying that we can construct some magic box that can pick the right guess on the first try every time. This is an oversimplification of his claim. But I'm jotting this down to remind myself of the thought that crossed my mind. Isn't this exactly what quantum computers are doing? All answers are true and false simultaneously and the right answer is returned in a single op. This is my assumption but I recall this being one of the major advantages of quantum computing. So if that's the case, didn't we build the 'magic box'? My conjecture is that there is a reduction that can be applied here that would get us to P=NP
 
 ## Recursion is a great topic here as it implements inductive logic... Maybe put an example up of the Towers of Hanoi
 
