@@ -1,4 +1,4 @@
-# ML / AI
+# Machine Learning and Artificial Intelligence Algorithms
 
 ## Where can I begin - I'll go through the canonical algorithms for sure but I'm going to focus heavily on RL here...
 

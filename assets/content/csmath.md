@@ -1,4 +1,4 @@
-# Math!
+# Math for Computer Science and More
 
 ## I haven't decided how far I'm going to take this outside of discrete math. There are tons of concepts worth exploring, so I'll have to iterate over this a few times at least as I consider how I want to constrain the scope of this page. A few notes from me to myself are below
 

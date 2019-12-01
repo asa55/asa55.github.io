@@ -1,4 +1,4 @@
-# Controls
+# Control Systems and Robotics
 
 Control systems are awesome, cross-disciplinary tools that take your systems from "where they are" to "where they ought to be". There is so much buried in that statement, but for now I'll assume the reader has a conceptual understanding of the role of feedback in system design
 
