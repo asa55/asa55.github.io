@@ -1,6 +1,6 @@
 # Operating Systems
 
-## Complexity limits what we can build, but can be limited with modularity and abstraction. Operating systems enforce modularity on a single machine ([MIT 6.033, Spring 2018](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2018/week-1/MIT6_033S18lec1.pdf))
+## Complexity limits what we can build, but can be mitigated with modularity and abstraction. Operating systems enforce modularity on a single machine ([MIT 6.033, Spring 2018](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2018/index.htm))
 
 In order to enforce modularity and build an effective OS:
 1. Programs shouldn't be able to refer to (or corrupt) each others' memory
