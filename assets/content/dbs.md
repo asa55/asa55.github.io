@@ -1,6 +1,6 @@
 # Databases
 
-When it cones to the basics of databases, Beck Williams says it all in [his post on Medium](https://medium.com/@rwilliams_bv/intro-to-databases-for-people-who-dont-know-a-whole-lot-about-them-a64ae9af712)
+When it comes to the basics of databases, Beck Williams says it all in [his post on Medium](https://medium.com/@rwilliams_bv/intro-to-databases-for-people-who-dont-know-a-whole-lot-about-them-a64ae9af712)
 
 When it comes to relational or nonrelational databases, they're just places where you can store things. Even then, you typically don't keep heavy data sitting around in a database because [there are other sensible options](https://dba.stackexchange.com/questions/2445/should-binary-files-be-stored-in-the-database) such as including references in the database to data-intensive files that live in a separate fileserver.
 
