@@ -2,7 +2,7 @@
 
 ## Every AWS Cloud Service in 5 Minutes or Less
 
-|Topic| Name | Alternate Name | What it does | How much it costs |
+|Topic| Name | Full Name | What it does | What it costs |
 |-|-|-|-|-|
 |Compute|EC2|Elastic Cloud Compute|||
 |Compute|Lightsail||||
