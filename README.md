@@ -1,5 +1,7 @@
 # Check out [my GitHub Pages site (asa55.github.io)](https://asa55.github.io)!
 
-## I'm in the middle of a refresh of this site... the following notes are to myself:
+## A note on the implementation for this site:
+### The navbar on the left scrolls separately from the content window (where you're reading now) - depending on your screen size you might be able to find more content this way
+### The content is stored in markdown (.md) files. This is rendered nicely in your browser thanks to zero-md
 
-I have some updates to make regarding OOP and examples. I'm thinking it will be helpful to show implementations of data structures singly/doubly linked lists, max/min heaps, binary search trees and AVL trees, a few types of graphs, and possibly to highlight some of the environment differences given that JS is typically running in Node or a browser. I don't know if I'll show implementations of hashes, stacks, or queues because these are both built in to Python and JS. I'll consider throwing a few algorithms in as well - likely the most common comparison model and non-comparison model sorts, shortest path problems with Dijkstras algorithm and some variants, dynamic programming, the knapsack problem, maybe others
+### Markdown supports inline html but script imports break MVC, not to mention Zero-MD attaches my markdown content as a shadow DOM, and there are good reasons you don't want to cross the shadow boundary but in my case it's not ideal. So to simplify things I split the MD files and insert interactive elements as top level DOM elements
