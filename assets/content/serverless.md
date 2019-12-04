@@ -14,3 +14,13 @@ To visualize what this is all about, see [this classic tutorial from AWS](https:
 * Flexible scaling and pay for value
    * The serverless model is pay-as-you-go. Serverless providers charge for units of consumption rather than units of individual servers
 
+## The Serverless Manifesto
+
+* Functions are the unit of deploying and scaling
+* No machines, VMs, or containers visible in the programming model
+* Permanent storage lives elsewhere
+* Scales per request. Users cannot over- or under-provision capacity
+* Never pay for idle (no cold servers/containers or their costs)
+* Implicitly fault tolerant because functions can run anywhere
+* BYOC - Bring your own code
+* Metrics and logging are a universal right
