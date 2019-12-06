@@ -17,4 +17,8 @@ Check out NVIDIA's [Deep Learning Institute!](https://www.nvidia.com/en-us/deep-
 
 ## 1-D Operations
 
+* Write custom CUDA kernels in Python and launch them with an execution configuration.
+* Utilize grid stride loops for working in parallel over large data sets and leveraging memory coalescing.
+* Use atomic operations to avoid race conditions when working in parallel.
+
 ## 2-D Operations
