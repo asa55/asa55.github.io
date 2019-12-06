@@ -6,6 +6,10 @@
 
 # Architecture
 
+* React
+* Chromium
+* GraphQL
+
 ## Firewalls
 
 ## Load Balancers
