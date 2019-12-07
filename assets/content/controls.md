@@ -4,6 +4,8 @@ Control systems are awesome, cross-disciplinary tools that take your systems fro
 
 ## I need to get OpenAI Gym in browser, but if I can't get that to work I'll opt for MatterJS
 
+## Modeling Dynamic Systems and System Identification
+
 ## Classical Control
 
 The systems appropriately captured by this subset of control theory are few. Classical control lives in a single-input-single-output (SISO) linear world (not time varying, but possibly with some time delay).
