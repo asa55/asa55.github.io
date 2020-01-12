@@ -33,6 +33,8 @@ So when it comes to motivation:
  6. Do not procrastinate
  7. Previous mistakes are just test results that can be used to help you learn
 
+ But don't take my word for it - a closing note on mastery that I love to keep in mind when it comes to "internet research" (anything I want to know more about that's not the topic of formally peer-reviewed research), one thing I love to do is to search a topic on Google, ctrl+click (or command+click on Mac) all of the first 3 pages of Google results (which opens a new tab for each page in your browser) then search with different wording a few times and do the same thing until I have upwards of 50 - 80 tabs open from tons of different sources. But you'll quickly see that lots of the results are dead-links or just garbage, so once you close out all but the quality results, you'll find you can count on one hand the number of open tabs remaining. Then you can read those thoroughly. For any topic you can imagine, there is a ton of great content out there, and it can be hard to filter through the noise. This is how I attempt to. This is how I learned a variety of technical topics and even topics I'm relaying here on this blog, though I'm making a more conscientious effort to record my sources now that I'm writing all of this down to share on the internet.
+
  ASA (some time in early 2019)
 
 ## On the value of a PhD for Engineers
