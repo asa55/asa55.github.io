@@ -2,6 +2,39 @@
 
 I realize to an extent experts should "stay in their lane". My expertise is in engineering, but my interests include almost everything. I may comment on lots of topics here where you could rightly question my authority to make such claims, and with that in mind I will attempt to expose my line of reasoning openly enough that you can attack my premises rather than perceptions of my expertise.
 
+## On Goals, Motivation, and Mastery
+
+I've always been interested in what it takes to be proficient or expert in a topic. I found recently that "expert" is really just media-speak without well-defined meaning, but that aside we can improve our relative proficiency to be better than we were before, and we can measure that performance to verify our progress.
+
+A few years ago, I read [The 4 Hour Work Week](https://www.youtube.com/watch?v=eUTDhLPpP9o) by Tim Ferriss. At the outset of my career, it posed a very refreshing look at how life might shake out given various career approaches in addition to the standard Nine-to-Five. I'm less interested in doing one thing extremely well than I am in doing many things very well. To that end, I really loved the [TED Talk on The First 20 Hours](https://www.youtube.com/watch?v=5MgBikgcWnY), which details the art of deconstruction and attaining some degree of mastery. I'm not sure if it's backed by unbiased research other than that of the presenter, but it certainly sounds good.
+
+Jeff Kaufmann states that to learn:
+
+* Decide exactly what you want to be able to do
+* Get far enough along that you can start learning and self-correct
+   * Definitely don't say "I'm going to read all these things first" - that's procrastination
+* Remove barriers to practice, as this increases the likelihood of success
+
+The first two points agree with some key takeaways from  [Turn the Ship Around](https://ti-pdf-uploads.s3.amazonaws.com/a2db0dfc-5ef0-4885-bc3c-d7ff27972c4a/pdf_output/English/118723063.pdf?AWSAccessKeyId=AKIAIQBOMCVUHTOT3DFQ&Expires=1578866811&Signature=bl7t0S78p%2B7qT6gf74dq6sak3Fg%3D) by David Marquet, and these points definitely satisfy all the requirements of motivation that you'll read elsewhere. Structure your living quarters to make things you want to do easier to do, and things you should avoid doing even harder to do. Example: if you want to watch less TV, don't have one in every room.
+
+It's definitely all about practice. The question is "how much", and the answer in all cases is to deconstruct the task into simpler tasks, then practice those simpler tasks. You'll know how much to practice each element once you've deconstructed it into bite-sized chunks.
+
+Here's an example: if you want to be a better storyteller, document stories you already know, catalogue them by effect (the one you intend for the audience), then practice each story and memorize the associated effect for that story. In the future when you want to tell a story that conveys a feeling or a certain message to an audience (say you're holding a meeting at work), you've already mastered the mechanics of telling the story and you know which ones are applicable - so just pull the canned story out of your mental library and go. You will instantly be perceived as a better storyteller.
+
+Here's another example: you shouldn't "save articles for later" no matter how cool, interesting, or tempting. If you don't have the motivation or interest to read it right now, or if you don't have a specific time in mind as to when you'll get around to reading it, you're better off not letting it clutter up your bookmarks/favorites/open tabs in your browser. The reason for this is that there are lots of great things to read, and you'll find them all the time. Your curiosity will lead you to them at the appropriate times, and there is no reason to let yourself get overwhelmed by all the blog or book recommendations you made to your future-self. Read them or delete them - you will feel more free if you're anything like me.
+
+So when it comes to motivation:
+
+ 1. Have a reason
+ 2. Visualize your goal
+ 3. Have a plan
+ 4. Take small steps
+ 5. Don't compare yourself to others
+ 6. Do not procrastinate
+ 7. Previous mistakes are just test results that can be used to help you learn
+
+ ASA (some time in early 2019)
+
 ## On the value of a PhD for Engineers
 
 You will hear from your profs that you need to get the PhD - they of course have a vested interest in feeding the education system. You will hear from your managers that the PhD is something you can do "if you want to" - but they aren't referring to your value to humanity so much as they're referring to "the person that works for them in this role". Your friends and family will have their own wildly varying opinions.
@@ -80,6 +113,28 @@ I've been handling my workouts as a game, and it has been a blast so far. I have
    11. People may disagree with the specifics of this methodology, but with bench as an example, I conjecture anyone would agree that if you accomplish 10,000 reps at a given weight you're ready to add a few pounds, and I further conjecture that if you accomplish 10,000 reps at a "high weight" (315 lbs for example), you'll perceive yourself to be "strong" or at least stronger than you were
 
 ASA 1/1/2020
+
+## On Leadership
+
+For the longest time, I considered myself to only ever be on the "technical track" as opposed to the "management track" at work. In my line of business, we are very engineer-heavy. Which I obviously personally think is great. The formula is: get a high GPA, get hired here as an engineer, choose your own adventure, retire as an engineer that's paid more than when you started or as a manager that's paid more than when your engineers ended. Aside from the allure of the money, which wasn't quite enough to persuade me to join the dark side, some of my friends started along the management track that I wouldn't necessarily have expected. So they're picking up insights and passing them to me as they go along, which has helped shape my perspective.
+
+The most compelling sell was that a key function of (first-line) management is to help set the technical strategic direction of their unit. In the earliest stages of my career as an engineer, I had been plagued with the issue that (to my knowledge) all engineers who are just starting out are subjected to. The senior engineers assume that if you're younger than them, you're not in a position to make desicions. This is not a great attitude to say the least, and there's honestly not a ton of senior engineers that will treat you that way but it only takes a few bad apples to spoil the bunch.
+
+Now that I'm mentoring new engineers to the company, I am making a conscientious effort to empower their decisions as they learn the ropes of the company. It's tempting to write people off and assume they're coming in Tabula Rasa - maybe it makes you feel experienced or in some way better - but aside from brushing your own ego, that's a contest nobody wins. Everyone has unique perspectives and knowledge that I can appreciate and benefit from, as long as I remain careful to keep myself humble to the fact that this will always remain true throughout my entire career.
+
+Personally, I find that beginning with the end in mind is an absolute strongsuit of mine. I've been told that engineers are passionate about completing their projects and doing a great job. Of course I am, but only if it's meeting some bottom line. I have no issue at all dropping a project that's 90% if we realized late-stage it's all of the sudden leading to a dead-end. The completionist in me is not as opinionated as the strategist.
+
+After voicing an interest in going the management route, my boss recommended a great book to me that is relevant in many ways to our line of work. It's called [Turn the Ship Around](https://ti-pdf-uploads.s3.amazonaws.com/a2db0dfc-5ef0-4885-bc3c-d7ff27972c4a/pdf_output/English/118723063.pdf?AWSAccessKeyId=AKIAIQBOMCVUHTOT3DFQ&Expires=1578866811&Signature=bl7t0S78p%2B7qT6gf74dq6sak3Fg%3D), and a highly recommended read for managers and new engineers alike.
+
+It hits my frustrations from my early career as an engineer straight on the head, and discusses:
+1. The inherent frustrations that stem from the leader-follower approach to leadership
+2. How to set up a working system that empowers the entire chain of command to do their best work
+3. Why this isn't straightforward and the pressures that make it feel easier to jut give up and go back to the leader-follower model
+4. The benefits of persisting with an empowering approach
+
+If you're an early stage engineer who has been exposed to the pain of the leader-follower model, just know that there are other ways, that there are reasons those methods probably haven't caught on at your place of work, and if you can understand the perspective of the people you're working with, there is always the hope that you can effectively build your case to all stakeholders for the design path you feel is right. If waiting for respect to arise as a natureal consequence of your age and other people's unintentional cognitive bias isn't your style, I'd recommend you start preparing for your uphill battle by reading [Turn the Ship Around](https://ti-pdf-uploads.s3.amazonaws.com/a2db0dfc-5ef0-4885-bc3c-d7ff27972c4a/pdf_output/English/118723063.pdf?AWSAccessKeyId=AKIAIQBOMCVUHTOT3DFQ&Expires=1578866811&Signature=bl7t0S78p%2B7qT6gf74dq6sak3Fg%3D).
+
+ASA 1/3/2020
 
 ## Augmented Reality with Web Components
 
