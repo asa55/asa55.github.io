@@ -305,13 +305,9 @@ ASA 1/10/2020
 </p>
 </details>
 
-<details>
-
 ## On Optimistic Nihilism
 
-<summary>
-
-</summary>
+<details>
 
 Here's a fun one. Outside of the privacy of my own blog, I don't tend to bring this up because everyone is entitled to their own beliefs. I hope the reader understands that I am not attempting to convince them of anything regarding their system of beliefs. If this topic is something you'd rather not discuss, I encourage you to skip this section. For those of you who are interested and/or won't judge me negitively or positively on the basis of my beliefs, please read on.
 
