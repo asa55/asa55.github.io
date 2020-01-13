@@ -2,12 +2,12 @@
 
 I realize to an extent experts should "stay in their lane". My expertise is in engineering, but my interests include almost everything. I may comment on lots of topics here where you could rightly question my authority to make such claims, and with that in mind I will attempt to expose my line of reasoning openly enough that you can attack my premises rather than perceptions of my expertise.
 
-<details><summary>
-
 ## On Motivation and Mastery
 
+<details>
+<summary>
+...
 </summary>
-<p>
 
 I've always been interested in what it takes to be proficient or expert in a topic. I found recently that "expert" is really just media-speak without well-defined meaning, but that aside we can improve our relative proficiency to be better than we were before, and we can measure that performance to verify our progress.
 
@@ -41,16 +41,14 @@ So when it comes to motivation:
 But don't take my word for it - a closing note on mastery that I love to keep in mind when it comes to "internet research" (anything I want to know more about that's not the topic of formally peer-reviewed research), one thing I love to do is to search a topic on Google, ctrl+click (or command+click on Mac) all of the first 3 pages of Google results (which opens a new tab for each page in your browser) then search with different wording a few times and do the same thing until I have dozens of tabs open from various sources. Many results are dead-links or just poorly written, so once you close out all but the quality results, you'll find you can count on one hand the number of open tabs remaining. Then you can read those thoroughly. For any topic you can imagine, there is a ton of great content out there, and it can be hard to filter through the noise. This is how I attempt to, and is exactly how I learned a variety of technical topics and even topics I'm relaying here on this blog.
 
 ASA 1/12/2020
-
-</p>
 </details>
-
-<details><summary>
 
 ## On Life Goals
 
+<details>
+<summary>
+...
 </summary>
-<p>
 
 Realize that at this point in my life I have a stable job, a Master's degree, an apartment, a fiancee, a dog, and while there are clearly more major life goals to accomplish, my notions of what I feel are important are vastly different than when (for example) I was graduating high school and had high ambition but low circumstantial stability. Based on this, I have every reason to believe that my perspectives and values will change again over time.
 
@@ -107,16 +105,14 @@ This isn't unlike an approach Ben Franklin used when he wanted to improve his be
 I was able to schedule each of these tasks into a small weekly calendar. The calendar only lists the actions I intend to take, but I like to keep in mind that I am doing these things with more abstract goals in mind. I realize that I can't always keep the regularity in my schedule that I'd like, but I try to stay on track and it's okay if I falter some days. In addition, these objectives don't occupy my entire day, so there's plenty of room for me to do other things (like playing video games or taking the car to the shop or other emergent tasks). Lastly and most importantly I embrace optimistic nihilism (discussed in another post), so none of this makes me better or more whole than I would be if I didn't do it. I just want to do these things, mainly because I found over the course of my life so far that these types of tasks tend to result in me feeling happier. And that's more than enough reason to pursue them.
 
 ASA 1/12/2020
-
-</p>
 </details>
-
-<details><summary>
 
 ## On Entrepreneurship and Small Business
 
+<details>
+<summary>
+...
 </summary>
-<p>
 
 I have tried a myriad of things to succeed in small business. It is extremely difficult. For a little bit of context, I have always considered myself a risk taker, technically competent, quick to learn, and all of the things that I assumed would make for a great entrepreneur. As of the time of this writing, I've made more money on lemonade sales as a kid than I have in any of my side gigs as an adult. Granted, my mom got me down to the strip district on weekends in the city of Pittsburgh where my little stand was pulling in over thirty bucks an hour after accounting for the cost of materials. Not bad for a snot-nosed kid, I think. I sold items on eBay, on Amazon, opened a stock trading account with ScotTrade for my mom (who never had traded stocks herself) and tinkered around with a thousand bucks I saved up in quarters up to age 16. These were all of the hallmarks of an entrepreneur, I believed.
 
@@ -141,16 +137,14 @@ Honestly this is where I am today. I haven't yet dissolved Neurobi, as I have ye
 After two full years of nothing but pain and financial loss, you'd think I should be broken and retire to the sweet relief of my day job. You'd be right - it is very comfortable in room 105. It is seriously tempting. The money is fine, the people are funny, the job is stable and the lifestyle is consistent with many of my life goals. Though this last year dealt a devastating blow to my motivation to pursue technical startups, I haven't quite yet shook off the vestiges of my ambitions. Make no mistake that it would be a lot easier for me to go to medical school or law school or just target being a technical manager at this point and make vastly more money on any of these paths. A lot of my friends I started with as engineers at this company out of college are making these very decisions and meeting great success. Is this right for me? Am I really only in it for the money? Parts of me say yes, but the innovator in my blood is screaming that something about this picture isn't right. Is diverting away from science and technology to these other paths really the best thing I can do to contribute to society in my finite lifetime? If not then why is there so much pain and resistance along the path of technical excellence? Have I not paid my dues? I know the answer to many of these questions, I just don't like the truth and I'm constantly meditating on ways to change this depressing reality that gravitates all technical talent away from the path of unique innovation. Until I come up with a solution to this most fundamentally flawed societal challenge, I have a lot more thinking to do.
 
 ASA 1/12/2020
-
-</p>
 </details>
-
-<details><summary>
 
 ## On the value of a PhD for Engineers
 
+<details>
+<summary>
+...
 </summary>
-<p>
 
 You will hear from your profs that you need to get the PhD - they of course have a vested interest in feeding the education system. You will hear from your managers that the PhD is something you can do "if you want to" - but they aren't referring to your value to humanity so much as they're referring to "the person that works for them in this role". Your friends and family will have their own wildly varying opinions.
 
@@ -177,16 +171,14 @@ I can't say for sure that my research or anyone else's will benefit society, but
 Even though I maintain a 4.0 GPA in grad school, this marks my last semester in my PhD. I hope I have a reason to come back.
 
 ASA 12/31/2019
-
-</p>
 </details>
-
-<details><summary>
 
 ## Gamifying Exercise
 
+<details>
+<summary>
+...
 </summary>
-<p>
 
 I've been handling my workouts as a game, and it has been a blast so far. I have pages of notes as to why this is a reasonable approach, but to keep this post short I'll just explain the mechanics of the game:
 
@@ -236,16 +228,14 @@ I've been handling my workouts as a game, and it has been a blast so far. I have
    11. People may disagree with the specifics of this methodology, but with bench as an example, I conjecture anyone would agree that if you accomplish 10,000 reps at a given weight you're ready to add a few pounds, and I further conjecture that if you accomplish 10,000 reps at a "high weight" (315 lbs for example), you'll perceive yourself to be "strong" or at least stronger than you were
 
 ASA 1/1/2020
-
-</p>
 </details>
-
-<details><summary>
 
 ## On Leadership
 
+<details>
+<summary>
+...
 </summary>
-<p>
 
 For the longest time, I considered myself to only ever be on the "technical track" as opposed to the "management track" at work. In my line of business, we are very engineer-heavy. Which I obviously personally think is great. The formula is: get a high GPA, get hired here as an engineer, choose your own adventure, retire as an engineer that's paid more than when you started or as a manager that's paid more than when your engineers ended. Aside from the allure of the money, which wasn't quite enough to persuade me to join the dark side, some of my friends started along the management track that I wouldn't necessarily have expected. So they're picking up insights and passing them to me as they go along, which has helped shape my perspective.
 
@@ -266,16 +256,14 @@ It hits my frustrations from my early career as an engineer straight on the head
 If you're an early stage engineer who has been exposed to the pain of the leader-follower model, just know that there are other ways, that there are reasons those methods probably haven't caught on at your place of work, and if you can understand the perspective of the people you're working with, there is always the hope that you can effectively build your case to all stakeholders for the design path you feel is right. If waiting for respect to arise as a natureal consequence of your age and other people's unintentional cognitive bias isn't your style, I'd recommend you start preparing for your uphill battle by reading [Turn the Ship Around](https://ti-pdf-uploads.s3.amazonaws.com/a2db0dfc-5ef0-4885-bc3c-d7ff27972c4a/pdf_output/English/118723063.pdf?AWSAccessKeyId=AKIAIQBOMCVUHTOT3DFQ&Expires=1578866811&Signature=bl7t0S78p%2B7qT6gf74dq6sak3Fg%3D).
 
 ASA 1/3/2020
-
-</p>
 </details>
-
-<details><summary>
 
 ## Augmented Reality with Web Components
 
+<details>
+<summary>
+...
 </summary>
-<p>
 
 Web components are great, aren't they? If you do web development professionally or as a hobby, you've probably come across new features known as web components that make life a lot easier.
 
@@ -301,13 +289,14 @@ The basic idea is super simple:
 It's a great tool and the project took only an afternoon to complete. If you're viewing this page on your mobile device, [check out the model at this link](https://asa55.github.io/fun-with-scene-viewer/) to see the 3D model, then click the AR function button in the bottom right corner of the 3D model to activate AR mode and see it in the room you're currently in via your camera feed!
 
 ASA 1/10/2020
-
-</p>
 </details>
 
 ## On Optimistic Nihilism
 
 <details>
+<summary>
+...
+</summary>
 
 Here's a fun one. Outside of the privacy of my own blog, I don't tend to bring this up because everyone is entitled to their own beliefs. I hope the reader understands that I am not attempting to convince them of anything regarding their system of beliefs. If this topic is something you'd rather not discuss, I encourage you to skip this section. For those of you who are interested and/or won't judge me negitively or positively on the basis of my beliefs, please read on.
 
