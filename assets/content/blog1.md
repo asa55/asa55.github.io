@@ -2,13 +2,13 @@
 
 I realize to an extent experts should "stay in their lane". My expertise is in engineering, but my interests include almost everything. I may comment on lots of topics here where you could rightly question my authority to make such claims, and with that in mind I will attempt to expose my line of reasoning openly enough that you can attack my premises rather than perceptions of my expertise.
 
-## On Goals, Motivation, and Mastery
+## On Motivation and Mastery
 
 I've always been interested in what it takes to be proficient or expert in a topic. I found recently that "expert" is really just media-speak without well-defined meaning, but that aside we can improve our relative proficiency to be better than we were before, and we can measure that performance to verify our progress.
 
-A few years ago, I read [The 4 Hour Work Week](https://www.youtube.com/watch?v=eUTDhLPpP9o) by Tim Ferriss. At the outset of my career, it posed a very refreshing look at how life might shake out given various career approaches in addition to the standard Nine-to-Five. I'm less interested in doing one thing extremely well than I am in doing many things very well. To that end, I really loved the [TED Talk on The First 20 Hours](https://www.youtube.com/watch?v=5MgBikgcWnY), which details the art of deconstruction and attaining some degree of mastery. I'm not sure if it's backed by unbiased research other than that of the presenter, but it certainly sounds good.
+A few years ago, I read [The 4 Hour Work Week](https://www.youtube.com/watch?v=eUTDhLPpP9o) by Tim Ferriss. At the outset of my career, it posed a very refreshing look at how life might shake out given various career approaches in addition to the standard Nine-to-Five. I'm less interested in doing one thing extremely well than I am in doing many things very well. To that end, I really loved the [TED Talk on The First 20 Hours](https://www.youtube.com/watch?v=5MgBikgcWnY), which details the art of deconstruction and attaining some degree of mastery. I'm not sure if it's backed by unbiased research other than that of the presenter, but it certainly sounds good and there is merit to the 80/20 principle.
 
-Jeff Kaufmann states that to learn:
+Josh Kaufman states that to learn:
 
 * Decide exactly what you want to be able to do
 * Get far enough along that you can start learning and self-correct
@@ -25,17 +25,101 @@ Here's another example: you shouldn't "save articles for later" no matter how co
 
 So when it comes to motivation:
 
- 1. Have a reason
- 2. Visualize your goal
- 3. Have a plan
- 4. Take small steps
- 5. Don't compare yourself to others
- 6. Do not procrastinate
- 7. Previous mistakes are just test results that can be used to help you learn
+1. Have a reason
+2. Visualize your goal
+3. Have a plan
+4. Take small steps
+5. Don't compare yourself to others
+6. Do not procrastinate
+7. Previous mistakes are just test results that can be used to help you learn
 
- But don't take my word for it - a closing note on mastery that I love to keep in mind when it comes to "internet research" (anything I want to know more about that's not the topic of formally peer-reviewed research), one thing I love to do is to search a topic on Google, ctrl+click (or command+click on Mac) all of the first 3 pages of Google results (which opens a new tab for each page in your browser) then search with different wording a few times and do the same thing until I have upwards of 50 - 80 tabs open from tons of different sources. But you'll quickly see that lots of the results are dead-links or just garbage, so once you close out all but the quality results, you'll find you can count on one hand the number of open tabs remaining. Then you can read those thoroughly. For any topic you can imagine, there is a ton of great content out there, and it can be hard to filter through the noise. This is how I attempt to. This is how I learned a variety of technical topics and even topics I'm relaying here on this blog, though I'm making a more conscientious effort to record my sources now that I'm writing all of this down to share on the internet.
+But don't take my word for it - a closing note on mastery that I love to keep in mind when it comes to "internet research" (anything I want to know more about that's not the topic of formally peer-reviewed research), one thing I love to do is to search a topic on Google, ctrl+click (or command+click on Mac) all of the first 3 pages of Google results (which opens a new tab for each page in your browser) then search with different wording a few times and do the same thing until I have dozens of tabs open from various sources. Many results are dead-links or just poorly written, so once you close out all but the quality results, you'll find you can count on one hand the number of open tabs remaining. Then you can read those thoroughly. For any topic you can imagine, there is a ton of great content out there, and it can be hard to filter through the noise. This is how I attempt to, and is exactly how I learned a variety of technical topics and even topics I'm relaying here on this blog.
 
- ASA (some time in early 2019)
+ASA 1/12/2020
+
+## On Life Goals
+
+Realize that at this point in my life I have a stable job, a Master's degree, an apartment, a fiancee, a dog, and while there are clearly more major life goals to accomplish, my notions of what I feel are important are vastly different than when (for example) I was graduating high school and had high ambition but low circumstantial stability. Based on this, I have every reason to believe that my perspectives and values will change again over time.
+
+I find currently that my objectives are dominated by sustaining day-to-day stability as my fiancee and I try to maintain a positive trajectory for ourselves and our small family. (I don't think I should put that last word in quotes here because it's really a family, just not the house-and-kids kind).
+
+With that context in mind, I started by accepting the fact that the finite-lifetime-phenomenon (as my friend and mentor Dr. Christopher Taudt over in Germany likes to call it) is very real. I can't do it all, though not for lack of trying. My typical mode of operation is to pick one thing, and work on it obsessively until I have achieved my mission, then go onto the next thing. It's like taking single-tasking to an extreme. I love getting entirely absorbed in what I'm working on. But I realize that this approach is an ideal that I can't sustain now that there are many battles I need to fight on a day-to-day basis, and I would rather keep all of these goals healthy rather than excel beyond all reason in a single one of them while others fall apart.
+
+I started by going through many lists of adjectives that I wanted to consider myself, work towards, or be described as by others. The list I came up with included:
+
+* Handsome
+* Healthy
+* Strong
+* Stylish
+* Creative
+* Smart
+* Present
+* Sociable
+* Positive
+* Witty
+* Worldly
+* Interesting
+* Organized
+* Confident
+* Dependable
+* Adept
+* Entrepreneurial
+* Mature
+
+Some of these are shallow and ill-defined. That's okay, because the goal is to make myself feel as though I'm moving in what I consider to be a better direction as a person, a finace, an employee, and other areas relevant to my own life.
+
+So the next thing to do is to map these objectives to things I can do that I perceive will move me closer to attaining these goals. Of course, the mapping I come up with is hardly scientific - though in the case of being mentally present and being positive, there is some research demonstrating the means selected will move me closer to my desired end.
+
+This isn't unlike an approach Ben Franklin used when he wanted to improve his behavior. He kept a pocket notebook where he would evaluate how well he upheld his goals that day / week. My method is slightly different, where I work on specific tasks according to a schedule I've set for myself. These tasks are:
+
+* Handsome --> Groom regularly
+* Healthy --> Watch my diet
+* Strong --> Exercise regularly
+* Stylish --> Maintain wardrobe
+* Creative --> Work on projects
+* Smart --> Study regularly
+* Present --> Meditate regularly (check out the Headspace app before you judge me on this please!)
+* Sociable --> Participate in events
+* Positive --> Gratitude journal
+* Witty --> Practice jokes (look up humor simplified & demystified)
+* Worldly --> Stay approximately up to date on some pop-culture and news topics
+* Interesting --> Practice speaking with emphasis
+* Organized --> Tidy up regularly (at home and at work)
+* Confident --> Practice posture
+* Dependable --> Keep going to work
+* Adept --> Methodically approach new skills
+* Entrepreneurial --> Maintain participation in small business interests
+* Mature --> Don't judge, accept myself and others as we are today, recognize that I don't "know it all", be willing to change and welcome criticism, eliminate addictions (in my case, the habit of single-tasking), say no to myself and to others without hesitation, set goals, get to work, move forward, embrace self discipline, avoid complaining
+
+I was able to schedule each of these tasks into a small weekly calendar. The calendar only lists the actions I intend to take, but I like to keep in mind that I am doing these things with more abstract goals in mind. I realize that I can't always keep the regularity in my schedule that I'd like, but I try to stay on track and it's okay if I falter some days. In addition, these objectives don't occupy my entire day, so there's plenty of room for me to do other things (like playing video games or taking the car to the shop or other emergent tasks). Lastly and most importantly I embrace optimistic nihilism (discussed in another post), so none of this makes me better or more whole than I would be if I didn't do it. I just want to do these things, mainly because I found over the course of my life so far that these types of tasks tend to result in me feeling happier. And that's more than enough reason to pursue them.
+
+ASA 1/12/2020
+
+## On Entrepreneurship and Small Business
+
+I have tried a myriad of things to succeed in small business. It is extremely difficult. For a little bit of context, I have always considered myself a risk taker, technically competent, quick to learn, and all of the things that I assumed would make for a great entrepreneur. As of the time of this writing, I've made more money on lemonade sales as a kid than I have in any of my side gigs as an adult. Granted, my mom got me down to the strip district on weekends in the city of Pittsburgh where my little stand was pulling in over thirty bucks an hour after accounting for the cost of materials. Not bad for a snot-nosed kid, I think. I sold items on eBay, on Amazon, opened a stock trading account with ScotTrade for my mom (who never had traded stocks herself) and tinkered around with a thousand bucks I saved up in quarters up to age 16. These were all of the hallmarks of an entrepreneur, I believed.
+
+But I got through my technical training in college and went into an engineering career, expecting that this would prepare me for the world of taking my product development ambitions solo and making a living through my own business. Everyone will tell you that the world is primed for people like this, and that you're writing your own check. I can attest to the fact that it's not that easy - not at all.
+
+Circa 2018, I opened my first LLC, the Stronghold Homes Company. The aim of this business was to use a drop-shipping model to middle-man sales of home security equipment until I built up enough cash flow to invest in developing custom products of my own making. Even though I had a great brand and a document trail out the door for all the businesses that were willing to drop-ship on my company's behalf, and even though I had hundreds of products available on my website ranging from Tasers to pocket knives to bear spray, the business didn't come. I discovered the notion that "if you build it, they will come" does not apply on the internet. It is a vast ocean of data that, unlike my lemonade stand on prime real-estate in the city, simply didn't have the visibility. I didn't have the cash to invest in serious advertising outside of Google AdWords, and I didn't have the confidence that I could run the race to the bottom with other companies drop-shipping the same goods, and in two-days on Amazon no less. A trusted website where people don't hesitate to part with credit card information (for good reason, by the way). I realized that I would need to fight tooth and nail to get sales going for a smattering of other people's products I wasn't passionate about, and that there was no telling if I'd ever have the means to develop my own custom products. So I backed out and dissolved the company at the end of the year.
+
+The following year, 2019, was the year I turned to software. After learning my lesson in supply-chain management in the previous annum, I realized that if I could develop products in which I could control the distribution, then the options were limitless in terms of what I could sell at the outset. I have formal training in software development and even work experience in it. But it is difficult to bootstrap enough cash to find a stable means to replace your day job.
+
+Just a few months prior, a work associate told me about the SBIR program, or Small Business Innovation Research. It's a process in which all government agencies in the US are mandated to spend 3.5% of their research budget on small business research via grants and contracts, and a key goal of the program is to get budding small startups off the ground. It was awesome, and perfect for me. I opened a new LLC, Neurobi Company, with the mission of writing my first proposals and getting enough traction to launch into small business research.
+
+I've never had an issue coming up with ideas - that was the easy part for me. And I had a lot of technical writing experience from my day job. Writing bids for the Department of Transportation and the National Science Foundation was straightforward, but as with all associations with the government, very slow-moving. After six months of proposal writing and six months of painful waiting games, I got word that yet again my request had not been recommended for funding. Don't get me wrong, I learned a lot about the SBIR program and I believe I am a better technical writer becasue of it, but the agonizingly slow movement of the program ran my company into the ground. I have all of my communications and documents from this experience. If anybody is interested enough to ask to see it, I would gladly open-source the materials so you can see the level of effort involved and what didn't work for me.
+
+In the meanwhile, I started attending tech startup events around Pittsburgh. I met some very interesting entrepreneurs, heard stories of success then failure, failure then failure, and (very rarely) failure then success. I met some brilliant people who got their PhD's from MIT in robotics, took classes live and in person that I myself studied in the MOOC/OpenCourseWare environments when I'd self-study topics online, and literally knew some of my heroes first-hand. Even these people struggled to keep their businesses afloat. And if not them, what hope did I have? I know it's not as easy as "be technically competent, get your degree, innovate for the benefit of humanity, and prosper financially", but these people are having trouble putting food on the table for their families. I mean this was seriously disheartening for the fate of technically talented people who wanted to use their talents to the fullest, or even just do anything other than being an employee.
+
+I met a guy at work around that time that was a mirror into my own future. He told me he spent his life setting him up to build gadgets, and it never, ever took off for him. He has two successful daughters, a stable job and a happy family life. The tradeoff was that he ended up leaving his passions behind to work a stable job - same place I'm at now. He's a great asset to the company, no doubt, but I think of this man as "the tinkerer that never was". He told me two pieces of advice that I've never forgot: first, you need to be able to write your ideas down. It's important, because you'll need it as a talking point - specifically what he had in mind was a business plan. He also said it's important to be a finisher - to see tasks through to the bitter end. And if you're not, you need to find somebody who is. He said this from his experience in always getting pulled away from what he was working on to investigate some new latest-and-greatest idea, which he felt ultimately was part of his downfall.
+
+These ideas resonated with what I was hearing from the entrepreneurs downtown. At a panel discussion on Robotics and Artificial Intelligence Startups in Pittsburgh (spot on for what I was trying to do at the time), the idea that hit me the hardest was the notion of not trying to sell a solution to a problem nobody has. It was in this discussion tha the gurus from industry shared their tales of woe from times they thought they had something seriously great only to realize they were commercial disasters. Honestly I'd have loved to even got far enough along to fail as hard as they have. But it motivated me to really meditate on what it means to fail fast, be agile, and get meaningful customer feedback (noting that "focus groups lie" in the opinion of one man on the panel - so be mindful of where you're getting your data).
+
+Honestly this is where I am today. I haven't yet dissolved Neurobi, as I have yet mroe ideas brewing in the back of my mind.
+
+After two full years of nothing but pain and financial loss, you'd think I should be broken and retire to the sweet relief of my day job. You'd be right - it is very comfortable in room 105. It is seriously tempting. The money is fine, the people are funny, the job is stable and the lifestyle is consistent with many of my life goals. Though this last year dealt a devastating blow to my motivation to pursue technical startups, I haven't quite yet shook off the vestiges of my ambitions. Make no mistake that it would be a lot easier for me to go to medical school or law school or just target being a technical manager at this point and make vastly more money on any of these paths. A lot of my friends I started with as engineers at this company out of college are making these very decisions and meeting great success. Is this right for me? Am I really only in it for the money? Parts of me say yes, but the innovator in my blood is screaming that something about this picture isn't right. Is diverting away from science and technology to these other paths really the best thing I can do to contribute to society in my finite lifetime? If not then why is there so much pain and resistance along the path of technical excellence? Have I not paid my dues? I know the answer to many of these questions, I just don't like the truth and I'm constantly meditating on ways to change this depressing reality that gravitates all technical talent away from the path of unique innovation. Until I come up with a solution to this most fundamentally flawed societal challenge, I have a lot more thinking to do.
+
+ASA 1/12/2020
 
 ## On the value of a PhD for Engineers
 
