@@ -2,7 +2,12 @@
 
 I realize to an extent experts should "stay in their lane". My expertise is in engineering, but my interests include almost everything. I may comment on lots of topics here where you could rightly question my authority to make such claims, and with that in mind I will attempt to expose my line of reasoning openly enough that you can attack my premises rather than perceptions of my expertise.
 
+<details><summary>
+
 ## On Motivation and Mastery
+
+</summary>
+<p>
 
 I've always been interested in what it takes to be proficient or expert in a topic. I found recently that "expert" is really just media-speak without well-defined meaning, but that aside we can improve our relative proficiency to be better than we were before, and we can measure that performance to verify our progress.
 
@@ -37,7 +42,15 @@ But don't take my word for it - a closing note on mastery that I love to keep in
 
 ASA 1/12/2020
 
+</p>
+</details>
+
+<details><summary>
+
 ## On Life Goals
+
+</summary>
+<p>
 
 Realize that at this point in my life I have a stable job, a Master's degree, an apartment, a fiancee, a dog, and while there are clearly more major life goals to accomplish, my notions of what I feel are important are vastly different than when (for example) I was graduating high school and had high ambition but low circumstantial stability. Based on this, I have every reason to believe that my perspectives and values will change again over time.
 
@@ -95,7 +108,15 @@ I was able to schedule each of these tasks into a small weekly calendar. The cal
 
 ASA 1/12/2020
 
+</p>
+</details>
+
+<details><summary>
+
 ## On Entrepreneurship and Small Business
+
+</summary>
+<p>
 
 I have tried a myriad of things to succeed in small business. It is extremely difficult. For a little bit of context, I have always considered myself a risk taker, technically competent, quick to learn, and all of the things that I assumed would make for a great entrepreneur. As of the time of this writing, I've made more money on lemonade sales as a kid than I have in any of my side gigs as an adult. Granted, my mom got me down to the strip district on weekends in the city of Pittsburgh where my little stand was pulling in over thirty bucks an hour after accounting for the cost of materials. Not bad for a snot-nosed kid, I think. I sold items on eBay, on Amazon, opened a stock trading account with ScotTrade for my mom (who never had traded stocks herself) and tinkered around with a thousand bucks I saved up in quarters up to age 16. These were all of the hallmarks of an entrepreneur, I believed.
 
@@ -121,7 +142,15 @@ After two full years of nothing but pain and financial loss, you'd think I shoul
 
 ASA 1/12/2020
 
+</p>
+</details>
+
+<details><summary>
+
 ## On the value of a PhD for Engineers
+
+</summary>
+<p>
 
 You will hear from your profs that you need to get the PhD - they of course have a vested interest in feeding the education system. You will hear from your managers that the PhD is something you can do "if you want to" - but they aren't referring to your value to humanity so much as they're referring to "the person that works for them in this role". Your friends and family will have their own wildly varying opinions.
 
@@ -149,7 +178,15 @@ Even though I maintain a 4.0 GPA in grad school, this marks my last semester in 
 
 ASA 12/31/2019
 
+</p>
+</details>
+
+<details><summary>
+
 ## Gamifying Exercise
+
+</summary>
+<p>
 
 I've been handling my workouts as a game, and it has been a blast so far. I have pages of notes as to why this is a reasonable approach, but to keep this post short I'll just explain the mechanics of the game:
 
@@ -200,7 +237,15 @@ I've been handling my workouts as a game, and it has been a blast so far. I have
 
 ASA 1/1/2020
 
+</p>
+</details>
+
+<details><summary>
+
 ## On Leadership
+
+</summary>
+<p>
 
 For the longest time, I considered myself to only ever be on the "technical track" as opposed to the "management track" at work. In my line of business, we are very engineer-heavy. Which I obviously personally think is great. The formula is: get a high GPA, get hired here as an engineer, choose your own adventure, retire as an engineer that's paid more than when you started or as a manager that's paid more than when your engineers ended. Aside from the allure of the money, which wasn't quite enough to persuade me to join the dark side, some of my friends started along the management track that I wouldn't necessarily have expected. So they're picking up insights and passing them to me as they go along, which has helped shape my perspective.
 
@@ -222,7 +267,15 @@ If you're an early stage engineer who has been exposed to the pain of the leader
 
 ASA 1/3/2020
 
+</p>
+</details>
+
+<details><summary>
+
 ## Augmented Reality with Web Components
+
+</summary>
+<p>
 
 Web components are great, aren't they? If you do web development professionally or as a hobby, you've probably come across new features known as web components that make life a lot easier.
 
@@ -249,7 +302,15 @@ It's a great tool and the project took only an afternoon to complete. If you're 
 
 ASA 1/10/2020
 
+</p>
+</details>
+
+<details><summary>
+
 ## On Optimistic Nihilism
+
+</summary>
+<p>
 
 Here's a fun one. Outside of the privacy of my own blog, I don't tend to bring this up because everyone is entitled to their own beliefs. I hope the reader understands that I am not attempting to convince them of anything regarding their system of beliefs. If this topic is something you'd rather not discuss, I encourage you to skip this section. For those of you who are interested and/or won't judge me negitively or positively on the basis of my beliefs, please read on.
 
@@ -287,5 +348,9 @@ The last thing I want to mention is a list of some beautiful pieces of art that 
 * Cosmos: A Spacetime Odyssey (television series)
 * Kurzgesagt's Existential Crisis Playlist (YouTube)
 * Free Will by Sam Harris (book)
+* [A Moral Case for Nihilism by Shane Fraser](https://areomagazine.com/2019/03/29/the-moral-case-for-nihilism/) (article)
 
 ASA 1/12/2020
+
+</p>
+</details>
