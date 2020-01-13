@@ -305,12 +305,13 @@ ASA 1/10/2020
 </p>
 </details>
 
-<details><summary>
+<details>
 
 ## On Optimistic Nihilism
 
+<summary>
+
 </summary>
-<p>
 
 Here's a fun one. Outside of the privacy of my own blog, I don't tend to bring this up because everyone is entitled to their own beliefs. I hope the reader understands that I am not attempting to convince them of anything regarding their system of beliefs. If this topic is something you'd rather not discuss, I encourage you to skip this section. For those of you who are interested and/or won't judge me negitively or positively on the basis of my beliefs, please read on.
 
@@ -351,6 +352,4 @@ The last thing I want to mention is a list of some beautiful pieces of art that 
 * [A Moral Case for Nihilism by Shane Fraser](https://areomagazine.com/2019/03/29/the-moral-case-for-nihilism/) (article)
 
 ASA 1/12/2020
-
-</p>
 </details>
