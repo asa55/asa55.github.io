@@ -338,3 +338,34 @@ The last thing I want to mention is a list of some beautiful pieces of art that 
 
 ASA 1/12/2020
 </details>
+
+## On Language and the Human Experience
+
+<details>
+<summary>
+...
+</summary>
+
+Remember the movie Interstellar (2014)? It was one of those awesome sci-fi movies about space travel that carefully treads the line between fiction and modern physics. This movie had it all, at least until "that part" when Anne Hathaway goes off on a tangent about how love is something we can perceive and is the only thing that can transcend the boundaries of space and time. If I were a movie critic I'd like to think I'd have thrown a tomato at the big screen during the premiere at the exact instant those words were uttered. At the time I remember hoping it was just a metaphor or something, but as I recall, it wasn't the backward propagation of gravitational waves through time that saved the day (an awesome and modern concept presented in the movie), but love. Damn you Hollywood - this is why we can't have nice things.
+
+But this scene got me thinking about exactly what might have struck a nerve with me when I saw it. I think it boils down to the observation that precision of language is extremely important to me (where possible). Search the word "love" in the dictionary and you'll find an enumeration of equally vague definitions. (Except when "love" means a score of zero in tennis, which I find to be satisfyingly precise). Love can mean just about anything, but unfortunately for Interstellar, a physical force is not one of them.
+
+I'm not trying to invalidate human emotion. We can agree that biological responses in the human body are very real - they're the result of electrochemical processes we can't control. These processes affect our sensorimotor cortex as physical sensation and/or muscle response (shaky hands, for instance). We use the small set of describing words we call "emotions" (love among them) in an attempt to categorize salient symptoms of an extremely complex process. But there is a distinct difference. I'm confident that given a complete description of the configuration of all the particles that make "you", there is enough information encoded to accurately determine what you're experiencing as "emotion". However, given a description of your emotional state, the reverse is definitely not possible.
+
+Now I'm not the kind of guy to say that all language *must be* precise - quite the opposite actually. It's neither valid nor practical to assume that Boolean logic is "the right" view of the world. There is such a thing as being in-between "true" and "false". This gray-area is captured by fuzzy logic - a field of study where the degree of truth can be quantified. The classic example to compare Boolean to fuzzy logic is answering the question "is it warm out?". This is a valid question. It doesn't even feel right to apply Boolean logic in this case - if it's 50 degrees Fahrenheit you might call it warm, but at some point you need to say it's no longer warm. Are you really going to say with 100% confidence that 50 degrees is warm but 49.99 degrees is 100% not? Fuzzy logic lets you do things like interpolate smoothly between the ranges of "hot" and "cold" - so when you're asked yes-or-no questions like "is it warm", you have an additional yet critical piece of information that lets you quantify how certain you are of your answer at that temperature (presumably you'd be close to 50% certain at 50 degrees, in this scenario).
+
+The important thing to remember in all of this is that discussing abstract topics relevant to our day-to-day experience can be much more complex than it might seem at first glance. The way we apply language to abstract scenarios is inherently informationally lossy - there is a 100% guarantee that some fraction of the information you wish to convey will be impossible to communicate fully. Our feelings and experiences are subject to a chaotic feedback loop of electrochemistry well beyond our ability to control, and well beyond our ability to use words to describe precisely. This doesn't invalidate our experience, and it doesn't cheapen the meaning behind our discussions. But it's good to keep in mind that buried beneath our words is a layer of ambiguity that we can't avoid. When it matters most, we should do our best to try to understand one another's underlying message, and the best way for us to try to move in the right direction is to understand the mechanics of language, logic, and ourselves.
+
+ASA 1/14/2020
+</details>
+
+<!--
+## On the Phenomenon of Consciousness
+
+<details>
+<summary>
+...
+</summary>
+
+ASA 1/14/2020
+</details-->
