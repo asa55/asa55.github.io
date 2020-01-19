@@ -423,7 +423,7 @@ A slightly more recent thought of mine has to do with the Higgs Boson, the quant
 ASA 1/19/2020
 </details>
 
-<!--
+<!
 ## On the Phenomenon of Consciousness
 
 <details>
@@ -431,5 +431,17 @@ ASA 1/19/2020
 ...
 </summary>
 
-ASA 1/14/2020
-</details-->
+There is so much fuss about science not understanding "what consciousness is". I don't personally see what there is to explain. Maybe it's my training in AI and neural networks, but I find the same explanation as applies to neural nets satisfying as an explanation of the mechanism behind consciousness. You'll find in my post on Optimistic Nihilism that I find free will to be "an illusion of sorts", but I've left the details to that post if you're interested.
+
+That said, our eyes feed a convolutional neural net known as our optic nerve that goes straight to our brains, which behaves as a neural network that then optimizes the network (learns) and takes action (due to the state of the network as it stands plus the current sensory data) in a way that is one-to-one (if randomness is not inherent in our universe), or one-to-few (if randomness is inherent - but no otherworldly forces beyond gravity/electromagnetism/strong and weak nuclear forces apply). Consciousness is the experience of a neural net in action. It's happening, we can't control it, we're not even technically observing it, it just "is".
+
+In all cases, science replaces questions of "why" with questions of "how". I won't go into detail on this here, but Neil deGrasse Tyson is an advocate of this - so if you poke around online (or watch Cosmos: a Spacetime Odyssey) you'll likely come across his thoughts on the topic.
+
+We don't need a "why" to explain consciousness. We see it manifest in neural networks we build ourselves. We can explore it, we can characterize it, but for some reason when it comes to ourselves, we're hesitant to acknowledge that it applies to us, too.
+
+I hate to say that it's not rocket science here - [optical illusions](https://en.wikipedia.org/wiki/Optical_illusion) trick our brains just as [we can trick the "eyes" of convolutional neural nets by exploiting how they work](https://medium.com/@ageitgey/machine-learning-is-fun-part-8-how-to-intentionally-trick-neural-networks-b55da32b7196). We overlearn, then just like [just like neural nets](https://www.analyticsvidhya.com/blog/2018/04/fundamentals-deep-learning-regularization-techniques/) (see early stopping), [we get better with practice then eventually a little worse](https://bulletproofmusician.com/why-practicing-more-can-lead-to-worse-performance/).
+
+Don't get me wrong, I want consciousness to be a magical and special thing as much as the next person - that would make me feel pretty good and very empowered - but it's not the way we operate. And the interesting point here is that this perspective is testable! It opens up a world of potential interactions that could either shoot down or bolster my theory. So please, if we talk about this together in the future, let's do our best to refrain from what we feel is the case or what we'd like to be the case, and simply look at the facts. If you bring evidence that consciousness is anything other than a byproduct of a physical process governed purely by the laws of physics as we know them, I will be glad to take a look.
+
+ASA 1/19/2020
+</details>
