@@ -374,7 +374,7 @@ I appreciated Creality shipping their custom slicer - it had all the community-r
 
 Here's a time-lapse gif of my build progress as I went along. Next time I make a time-lapse gif, I think I'll increase the frequency of photo-ops.
 
-![gif of the 3d printer being built](![me](https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/images/printerbuild.gif)
+![gif of the 3d printer being built](https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/images/printerbuild.gif)
 
 ASA 1/18/2020
 </details>
