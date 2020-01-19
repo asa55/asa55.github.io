@@ -2,6 +2,22 @@
 
 I realize to an extent experts should "stay in their lane". My expertise is in engineering, but my interests include almost everything. I may comment on lots of topics here where you could rightly question my authority to make such claims, and with that in mind I will attempt to expose my line of reasoning openly enough that you can attack my premises rather than perceptions of my expertise.
 
+## Musings on Whether or Not P = NP
+
+<details>
+<summary>
+...
+</summary>
+
+If you ask [the profs of MIT 6.006](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/), any sane person would conjecture that P does not equal NP... So take my thoughts on this with a grain of salt.
+
+In the 2015 version of MIT 6.006 posted online, Dr. Eric comments that saying [P=NP](https://www.win.tue.nl/~gwoegi/P-versus-NP.htm) discussed the importance of analogous problems, so that if we can reduce a problem of interest to us into an identical formulation as one that has already been solved, then our original problem is also solved. Then, with regards to the question of whether or not P = NP, he said this must be absurt because it is equivalent to the conjecture that we can construct some magical computing equipment that can pick the right guess on the first try every time. A "magic box", of sorts.
+
+Now here's where I might be crazy - but isn't this exactly what quantum computers are doing? All answers are true and false simultaneously and the right answer is returned in a single operation. As I recall, this is the key advantage of quantum computing. So if that's the case, didn't we build the "magic box" to which Eric refers? This leads me to the conjecture that if we can prove that P = NP is identical to the "magic box" problem, then we'll prove that (counterintuitively, and literally a million-dollar problem) P = NP.
+
+ASA 12/1/2019
+</details>
+
 ## On Motivation and Mastery
 
 <details>
