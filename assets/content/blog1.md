@@ -244,6 +244,10 @@ I've been handling my workouts as a game, and it has been a blast so far. I have
    11. People may disagree with the specifics of this methodology, but with bench as an example, I conjecture anyone would agree that if you accomplish 10,000 reps at a given weight you're ready to add a few pounds, and I further conjecture that if you accomplish 10,000 reps at a "high weight" (315 lbs for example), you'll perceive yourself to be "strong" or at least stronger than you were
 
 ASA 1/1/2020
+
+UPDATE 1/19/2020:
+I had a recent discussion with a co-worker on an approach recommended (among many) by the famed Dr. Jim Stoppani. The notion is to increase your workout "volume", which is weight * reps * sets, or more specifically your workout density, which is workout volume divided by time. My co-worker is interested in applying the scientific method to his workout program, and so he is very happy with the fact that there are very few variables with this approach. The iron doesn't lie, he says - and I agree. I can't speak to whether or not my above approach is in any way optimal, but what I can say is that my approach removes the variables of sets and time. I measure only the total number of reps, tallying them up one-by-one, at a given weight. We'll see if it works (anecdotally, I have seen progress no doubt), but more importantly it makes the scientific method even easier to apply. We'll see if I can prove my own theory wrong. If that happens, I'l update this post. Until then, I hope you enjoy this approach as much as I've been!
+
 </details>
 
 ## On Leadership
