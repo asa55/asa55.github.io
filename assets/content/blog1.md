@@ -423,7 +423,6 @@ A slightly more recent thought of mine has to do with the Higgs Boson, the quant
 ASA 1/19/2020
 </details>
 
-<!
 ## On the Phenomenon of Consciousness
 
 <details>
@@ -444,6 +443,34 @@ I hate to say that it's not rocket science here - [optical illusions](https://en
 Don't get me wrong, I want consciousness to be a magical and special thing as much as the next person - that would make me feel pretty good and very empowered - but it's not the way we operate. And the interesting point here is that this perspective is testable! It opens up a world of potential interactions that could either shoot down or bolster my theory. So please, if we talk about this together in the future, let's do our best to refrain from what we feel is the case or what we'd like to be the case, and simply look at the facts. If you bring evidence that consciousness is anything other than a byproduct of a physical process governed purely by the laws of physics as we know them, I will be glad to take a look.
 
 The other day my little sis commented that humans are the only creatures to cry due to emotions, specifically sadness. I don't know where she heard that, but she went on to say "cats can cry, but they discovered it's not because they're sad". Who are they again? We evolved from a common origin - sure all animals are different but what reason does anyone have to believe that the mechanism behind other functioning mammalian brains (or anything with a neural network - a jellyfish for instance) is "fundamentally different" from how a human brian operates? I'm not saying that behaviors and capacities aren't vastly different - I'm sure they are - but the basic process is the same. Neural nets are an appropriate model. We know that neural nets with fewer neurons, generally speaking, aren't as capable as those with more. This is true in computer science, and [we observe the same thing in animals](https://en.wikipedia.org/wiki/List_of_animals_by_number_of_neurons#/media/File:Brain_size_comparison_-_Cerebral_cortex_neurons_(billions).png) (the image shown accounts for the fact that most of an elephant's neurons are used for sensorimotor functions - so they're not being used for thinking. This roughly aligns with our thoughts on relative intelligence in animals - which is particularly difficult to assess and highly subjective to our own perspectives and bias as humans. Not that we can avoid it, but it's worth acknowledging). Why do humans feel the need to be "special" in some magical way, relative to other animals? Why does our experience have to negate the complexity in the experience of other animals? I don't think it needs to - our perspective is skewed when we look at the world this way, and it prevents us from coming up with testable hypotheses. You can't know the internal experience of this crying cat my sister mentioned any more than the internal experience of the person sitting next to you right now. *Unless* we acknowledge that we operate the same way, that we function as neural nets, and that we can analyze the inputs, outputs, and processing of our brains conceptually identically to the way we do so for neural nets, and we can leverage the insights to design outcomes accordingly. Regardles of the ethics of such an experiment (which I don't advocate because as yet it would be highly invasive), I am more than just suggesting that it can be done. And if you want to, you could use such data to potentially prove me wrong.
+
+ASA 1/19/2020
+</details>
+
+
+
+
+
+## On Fine Motor Skills
+
+<details>
+<summary>
+...
+</summary>
+
+Recently I played an awesome video game - Spider Man for the PlayStation 4. The mobility system in the game is extremely difficult to get the hang of. It took me a day of play to evaluate whether or not I wanted to try to beat it at all on the basis of the fact that I fumbled around New York City like a madman in a costume for the first few hours.
+
+One of the achievements in the game is to complete "benchmarks", which are basically "do this maneuver X number of times to level up". I started into the benchmarks as a means to improve my ability to do that one highly specific maneuver. One by one, I quickly learned how to do each maneuver skillfully, and was web-slinging around NYC like a true superhero. It was a very fun experience. But the one thing that suck with me was those benchmark stats. In some cases, I was tasked with doing the same maneuver 500 times, in others 5,000, and in others 25,000. I wondered what motivated these figures? Games these days are backed by extensive user data. I didn't know where these figures came from, but I knew that by the time I completed the benchmark I was a wizard at the task.
+
+As a means to improve my fine motor skills, I have been using these figures to improve my skills. It is why I picked 10,000 reps in my exercise program blog post, and I intend to apply it to other areas of my life. I am now of the impression that practice can be decomposed into a "number of repetitions, with good form".
+
+There are articles floating around online that it takes 1,000 repetitions of a good habit to replace a bad one when it comes to motor skills.
+
+Other resources warn of the performance losses of overtraining.
+
+Yet others suggest performance gains by slightly changing the conditions in which you pratice your fine motor skill.
+
+But all of this speaks to how our brains function as neural nets (which I covered in a blog post on consciousness), and we can leverage this to supercharge our ability to learn new tasks, or to improve on old ones.
 
 ASA 1/19/2020
 </details>
