@@ -447,10 +447,6 @@ The other day my little sis commented that humans are the only creatures to cry 
 ASA 1/19/2020
 </details>
 
-
-
-
-
 ## On Fine Motor Skills
 
 <details>
@@ -464,13 +460,12 @@ One of the achievements in the game is to complete "benchmarks", which are basic
 
 As a means to improve my fine motor skills, I have been using these figures to improve my skills. It is why I picked 10,000 reps in my exercise program blog post, and I intend to apply it to other areas of my life. I am now of the impression that practice can be decomposed into a "number of repetitions, with good form".
 
-There are articles floating around online that it takes 1,000 repetitions of a good habit to replace a bad one when it comes to motor skills.
-
-Other resources warn of the performance losses of overtraining.
-
-Yet others suggest performance gains by slightly changing the conditions in which you pratice your fine motor skill.
+There are articles floating around online that it takes 1,000 repetitions of a good habit to replace a bad one when it comes to motor skills. Other resources warn of the performance losses of overtraining. Yet others suggest performance gains by slightly changing the conditions in which you pratice your fine motor skill.
 
 But all of this speaks to how our brains function as neural nets (which I covered in a blog post on consciousness), and we can leverage this to supercharge our ability to learn new tasks, or to improve on old ones.
 
+When it comes to responsiveness in the moment, outside of the context of learning (on time intervals faster than we tend to learn, I mean), I find feedback control theory to be an appropriate and even informative model for our behavior. Back when I played soccer as a kid, coach used to tell me to think two-steps ahead of the other guy. I didn't quite get that at the time. Recently I was playing Super Mario 64 with my fiancee - as we played the game I found some difficulties making Mario move the way I intended. It's almost like he's on ice. That's when I realized I have always treated games and sports as though I were a reactive feedback control system, like PID. I found while I was playing that if I just watched Mario and tried to respond to how he responded to my control stick gestures, I would repeatedly mess-up when I was trying to do anything that required precise motion (the likes of which would keep Mario from falling to his doom and my frustration). I hardly thing this is a novel thought looking back, but the moment I attempted to apply Model Predictive Control (MPC) type-thinking, I had much more success! As I controlled Mario, I consistently modeled in my head what I thought his motions would be like (with high precision over the course of a second or two out from my current position), and I would move the control stick with the expectation that he was already moving the way I expected (adjusting as needed if he veered too far off course). It was only a subtle psychological shift, but it works for advanced industrial process control and it worked for me. My fiancee and I 100%'ed the game faster than ever before. And I personally thank the notion of applying MPC to how I approached the game, but others might rather think of this as staying two-steps ahead. Whichever way you prefer think about it, I highly recommend you give it a try.
+
 ASA 1/19/2020
 </details>
+
