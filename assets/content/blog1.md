@@ -11,7 +11,7 @@ I realize to an extent experts should "stay in their lane". My expertise is in e
 
 If you ask [the profs of MIT 6.006](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/), any sane person would conjecture that P does not equal NP... So take my thoughts on this with a grain of salt.
 
-In the 2015 version of MIT 6.006 posted online, Dr. Eric comments that saying [P=NP](https://www.win.tue.nl/~gwoegi/P-versus-NP.htm) discussed the importance of analogous problems, so that if we can reduce a problem of interest to us into an identical formulation as one that has already been solved, then our original problem is also solved. Then, with regards to the question of whether or not P = NP, he said this must be absurt because it is equivalent to the conjecture that we can construct some magical computing equipment that can pick the right guess on the first try every time. A "magic box", of sorts.
+In the 2015 version of MIT 6.006 posted online, the age old question of whether or not [P = NP](https://www.win.tue.nl/~gwoegi/P-versus-NP.htm) was discussed. Eldewhere in the class, the importance of reductions was discussed - that is, if we can reduce a problem of interest to us into an identical formulation as one that has already been solved, then our original problem is also solved. Then, with regards to the question of whether or not P = NP, he said this must be absurd because it is equivalent to the conjecture that we can construct some magical computing equipment that can pick the right guess on the first try every time. A "magic box", of sorts.
 
 Now here's where I might be crazy - but isn't this exactly what quantum computers are doing? All answers are true and false simultaneously and the right answer is returned in a single operation. As I recall, this is the key advantage of quantum computing. So if that's the case, didn't we build the "magic box" to which Eric refers? This leads me to the conjecture that if we can prove that P = NP is identical to the "magic box" problem, then we'll prove that (counterintuitively, and literally a million-dollar problem) P = NP.
 
@@ -430,6 +430,8 @@ ASA 1/19/2020
 ...
 </summary>
 
+Note: still working on this post! Please check back later for to see the latest major revision.
+
 There is so much fuss about science not understanding "what consciousness is". I don't personally see what there is to explain. Maybe it's my training in AI and neural networks, but I find the same explanation as applies to neural nets satisfying as an explanation of the mechanism behind consciousness. You'll find in my post on Optimistic Nihilism that I find free will to be "an illusion of sorts", but I've left the details to that post if you're interested.
 
 That said, our eyes feed a convolutional neural net known as our optic nerve that goes straight to our brains, which behaves as a neural network that then optimizes the network (learns) and takes action (due to the state of the network as it stands plus the current sensory data) in a way that is one-to-one (if randomness is not inherent in our universe), or one-to-few (if randomness is inherent - but no otherworldly forces beyond gravity/electromagnetism/strong and weak nuclear forces apply). Consciousness is the experience of a neural net in action. It's happening, we can't control it, we're not even technically observing it, it just "is".
@@ -454,6 +456,8 @@ ASA 1/19/2020
 ...
 </summary>
 
+Note: still working on this post! Please check back later for to see the latest major revision.
+
 Recently I played an awesome video game - Spider Man for the PlayStation 4. The mobility system in the game is extremely difficult to get the hang of. It took me a day of play to evaluate whether or not I wanted to try to beat it at all on the basis of the fact that I fumbled around New York City like a madman in a costume for the first few hours.
 
 One of the achievements in the game is to complete "benchmarks", which are basically "do this maneuver X number of times to level up". I started into the benchmarks as a means to improve my ability to do that one highly specific maneuver. One by one, I quickly learned how to do each maneuver skillfully, and was web-slinging around NYC like a true superhero. It was a very fun experience. But the one thing that suck with me was those benchmark stats. In some cases, I was tasked with doing the same maneuver 500 times, in others 5,000, and in others 25,000. I wondered what motivated these figures? Games these days are backed by extensive user data. I didn't know where these figures came from, but I knew that by the time I completed the benchmark I was a wizard at the task.
@@ -469,3 +473,36 @@ When it comes to responsiveness in the moment, outside of the context of learnin
 ASA 1/19/2020
 </details>
 
+## On Models of Reality
+
+<details>
+<summary>
+...
+</summary>
+
+Note: still working on this post! Please check back later for to see the latest major revision.
+
+The salient points I intend to put into blog-form here are:
+
+* Whether or not randomness is an inherent property of the universe
+   * We don't have access to sufficient information to know the difference
+      * Since processes can be chaotic, it is critical to have perfect information if you want to predict the future with any accuracy
+      * Our brains have a limited amount of storage, whereas the universe has infinite detail, so regardless of whether or not the universe behaves deterministically, it is imposible for us to know that. So it is not a useful model
+   * Probabalistic models help us quantify either case in a useful way
+   * It is impossible for us to know the nature of a thing. Whether we're talking philosophically, or information-theoretically, it is impossible to "know" a thing is what you think it is.
+      * I don't mean to cast doubt on the notion of an objective reality that exists independently of us in the sense that it doesn't require us to exist in order for it to exist and behave as it behaves. But it is important to acknowledge our limitations, and that accepting even something as basic as this requires a logical-leap. I acknowledge that I'm accepting this as an axiom, and I'm more than okay with that.
+      * To the extent that we acknowledge our understanding is fundamentally limited to, at best, imperfect knowledge, it's important to understand that anything we think we know is a byproduct of our own individual models of reality. 
+         * The way we think the world works impacts our interpretations of what we see
+            * This is just the notion that the sensory inputs into our eyes - the raw input of light is real - but it is impossible to get around the fact that this light is processed by our brain, which is an impassable boundary when it comes to how certain we can be about what we think we see. This is true for all sensory inputs.
+         * There is no way around this - if we want to change our interpretations, we might need to consider revising our mental models
+         * Some mental models are useful, which typically means they have excellent predictive power
+            * Some people argue that predictive power is not the only important aspect of a mental model - but typically those people are after something that models simply aren't meant to do - which is to get us closer to absolute truth
+            * I then argue that predictive power is the only viable metric, because we've already gone over the futility of seeking absolute truths (even though interactions with them are of course possible based on my accepted axiom)
+            * The rule is to "never fall in love with a model". So no matter how satisfyingly close we get to modeling reality, we must always acknowlegde that our models of reality are not equal to reality itself
+            * *YOU CAN SKIP THE NEXT FEW LINES - I discuss religion, though it's not critical to bring it up here - this is a spoiler alert in case this is an uncomfortable point of discussion for you*
+            * When it comes to matters of religion v science, I use this as a logical foundation as to why it is equally appropriate to be an agnostic-theist as it is to be an agnostic-athiest
+               * But based on my discussion on not being able to know absolute truths, and only being interested in models that offer improved predictive power, I think it makes sense for me personally to fall on the agnostic-athiest side of the spectrum
+                  * Unless evidence were presented in support, it's impossible to rule out conjectures of existence - though the burden of proof is on those who make the conjecture - but for this discussion, the only thing that matters to me is that I can't disprove the existence of any or all deities, but many of them come with rulebooks that don't offer predictive power, and thus I don't feel compelled to select one over the other (or any at all), and so my models of reality (where I am consciously aware of them) all derive from science alone.
+
+ASA 1/20/2020
+</details>
