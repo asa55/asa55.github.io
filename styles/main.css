@@ -12,36 +12,34 @@ body {
     display: inline-block;
     position: absolute;
     margin-top: 130px;
-    margin-left: 20%;
+    margin-left: 10%;
     padding-left: auto;
     padding-right: auto;
     width: 80%;
     overflow: auto;
   }
 
-  div.splash{
+/*  div.splash{
     display: inline-block;
     position: absolute;
     margin-left: 20%;
     width:80%;
     height: 120px;
-    box-shadow: 0 -10px 10px -5px inset rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 0 -10px 10px -5px inset rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow: 0 -10px 10px -5px inset rgba(0, 0, 0, 0.6);
-  }
-
-  div.scrollmenu {
-    background-color: #333;
-    overflow-y: auto;
-    width:20%;
-    height:100%;
-    display: inline-block;
-    position: fixed;
-    direction : rtl;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.9);
     -moz-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.9);
     -webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.9);
+  }*/
+
+  div.scrollmenu {
+    background-color: #333;
+    overflow-x: auto;
+    width:100%;
+    height:20%;
+    direction : rtl;
     font-family: 'Roboto', sans-serif;
+    box-shadow: 0 -10px 10px -5px inset rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 -10px 10px -5px inset rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 -10px 10px -5px inset rgba(0, 0, 0, 0.6);
   }
   
   div.scrollmenu a {
