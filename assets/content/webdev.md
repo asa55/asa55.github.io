@@ -1,5 +1,10 @@
 # Web and Mobile Application Development
 
+<details>
+<summary>
+...
+</summary>
+
 # Frontend
 
 ## Vanilla HTML / CSS / JS
@@ -78,3 +83,5 @@ To visualize what this is all about, see [this classic tutorial from AWS](https:
 * Implicitly fault tolerant because functions can run anywhere
 * BYOC - Bring your own code
 * Metrics and logging are a universal right
+
+</details>
