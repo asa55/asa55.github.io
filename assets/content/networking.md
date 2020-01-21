@@ -1,5 +1,10 @@
 # Networking and the Internet
 
+<details>
+<summary>
+...
+</summary>
+
 ## [Check out MIT 6.033](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2018/index.htm) for all this and more on networks!
 
 ### Network Basics
@@ -75,3 +80,5 @@ What we want:
 ## More
 
 In theory, client-server model is less scalable than a Content Delivery Network (CDN) model, is less scalable than a Peer-to-Peer (P2P) network model. CDNs don't scale the same way that P2P networks do but provide features that P2P networks can't. P2P networks are infinitely scalable in theory, but incentivizing peers to cooperate well is a challenge.
+
+</details>

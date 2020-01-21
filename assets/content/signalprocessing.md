@@ -1,5 +1,10 @@
 # Signal Processing and Computer Vision
 
+<details>
+<summary>
+...
+</summary>
+
 * FIR
 * IIR
 * Low pass, high pass, band, notch, various common filter designs
@@ -34,3 +39,5 @@
 * Kadir-Brady
 * Eigenfaces
 * OpenGL
+
+</details>

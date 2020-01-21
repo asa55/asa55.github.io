@@ -1,5 +1,10 @@
 # Operating Systems
 
+<details>
+<summary>
+...
+</summary>
+
 ## Complexity limits what we can build, but can be mitigated with modularity and abstraction. Operating systems enforce modularity on a single machine ([MIT 6.033, Spring 2018](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2018/index.htm))
 
 In order to enforce modularity and build an effective OS:
@@ -28,3 +33,5 @@ The kernel manages page faults and other interrupts.
 ## Context Switching
 
 ## Scheduling
+
+</details>

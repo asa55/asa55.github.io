@@ -1,5 +1,10 @@
 # Algorithms
 
+<details>
+<summary>
+...
+</summary>
+
 ## I am excited to get some algorithm demos up using both JS and Python. While I love Jupyter notebooks, I think I can do what I need to do using Brython! (It parses Python using JS so you can use Python as an in-browser scripting language!) It's slower than JS but I need to showcase Python, and I would rather incur minor in-browser overhead as opposed to redirecting users to another page just to demo some algorithms
 
 ## Comparison Model Sorting Algorithms
@@ -82,3 +87,5 @@
 <a title="Subh83 [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Astar_progress_animation.gif"><img width="128" alt="Astar progress animation" src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Astar_progress_animation.gif"></a>
 
 ## Dynamic Programming
+
+</details>

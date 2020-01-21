@@ -1,5 +1,10 @@
 # Data Structures
 
+<details>
+<summary>
+...
+</summary>
+
 ## Data structures go hand-in-hand with algorithms, which are detailed on another page of this site. The focus here is on implementation and mental models for common data structures, and how some of them are related or can be substituted in different contexts
 
 ### Note to self: I think a valuable reference on this page will be to make tables including the theoretical structure and methods for each data structure
@@ -77,3 +82,5 @@ Heap operations:
 ## Hashing with Chaining
 
 ## Hashing with Open Addressing
+
+</details>

@@ -1,5 +1,10 @@
 # Distributed Systems
 
+<details>
+<summary>
+...
+</summary>
+
 ## [Check out MIT 6.033](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2018/index.htm) for all this content and more!
 
 Systems have faults. We have to take this into account and build reliable, *fault-tolerant systems*. 
@@ -48,3 +53,5 @@ We need to be able to build reliable systems from unreliable components.
             * *Replicated State Machines (RSMs)* provide *single-copy consistency* (i.e. operations complete as if there is a single copy of the data, though internally there are replicas)
                * RSMs use a *primary-backup* mechanism for replication. The *view server* ensures that only one replica acts as the primary. It can also recruit new backups after servers fail
                   * To handle view-server failures, we need a mechanism to provide *distributed consensus*
+
+</details>

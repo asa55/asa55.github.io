@@ -1,5 +1,10 @@
 # Robotics and Control Systems
 
+<details>
+<summary>
+...
+</summary>
+
 Control systems are awesome, cross-disciplinary tools that take your systems from "where they are" to "where they ought to be". There is so much buried in that statement, but for now I'll assume the reader has a conceptual understanding of the role of feedback in system design
 
 ## I need to get OpenAI Gym in browser, but if I can't get that to work I'll opt for MatterJS
@@ -97,3 +102,5 @@ Also, a little less strictly, you can pick among certain reasonable models in st
 I didn't know Russ Tedrake recorded [this class](http://underactuated.mit.edu/underactuated.html) again earlier this year!! I met someone who took this class with him not too long ago, and I've watched the recordings and read the course notes from a few years ago. I'm due for a refresh and can't wait to see how his team has evolved their nonlinear systems software package, Drake. So much to say here, but the learning-based controls are our path to the future for certain
 
 ### Trajectory Optimization
+
+</details>

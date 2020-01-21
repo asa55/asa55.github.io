@@ -1,5 +1,10 @@
 # Cloud Computing
 
+<details>
+<summary>
+...
+</summary>
+
 ## Every AWS Cloud Service in 5 Minutes or Less
 
 |Topic| Name | Full Name | What it does | What it costs |
@@ -153,3 +158,5 @@
 |Internet of Things|IoT SiteWise||||
 |Internet of Things|IoT Things Graph||||
 |Game Development|GameLift||||
+
+</details>

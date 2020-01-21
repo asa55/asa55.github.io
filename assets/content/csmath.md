@@ -1,5 +1,10 @@
 # Math for Computer Science and More
 
+<details>
+<summary>
+...
+</summary>
+
 ## I haven't decided how far I'm going to take this outside of discrete math. There are tons of concepts worth exploring, so I'll have to iterate over this a few times at least as I consider how I want to constrain the scope of this page. A few notes from me to myself are below
 
 * Complexity (Theta, O, Omega)
@@ -30,3 +35,5 @@ I realize this discussion probably makes little sense to anybody else reading th
 ## Recursion is a great topic here as it implements inductive logic... Maybe put an example up of the Towers of Hanoi
 
 ## I took out the section for classic problems, but I think I still need a place to answer some common coding interview questions. Rotate a matrix in place, detect unique chars, etc..
+
+</details>

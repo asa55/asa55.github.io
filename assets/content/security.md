@@ -1,5 +1,10 @@
 # Computer Security
 
+<details>
+<summary>
+...
+</summary>
+
 ## [Check out MIT 6.033](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2018/index.htm) for all this and more!
 
 ## Security Basics
@@ -53,3 +58,5 @@ When an attacker's goal is to prevent legitimate access to an internet resource,
 MIT 6.033 also illustrates case studies in aspects of *anonymity* by [illustrating digital currency or BitCoin here](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2018/week-13/MIT6_033S18lec24.pdf) and [onion routing or Tor here](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2018/week-14/MIT6_033S18lec25.pdf)
 
 ### TODO: Either make a dedicated server page or include a server config here, possibly just a LAMP stack
+
+</details>

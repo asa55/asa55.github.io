@@ -1,5 +1,10 @@
 # Machine Learning and Artificial Intelligence Algorithms
 
+<details>
+<summary>
+...
+</summary>
+
 ## Clarification on Terminology
 
 1. Artificial intelligence contains machine learning as a subdiscipline
@@ -42,3 +47,5 @@ Fully connected networks, CNNs, max pooling, AlexNet, Vgg-16, Inception, ResNet,
 GANs, style transfer, deep dream, RNNs
 k-means, Gaussian mixture models, EM clustering, hierarchical clustering, density estimation
 NLP, spam filtering, POS tagging, NEE, NER, sentiment analysis, word sense disambiguation, question answering, paraphrasing, summarization, co-reference resolution, tf-idf, topic modeling, latent Dirichlet allocation
+
+</details>

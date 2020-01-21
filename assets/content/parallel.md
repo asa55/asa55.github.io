@@ -1,5 +1,10 @@
 # Parallel Processing
 
+<details>
+<summary>
+...
+</summary>
+
 This is the only section on this site that is a direct summation of my notes from a recent coding bootcamp, offered as an 8-hour onsite workshop featuring some Nvidia's own expert staff!
 
 ## Python CUDA and Numba
@@ -22,3 +27,5 @@ Check out NVIDIA's [Deep Learning Institute!](https://www.nvidia.com/en-us/deep-
 * Use atomic operations to avoid race conditions when working in parallel.
 
 ## 2-D Operations
+
+</details>
