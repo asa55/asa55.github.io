@@ -33,8 +33,9 @@
 
     <div class="scrollmenu">
       <a id="home">Home</a>
-      <a id="blog">Thought Blog</a>
-      <a id="techtheory">Tech Blog</a>
+      <a id="thoughts">Thoughts</a>
+      <a id="techblog">Tech Theory</a>
+      <a id="projects">Projects</a>
     </div>
     <div class="splash"></div>
     <div class="mymd">
@@ -54,14 +55,19 @@
       $("#home").click(function(){
         location.reload(); // This is a hack just to decrease the likelihood there will be many MatterJS engine instances running in the background at once. I'll handle this with better JS scope handling later...
         });
-      $("#blog").click(function(){
+      $("#thoughts").click(function(){
         $("#mdcontent").replaceWith(function(){
-          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/blog1.md"></zero-md>';
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/thoughts.md"></zero-md>';
         });
       });
-      $("#techtheory").click(function(){
+      $("#techblog").click(function(){
         $("#mdcontent").replaceWith(function(){
           return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/programming.md"></zero-md><zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/csmath.md"></zero-md><zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/datastructures.md"></zero-md><zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/algorithms.md"></zero-md><zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/operatingsystems.md"></zero-md><zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/networking.md"></zero-md><zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/distributed.md"></zero-md><zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/security.md"></zero-md><zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/parallel.md"></zero-md><zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/webdev.md"></zero-md><zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/cloud.md"></zero-md><zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/signalprocessing.md"></zero-md><zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/controls.md"></zero-md><zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/mlai.md"></zero-md>';
+        });
+      });
+      $("#projects").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<zero-md id="mdcontent" style="width:80%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/projects.md"></zero-md>';
         });
       });
     </script>
