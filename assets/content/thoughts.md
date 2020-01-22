@@ -452,3 +452,10 @@ The salient points I intend to put into blog-form here are:
 
 ASA 1/20/2020
 </details>
+
+<!--
+
+Post on my preferred folder hierarchy, how it helps me keep track of the tasks I've performed, how it makes my learning and growth traceable
+comment on my RAID-1 memory mirror tool - and how it supplements my imperfect memory. And technically, as pattern recognition devices with finite memory, and subject to all kinds of phychological oddities, I'd like to think that even if I felt my memory were particularly good, I'd take care to keep detailed, organized, and easily accessible records.
+
+-->
