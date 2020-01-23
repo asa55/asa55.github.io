@@ -16,7 +16,7 @@ In order to enforce modularity and build an effective OS:
    * *Bounded buffers* allow programs to communicate, and are tricky to implement due to *concurrency* (time multiplexed processes). *Locks* allow us to implement *atomic actions*, but this is also tricky to do right thanks to *race conditions*, *deadlock*, and *performance issues*.
 3. Programs should be able to share a CPU (without one program halting the progress of others)
    * To enforce this, we virtualize processors
-   * *Threads* virtualize a processor to share it among programs. The kernel can suspend the current thread and resume another using *yield*. *Condition variables* provide a more efficient API for threads, where they *wait* for an event and are *notified* when it occurs. *Preemption* forces a thread to be interrupted so we don't have to rely on people correctly using yield, but it requries a special *interrupt* and hardware support to disable other interrupts.
+   * *Threads* virtualize a processor to share it among programs. The kernel can suspend the current thread and resume another using *yield*. *Condition variables* provide a more efficient API for threads, where they *wait* for an event and are *notified* when it occurs. *Preemption* forces a thread to be interrupted so we don't have to rely on people correctly using yield, but it requires a special *interrupt* and hardware support to disable other interrupts.
 
 The OS enforces modularity on a single machine via virtualization and abstraction.
 

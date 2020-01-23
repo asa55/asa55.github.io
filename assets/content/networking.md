@@ -71,7 +71,7 @@ What we want:
          * We can also used *delay-based scheduling* if we want to give latency guarantees to certain types of traffic
             * *Priority queueing*, which puts latency-sensitive traffic first
          * We can also use *bandwidth-based scheduling* to allocate a specific amount of network bandwidth to some traffic
-            * *Round-robin* (or weighted round-robin or defecit round-robin)
+            * *Round-robin* (or weighted round-robin or deficit round-robin)
 
 ## Firewalls
 

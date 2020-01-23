@@ -29,7 +29,7 @@ I'm going to skip the theory on this one, because there is a lot but the only th
    * You can infer the system transfer function from its magnitude / phase Bode plots (which you can typically derive through testing but it's rarely in the datasheets for your equipment)
    * Even if the system has a "high order", the terms with the slowest time-constants dominate the system response - so reducing the order of the model and still getting great performance is possible
    * If you have the open-loop transfer function for your system, you can easily design a controller that will give you the closed-loop response characteristics you want
-* The truth of the matter is that people don't use classical control becasue it's right, they use it becasue they understand it and many times it "just works"
+* The truth of the matter is that people don't use classical control because it's right, they use it because they understand it and many times it "just works"
    * Don't expect your system to be LTI, it's almost definitely not
    * More insidiously - don't expect your system constraints to be taken into account by a linear control design (these considerations are baked into safety logic you build around a linear controller in case things go out of whack - but this systems engineering consideration is not in any way related to classical control)
    * The optimal controller for a system could be of arbitrary order
@@ -43,7 +43,7 @@ I'm going to skip the theory on this one, because there is a lot but the only th
 * The main takeaway should be that if you have a SISO system that is inherently stable, go ahead and try PID. 
    * If your system is not inherently stable and you can't just experiment on the system live without breaking something, then:
       * If you can write up some safety logic that will prevent you from breaking things beyond certain thresholds (e.g. if your thermal system starts overheating, trip the supply voltage and/or take some other fault-protective actions), then write up the fault protection logic and try PID in the safe range
-      * There are also some modifications to PID control that help account for practical challenges (derivative kick, integral windup, gain scheduling, bumped or bumpless transfer, gain limiting, and a ton more - none of these are textook classical control solutions though and certainly not LTI compliant)
+      * There are also some modifications to PID control that help account for practical challenges (derivative kick, integral windup, gain scheduling, bumped or bumpless transfer, gain limiting, and a ton more - none of these are textbook classical control solutions though and certainly not LTI compliant)
 * If you can't "just try" PID or if you did and the performance wasn't good enough, you'll probably need to turn to other control system methods
    * How easy is it to model? 
       * Easy --> optimal or nonlinear control
@@ -63,7 +63,7 @@ The discussion on robust control will start with regular MIMO control, pole plac
 
 ## Adaptive Control
 
-What do you do when you don't have a model? Adaptive control isn't it, but the good news is that if you have a model where the parameters are linearly seperable, then we can use adaptive control to estimate the parameters online, which is pretty cool and extremely useful (even as an alternative method for system identification).
+What do you do when you don't have a model? Adaptive control isn't it, but the good news is that if you have a model where the parameters are linearly separable, then we can use adaptive control to estimate the parameters online, which is pretty cool and extremely useful (even as an alternative method for system identification).
 
 Also, a little less strictly, you can pick among certain reasonable models in standard-form and adapt to the parameters of that model. This is basically just a minor workaround to the situation where you don't have an existing form for a model for your system, but you still want the benefits of adaptive control (namely that performance can be optimized in real-time online while the system is live).
 

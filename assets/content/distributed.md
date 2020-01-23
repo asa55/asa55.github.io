@@ -48,7 +48,7 @@ We need to be able to build reliable systems from unreliable components.
                * The course notes prove that 2PL produces a conflict-serializable schedule, but notes that it can result in deadlock, which can be resolved by taking advantage of atomicity
    * *Transactions:* provide atomicity and isolation
       * *Two-phase commits* allow us to achieve multi-site (a.k.a. distributed) atomicity.
-         * Failures in a two-phase commit are either aported or recover into the prepared state, depending on where the failrue occurs. Both are safe
+         * Failures in a two-phase commit are either aborted or recover into the prepared state, depending on where the failure occurs. Both are safe
          * Our remaining issues deal with availability and replication: we will replicate data across sites to improve availability but must deal with keeping multiple copies of data *consistent*
             * *Replicated State Machines (RSMs)* provide *single-copy consistency* (i.e. operations complete as if there is a single copy of the data, though internally there are replicas)
                * RSMs use a *primary-backup* mechanism for replication. The *view server* ensures that only one replica acts as the primary. It can also recruit new backups after servers fail
