@@ -1,4 +1,6 @@
 
+I say a lot in this blog about my perceptions on the way the world works. It wouldn't be true let alone scientific to claim I know any of this for certain, it's all just my best guess.
+
 I realize to an extent experts should "stay in their lane". My expertise is in engineering, but my interests include almost everything. I may comment on lots of topics here where you could rightly question my authority to make such claims, and with that in mind I will attempt to expose my line of reasoning openly enough that you can attack my premises rather than perceptions of my expertise.
 
 # Musings on Whether or Not P = NP

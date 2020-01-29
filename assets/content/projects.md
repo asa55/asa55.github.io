@@ -1,4 +1,20 @@
 
+# GitHub
+
+<details>
+<summary>
+...
+</summary>
+
+I have a number of software projects I work on - I try to make it easy for other people to find and run my code.
+
+To that extent, most of the stuff I've worked on recently will run in your browser, even when the code isn't natively compatible with a web browser.
+
+So if you get a chance, please feel free to [explore my contributions on GitHub](https://github.com/asa55?tab=repositories).
+
+ASA 1/1/2020
+</details>
+
 # Augmented Reality with Web Components
 
 <details>
@@ -50,4 +66,24 @@ Here's a time-lapse gif of my build progress as I went along. Next time I make a
 ![gif of the 3d printer being built](https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/images/printerbuild.gif)
 
 ASA 1/18/2020
+</details>
+
+# Robotics Warmup
+
+<details>
+<summary>
+...
+</summary>
+
+A friend and I were talking over a few ideas to vet my printer and shake off the 3D modeling rust in an effort to start making some more serious robotics builds.
+
+We spitballed a few ideas for basic force multiplying devices and useful hardware to supplement the prints. I got a hold of assorted springs, gaskets, M3 - M5 machine screws and bolts, and some 3mm pin stock.
+
+Eventually we came up with the idea of comparing gripping devices for some of our designs while we consider the pros and cons of different approaches.
+
+The first print turned out pretty well - the workflow to make it was (1) draft a blueprint by hand with key dimensions (2) construct 3D model in Blender, export as .stl (3) import .stl file into Ultimaker Cura to generate a printable .gcode file (4) drop the file onto an SD card, transfer to the printer and let it rip. The most time consuming aspect of this was the print itself which took a little less than 2 hours.
+
+![gif of the gripper device](https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/images/gripper.gif)
+
+ASA 1/28/2020
 </details>
