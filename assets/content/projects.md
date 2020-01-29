@@ -12,6 +12,8 @@ To that extent, most of the stuff I've worked on recently will run in your brows
 
 So if you get a chance, please feel free to [explore my contributions on GitHub](https://github.com/asa55?tab=repositories).
 
+Among other things you'll find on there, I have a lot of fun with this and that. Of late I'm especially proud of [this blog post my buddies and I put up on Make Magazine's website](https://github.com/asa55/HelloRich) (which quickly got taken down! guessing it was flagged as off topic, but I'm guessing they didn't realize that behind the goofy cartoonized edu-tainment is a legit and comprehensive hardware/software tutorial)
+
 ASA 1/1/2020
 </details>
 
