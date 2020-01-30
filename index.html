@@ -27,9 +27,6 @@
     <script src="scripts/matter.js" type="text/javascript"></script>
     <script src="scripts/decomp.js" type="text/javascript"></script>
     <script src="scripts/attractors.js" type="text/javascript"></script>
-    <!-- Scene Viewer Imports -->
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
-    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
   </head>
   <body>
     <!-- MAIN -->
@@ -69,7 +66,7 @@
       });
       $("#projects").click(function(){
         $("#mdcontent").replaceWith(function(){
-          return '<div id="mdcontent"><zero-md style="width:95%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/projects1.md"></zero-md></div><model-viewer src="assets/models/sol.glb" ar ar-scale="auto" camera-controls alt="A coin" background-color="#222" ios-src="assets/models/sol.usdz" magic-leap unstable-webxr></model-viewer><div id="mdcontent"><zero-md style="width:95%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/projects1.md"></zero-md></div>';
+          return '<div id="mdcontent"><zero-md style="width:95%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/projects.md"></zero-md></div>';
         });
       });
     </script>
