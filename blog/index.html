@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- META -->
+    <title>About me!</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="About me!">
+  	<meta name="keywords" content="Blog">
+	  <meta name="author" content="Alex Augenstein">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, max-width=device-width, height=device-height, max-height=device-height, initial-scale=1.0, max-scale=1.0">
+    <!-- AJAX Functionality -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="styles/main.css"></link>
+    <link rel="stylesheet" type="text/css" href="styles/targeted/style_xs.css"></link>
+    <link rel="stylesheet" type="text/css" href="styles/targeted/style_sm.css"></link>
+    <link rel="stylesheet" type="text/css" href="styles/targeted/style_md.css"></link>
+    <link rel="stylesheet" type="text/css" href="styles/targeted/style_lg.css"></link>
+    <link rel="stylesheet" type="text/css" href="styles/targeted/style_xl.css"></link>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"></link>
+    <!--Zero-MD Imports-->
+    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+    <!-- MatterJS Imports -->
+    <script src="scripts/matter.js" type="text/javascript"></script>
+    <script src="scripts/decomp.js" type="text/javascript"></script>
+    <script src="scripts/attractors.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <!-- MAIN -->
+
+    <div class="scrollmenu">
+      <a id="home">Home</a>
+      <a id="thoughts">Thoughts</a>
+      <a id="techblog">Tech Theory</a>
+      <a id="projects">Projects</a>
+    </div>
+    <div class="mymd">
+        <div id="mdcontent"></div>
+    </div>
+
+    <!-- DOM BOTTLENECK IMPORTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="scripts/cartpole.js" type="text/javascript"></script>
+    <script>
+      $( document ).ready(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<div id="mdcontent"><zero-md style="width:95%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/blog/assets/content/home1.md"></zero-md><div id="cartpole"></div><zero-md style="width:95%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/home2.md"></zero-md></div>';
+        });
+        loadCartpole()
+      });
+      $("#home").click(function(){
+        location.reload(); // This is a hack just to decrease the likelihood there will be many MatterJS engine instances running in the background at once. I'll handle this with better JS scope handling later...
+        });
+      $("#thoughts").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<div id="mdcontent"><zero-md style="width:95%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/blog/assets/content/thoughts.md"></zero-md></div>';
+        });
+      });
+      $("#techblog").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<div id="mdcontent"><zero-md style="width:95%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/blog/assets/content/theory.md"></zero-md></div>';
+        });
+      });
+      $("#projects").click(function(){
+        $("#mdcontent").replaceWith(function(){
+          return '<div id="mdcontent"><zero-md style="width:95%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/blog/assets/content/projects.md"></zero-md></div>';
+        });
+      });
+    </script>
+  </body>
+</html>

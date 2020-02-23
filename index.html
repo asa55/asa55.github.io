@@ -2,73 +2,90 @@
 <html>
   <head>
     <!-- META -->
-    <title>About me!</title>
+    <title>A.S. Augenstein</title>
     <meta charset="UTF-8">
-    <meta name="description" content="About me!">
+    <meta name="description" content="A.S. Augenstein">
   	<meta name="keywords" content="Blog">
 	  <meta name="author" content="Alex Augenstein">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, max-width=device-width, height=device-height, max-height=device-height, initial-scale=1.0, max-scale=1.0">
-    <!-- AJAX Functionality -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="styles/main.css"></link>
-    <link rel="stylesheet" type="text/css" href="styles/targeted/style_xs.css"></link>
-    <link rel="stylesheet" type="text/css" href="styles/targeted/style_sm.css"></link>
-    <link rel="stylesheet" type="text/css" href="styles/targeted/style_md.css"></link>
-    <link rel="stylesheet" type="text/css" href="styles/targeted/style_lg.css"></link>
-    <link rel="stylesheet" type="text/css" href="styles/targeted/style_xl.css"></link>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css"></link>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"></link>
-    <!--Zero-MD Imports-->
-    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
-    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
-    <!-- MatterJS Imports -->
-    <script src="scripts/matter.js" type="text/javascript"></script>
-    <script src="scripts/decomp.js" type="text/javascript"></script>
-    <script src="scripts/attractors.js" type="text/javascript"></script>
   </head>
   <body>
     <!-- MAIN -->
+    <!--
+      Need a header / top menu bar - I don't know that it has to be sticky
+      Need clean white visual effects, parallax, fade in/out
+     -->
 
-    <div class="scrollmenu">
-      <a id="home">Home</a>
-      <a id="thoughts">Thoughts</a>
-      <a id="techblog">Tech Theory</a>
-      <a id="projects">Projects</a>
-    </div>
-    <div class="mymd">
-        <div id="mdcontent"></div>
-    </div>
+    <header>
+      <div>Alex Augenstein, M.S.Eng</div>
+    </header>
 
+    <img id="splash" class="fade-in" src="res/img/splashR0.png" alt="splash image">
+    <section id="slide-1">
+      <h1>Your new favorite highly caffeinated product engineer</h1>
+      <p>Now presenting a radically new way to bring your company value through innovation, today</p>
+    </section>
+
+    <section id="slide-2">
+      <h1>De-risking innovation</h1>
+      <p>Innovation can be game-changing, but innovating in-house often risks too much time or money to confidently justify.
+        <br><br>If only you knew exactly how long it would take, how much it would cost, and the projected ROI <em>beforehand</em>.
+        <br><br>If only you could boil the risk down into a dollar amount, then the return on innovation would be simple to calculate and justify.
+        <br><br>With my services, you can!
+      </p>
+    </section>
+
+    <section id="slide-3">
+      <h1>One-click access to well-engineered innovation</h1>
+      <p>In my Idea Factory, browse and buy innovations at a transparent price.
+        <br>All Idea Factory listings include the central innovation plus complete packages built to demonstrate commercial and technical viability.
+        <br>In this way, you have immediate access to well-engineered innovation at a known cost.
+      </p>
+    </section>
+
+    <section id="slide-4">
+      <h1>What you can buy on this site</h1>
+      <div>Innovations bought from my idea factory include some or all of the following:
+        <li>Executive summary of the innovation</li>
+        <li>Initial target customer profile research package</li>
+        <li>Market research package</li>
+        <li>Business plan documentation</li>
+        <li>Commercial viability & technical feasibility study package</li>
+        <li>Patent plan & preliminary patent research results</li>
+        <li>Technical research publication plan & survey of related work</li>
+        <li>Detailed technical requirements and technical specification documentation</li>
+        <li>Working proof-of-concept (prototype, simulation studies, 3D models, CAD drawings, parts lists as applicable)</li>
+        <li>Source code with license transfer of ownership (if applicable) for your choice of open-source or trade-secret usage</li>
+        <li>Initial product design documentation</li>
+        <li>Detailed branding plan (to replace built-in white-labels with your custom brand)</li>
+        <li>Supply chain and packaging plan documentation</li>
+        <li>Initial investment pitch deck</li>
+        <li>Quickstart guide and user manual documentation</li>
+      </div>
+    </section>
+
+    <section id="slide-5">
+      <h1>Ready to launch your next great product?</h1>
+      <div id="slide-5-div-1">Buy it from my idea factory <br><button class="button">Check out what's in stock</button></div>
+      <div id="slide-5-div-2"><br>All Idea Factory products are designed for clear and transparent turnover. Continued consulting services are only a phone call away, and the first call is always free:<br><button class="button">Let's talk</button></div>
+    </section>
+
+    <footer>
+        <li><a href="https://github.com/asa55">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/alex-augenstein">LinkedIn</a></li>
+        <li><a href="http://d-scholarship.pitt.edu/36179/">Research</a></li>
+        <li><a href="https://asa55.github.io/blog/">Blog</a></li>
+    </footer>
+
+    
     <!-- DOM BOTTLENECK IMPORTS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="scripts/cartpole.js" type="text/javascript"></script>
-    <script>
-      $( document ).ready(function(){
-        $("#mdcontent").replaceWith(function(){
-          return '<div id="mdcontent"><zero-md style="width:95%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/home1.md"></zero-md><div id="cartpole"></div><zero-md style="width:95%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/home2.md"></zero-md></div>';
-        });
-        loadCartpole()
-      });
-      $("#home").click(function(){
-        location.reload(); // This is a hack just to decrease the likelihood there will be many MatterJS engine instances running in the background at once. I'll handle this with better JS scope handling later...
-        });
-      $("#thoughts").click(function(){
-        $("#mdcontent").replaceWith(function(){
-          return '<div id="mdcontent"><zero-md style="width:95%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/thoughts.md"></zero-md></div>';
-        });
-      });
-      $("#techblog").click(function(){
-        $("#mdcontent").replaceWith(function(){
-          return '<div id="mdcontent"><zero-md style="width:95%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/theory.md"></zero-md></div>';
-        });
-      });
-      $("#projects").click(function(){
-        $("#mdcontent").replaceWith(function(){
-          return '<div id="mdcontent"><zero-md style="width:95%;margin-left:auto;margin-right:auto;" src="https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/content/projects.md"></zero-md></div>';
-        });
-      });
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.2.0/dist/simpleParallax.min.js"></script>
+    <script src="scripts/main.js" type="text/javascript"></script>
   </body>
 </html>
