@@ -31,42 +31,79 @@
     grid-row-end: 5;
 }
 
-.row-1-of-3 {
+.row-1-of-6 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.row-2-of-6 {
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 2;
 }
 
-.row-2-of-3 {
+.row-3-of-6 {
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 3;
     grid-row-end: 3;
 }
 
-.row-3-of-3 {
+.row-4-of-6 {
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 4;
     grid-row-end: 4;
 }
 
+.row-5-of-6 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.row-6-of-6 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+
 /* Classes */
 .button {
     padding: 16px 32px;
     text-align: center;
-    margin: 4px 2px;
+    margin: auto;
     transition-duration: 0.4s;
     cursor: pointer;
     background-color: white; 
     color: black; 
     border: 2px solid #008CBA;
+    width: 220px;
+    height: 110px;
   }
   
   .button:hover {
     background-color: #008CBA;
     color: white;
+  }
+
+  .lbutton {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 4;
+  }
+
+  .rbutton {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 4;
   }
 
 /* Main */
@@ -137,12 +174,26 @@ body {
 
     #slide-5 {
         background-color: @primary-1;
-        h1 { .row-1-of-3(); }
-        #slide-5-div-1 { .row-2-of-3(); }
+        h1 { .row-1-of-6(); }
+        #slide-5-div-1 { .row-2-of-6(); }
+        #tbutton1 {
+            .row-3-of-6();
+        }
+        #tbutton2 { .row-3-of-6(); }
+        #tbutton2:active {
+            display: none;
+        }
         #slide-5-div-2 {
-            .row-3-of-3();
+            .row-4-of-6();
             max-width: 50vw;
             margin: auto;
+        }
+        #bbutton1 {
+            .row-5-of-6();
+        }
+        #bbutton2 { .row-5-of-6(); }
+        #bbutton2:active {
+            display: none;
         }
     }
 
