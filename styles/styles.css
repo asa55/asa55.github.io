@@ -69,7 +69,7 @@
   border: 2px solid #00a4db;
   background-color: #00a4db;
   color: white;
-  min-width: 250px;
+  min-width: 325px;
 }
 .button:hover {
   background-color: #008CBA;
@@ -189,20 +189,11 @@ body #slide-5 #slide-5-div-1 {
   grid-row-start: 2;
   grid-row-end: 2;
 }
-body #slide-5 #tbutton1 {
+body #slide-5 #ideafactorybutton {
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 3;
   grid-row-end: 3;
-}
-body #slide-5 #tbutton2 {
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 3;
-}
-body #slide-5 #tbutton2:active {
-  display: none;
 }
 body #slide-5 #slide-5-div-2 {
   grid-column-start: 2;
@@ -212,20 +203,11 @@ body #slide-5 #slide-5-div-2 {
   max-width: 50vw;
   margin: auto;
 }
-body #slide-5 #bbutton1 {
+body #slide-5 #emailbutton {
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 5;
   grid-row-end: 5;
-}
-body #slide-5 #bbutton2 {
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 5;
-  grid-row-end: 5;
-}
-body #slide-5 #bbutton2:active {
-  display: none;
 }
 body footer {
   color: #313142;
@@ -251,5 +233,7 @@ body footer li a {
 }
 body footer li a:hover {
   color: aqua;
-  text-decoration: none;
+}
+body footer li:hover {
+  color: aqua;
 }
