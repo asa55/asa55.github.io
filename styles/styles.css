@@ -66,25 +66,14 @@
   cursor: pointer;
   background-color: white;
   color: black;
-  border: 2px solid #008CBA;
-  width: 220px;
-  height: 110px;
+  border: 2px solid #00a4db;
+  background-color: #00a4db;
+  color: white;
+  min-width: 250px;
 }
 .button:hover {
   background-color: #008CBA;
   color: white;
-}
-.lbutton {
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 4;
-  grid-row-end: 4;
-}
-.rbutton {
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 4;
-  grid-row-end: 4;
 }
 /* Main */
 body {
