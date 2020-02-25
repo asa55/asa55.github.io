@@ -49,7 +49,7 @@ The basic idea is super simple:
 
 It's a great tool and the project took only an afternoon to complete. If you're viewing this page on your mobile device, [check out the model at this link](https://asa55.github.io/fun-with-scene-viewer/) to see the 3D model, then click the AR function button in the bottom right corner of the 3D model to activate AR mode and see it in the room you're currently in via your camera feed!
 
-![me](https://raw.githubusercontent.com/asa55/asa55.github.io/master/blog/assets/images/sol.png)
+![me](https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/images/sol.png)
 
 ASA 1/10/2020
 </details>
@@ -69,7 +69,7 @@ I appreciated Creality shipping their custom slicer - it had all the community-r
 
 Here's a time-lapse gif of my build progress as I went along. Next time I make a time-lapse gif, I think I'll increase the frequency of photo-ops.
 
-![gif of the 3d printer being built](https://raw.githubusercontent.com/asa55/asa55.github.io/master/blog/assets/images/printerbuild.gif)
+![gif of the 3d printer being built](https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/images/printerbuild.gif)
 
 ASA 1/18/2020
 </details>
@@ -89,7 +89,7 @@ Eventually we came up with the idea of comparing gripping devices for some of ou
 
 The first print turned out pretty well - the workflow to make it was (1) draft a blueprint by hand with key dimensions (2) construct 3D model in Blender, export as .stl (3) import .stl file into Ultimaker Cura to generate a printable .gcode file (4) drop the file onto an SD card, transfer to the printer and let it rip. The most time consuming aspect of this was the print itself which took a little less than 2 hours.
 
-![gif of the gripper device](https://raw.githubusercontent.com/asa55/asa55.github.io/master/blog/assets/images/gripper.gif)
+![gif of the gripper device](https://raw.githubusercontent.com/asa55/asa55.github.io/master/assets/images/gripper.gif)
 
 ASA 1/28/2020
 </details>
