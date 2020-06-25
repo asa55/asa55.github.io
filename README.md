@@ -7,5 +7,6 @@
 4. Consider web components (with ```<template>```s and ```<slot>```s)
 5. I know I wanted to use vanilla HTML/CSS/JS when I first started - that was fun - but now I look back wondering why I'm not using a templating engine, Sass, or TypeScript. It's time for that to change.
 5. Invert the pendulum on the welcome screen, if I keep it (consider energy swing-up with cascaded PID to start with. Suboptimal sure, but the implementation is dead simple)
-6. Delete content that I've since published on Medium, and add friend links to each blog post
-7. Admit to the world that I'm mortified by the design of my site in hindsight (but also somewhat proud I kept learning to the point that I could be mortified).
+6. The pendulum canvas captures vertical and horizontal scroll, which is a pain. Disable vertical scroll capture.
+7. Delete content that I've since published on Medium, and add friend links to each blog post
+8. Admit to the world that I'm mortified by the design of my site in hindsight (but also somewhat proud I kept learning to the point that I could be mortified).
