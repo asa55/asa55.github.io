@@ -44,15 +44,29 @@
     <section class="flex-container">
       <section id="left-sidebar-home" class="left-sidebar vertical centered" tabindex="-1" placeholder="NoTabIndex">
         <button class="nav-button-side" onclick="window.location = './#work'">Work</button>
-        <button class="nav-button-side">Faux 2</button>
+        <button class="nav-button-side" onclick="window.location = './#education'">Education</button>
       </section>
       <section id="left-sidebar-blog" class="left-sidebar vertical centered" tabindex="-1" placeholder="NoTabIndex">
-        <button class="nav-button-side">Faux 3</button>
-        <button class="nav-button-side">Faux 4</button>
+        <button class="nav-button-side" onclick="window.location = './#css'">CSS</button>
+        <button class="nav-button-side" onclick="window.location = './#html'">HTML</button>
+        <button class="nav-button-side" onclick="window.location = './#internetworks'">The Internet</button>
+        <button class="nav-button-side" onclick="window.location = './#charencodings'">Character Encodings</button>
+        <button class="nav-button-side" onclick="window.location = './#designpatterns'">Design Patterns</button>
+        <button class="nav-button-side" onclick="window.location = './#http-s'">HTTP/S & APIs</button>
+        <button class="nav-button-side" onclick="window.location = './#ssh'">SSH</button>
+        <button class="nav-button-side" onclick="window.location = './#semver'">SemVer</button>
+        <button class="nav-button-side" onclick="window.location = './#licenses'">Licenses</button>
+        <button class="nav-button-side" onclick="window.location = './#github'">GitHub</button>
+        <button class="nav-button-side" onclick="window.location = './#algos'">Algos & DS</button>
+        <button class="nav-button-side" onclick="window.location = './#terminal'">Terminal</button>
+        <button class="nav-button-side" onclick="window.location = './#git'">Git</button>
+        <button class="nav-button-side" onclick="window.location = './#toc'">Table of Contents</button>
+        <button class="nav-button-side" onclick="window.location = './#cppinterview'">C++ Interview</button>
+        <button class="nav-button-side" onclick="window.location = './#pyvjs'">Python v JS</button>
+        <button class="nav-button-side" onclick="window.location = './#roadmap'">Roadmap</button>
       </section>
       <section id="left-sidebar-more" class="left-sidebar vertical centered" tabindex="-1" placeholder="NoTabIndex">
-        <button class="nav-button-side">Faux 5</button>
-        <button class="nav-button-side">Faux 6</button>
+        <button class="nav-button-side" onclick="window.location = './#more'">More!</button>
       </section>
       <section class="main flex-container vertical"  style="background-image: url(./assets/svg/logoseethru.svg);background-repeat: repeat;background-size: 32px 32px;">
         <main id="page-home">
@@ -67,7 +81,7 @@
             <li>Intern, Harris Corporation, Spring - Summer 2012</li>
             <li><a href="https://www.linkedin.com/in/alex-augenstein">More on LinkedIn</a></li>
           </ul>
-          <h2>Education</h2>
+          <h2 id="education">Education</h2>
           <ul>
             <li>PhD Candidate, Electrical and Computer Engineering, University of Pittsburgh, 2019 - pres.</li>
             <li>M.S., Electrical and Computer Engineering, University of Pittsburgh, 2016 - 2019
@@ -83,26 +97,26 @@
         <main id="page-blog">
           <h1>Friend Links</h1>
           <p>See the below friend links for free access to each of my blog posts:</p>
-          <h2><a href="https://medium.com/@alexander.s.augenstein/css-13b432569ebe?source=friends_link&sk=f3a32ae094cc6731b234a907c36ef61c"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | CSS</a></h2>
-          <h2><a href="https://medium.com/@alexander.s.augenstein/html-665732469919?source=friends_link&sk=eba764a9c1a2b6ce3ee6c664f0ac176b"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | HTML</a></h2>
-          <h2><a href="https://medium.com/@alexander.s.augenstein/how-the-internet-works-9c3ed4697aa1?source=friends_link&sk=278709ff0e0e3757b95cfba65fe5a04a"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | How The Internet Works</a></h2>
-          <h2><a href="https://medium.com/@alexander.s.augenstein/character-encodings-a0a04c6cf7eb?source=friends_link&sk=cd17e418b0aa2081fffbf0bd23cb23f6"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | Character Encodings</a></h2>
-          <h2><a href="https://medium.com/@alexander.s.augenstein/design-patterns-b078d3e1c2a0?source=friends_link&sk=ead1eae51c83980cb49241b8017ed3a5"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | Design Patterns</a></h2>
-          <h2><a href="https://medium.com/@alexander.s.augenstein/http-https-apis-559d8447b6d?source=friends_link&sk=d421dd0a253794cf2bbd0403e86538bf"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | HTTP, HTTPS, & APIs</a></h2>
-          <h2><a href="https://medium.com/@alexander.s.augenstein/secure-shell-ssh-fc54a59168?source=friends_link&sk=8a17fca18e45479d34b2676ba9f6bcef"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | Secure Shell (SSH)</a></h2>
-          <h2><a href="https://medium.com/@alexander.s.augenstein/semantic-versioning-91a6762abe04?source=friends_link&sk=4d04686c8b96878c5b8409cfb21c0e51"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | Semantic Versioning</a></h2>
-          <h2><a href="https://medium.com/@alexander.s.augenstein/software-licenses-b75ca94028a?source=friends_link&sk=dad54489538506a11ae4f008847c8851"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | Software Licenses</a></h2>
-          <h2><a href="https://medium.com/swlh/github-6ae73a00c739?source=friends_link&sk=5f49dc91ee8ff11a3a57fef86a287470"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | GitHub</a></h2>
-          <h2><a href="https://medium.com/@alexander.s.augenstein/on-the-road-to-professional-web-development-6817d4cee9?source=friends_link&sk=4a94c345637cae6b63b021827def10e4"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | Algorithms & Data Structures</a></h2>
-          <h2><a href="https://medium.com/@alexander.s.augenstein/on-the-road-to-professional-web-development-dadc65b3eaa0?source=friends_link&sk=109615b5902e49b96fbce7d54f45f721"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | Terminal Commands & Shell Scripting</a></h2>
-          <h2><a href="https://medium.com/@alexander.s.augenstein/on-the-road-to-professional-web-development-fd8acced3121?source=friends_link&sk=1daaab5fc0008c401906b1670aff8085"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | Git - Version Control</a></h2>
-          <h2><a href="https://medium.com/@alexander.s.augenstein/on-the-road-to-professional-web-development-t-o-c-cb1b5b02ace1?source=friends_link&sk=d533ed7c977fed8ce240daea3e9e55bd"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | Table Of Contents</a></h2>
-          <h2><a href="https://medium.com/@alexander.s.augenstein/how-i-passed-the-c-code-interview-in-3-weeks-a3e350214a01?source=friends_link&sk=b00aa63ab5ff1ed12ea58d8581b3b6b0"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">Passing The C++ Code Interview In 3 Weeks</a></h2>
-          <h2><a href="https://medium.com/@alexander.s.augenstein/beginners-guide-to-python-vs-javascript-in-one-big-table-22bc78bdf880?source=friends_link&sk=fb192efe6f700cd6c86fdadf570d3b63"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">Programming Language Comparison Chart | Python vs. Javascript</a></h2>
-          <h2><a href="https://medium.com/@alexander.s.augenstein/want-to-get-paid-to-code-from-home-start-with-a-roadmap-d95ac05f3b8c?source=friends_link&sk=e0adc1e429f5dd9fc57390bc113480f5"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">Want To Get Paid To Code From Home? Start With A Roadmap</a></h2>
+          <h2 id="css"><a href="https://medium.com/@alexander.s.augenstein/css-13b432569ebe?source=friends_link&sk=f3a32ae094cc6731b234a907c36ef61c"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | CSS</a></h2>
+          <h2 id="html"><a href="https://medium.com/@alexander.s.augenstein/html-665732469919?source=friends_link&sk=eba764a9c1a2b6ce3ee6c664f0ac176b"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | HTML</a></h2>
+          <h2 id="internetworks"><a href="https://medium.com/@alexander.s.augenstein/how-the-internet-works-9c3ed4697aa1?source=friends_link&sk=278709ff0e0e3757b95cfba65fe5a04a"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | How The Internet Works</a></h2>
+          <h2 id="charencodings"><a href="https://medium.com/@alexander.s.augenstein/character-encodings-a0a04c6cf7eb?source=friends_link&sk=cd17e418b0aa2081fffbf0bd23cb23f6"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | Character Encodings</a></h2>
+          <h2 id="designpatterns"><a href="https://medium.com/@alexander.s.augenstein/design-patterns-b078d3e1c2a0?source=friends_link&sk=ead1eae51c83980cb49241b8017ed3a5"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | Design Patterns</a></h2>
+          <h2 id="http-s"><a href="https://medium.com/@alexander.s.augenstein/http-https-apis-559d8447b6d?source=friends_link&sk=d421dd0a253794cf2bbd0403e86538bf"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | HTTP, HTTPS, & APIs</a></h2>
+          <h2 id="ssh"><a href="https://medium.com/@alexander.s.augenstein/secure-shell-ssh-fc54a59168?source=friends_link&sk=8a17fca18e45479d34b2676ba9f6bcef"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | Secure Shell (SSH)</a></h2>
+          <h2 id="semver"><a href="https://medium.com/@alexander.s.augenstein/semantic-versioning-91a6762abe04?source=friends_link&sk=4d04686c8b96878c5b8409cfb21c0e51"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | Semantic Versioning</a></h2>
+          <h2 id="licenses"><a href="https://medium.com/@alexander.s.augenstein/software-licenses-b75ca94028a?source=friends_link&sk=dad54489538506a11ae4f008847c8851"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | Software Licenses</a></h2>
+          <h2 id="github"><a href="https://medium.com/swlh/github-6ae73a00c739?source=friends_link&sk=5f49dc91ee8ff11a3a57fef86a287470"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | GitHub</a></h2>
+          <h2 id="algos"><a href="https://medium.com/@alexander.s.augenstein/on-the-road-to-professional-web-development-6817d4cee9?source=friends_link&sk=4a94c345637cae6b63b021827def10e4"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | Algorithms & Data Structures</a></h2>
+          <h2 id="terminal"><a href="https://medium.com/@alexander.s.augenstein/on-the-road-to-professional-web-development-dadc65b3eaa0?source=friends_link&sk=109615b5902e49b96fbce7d54f45f721"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | Terminal Commands & Shell Scripting</a></h2>
+          <h2 id="git"><a href="https://medium.com/@alexander.s.augenstein/on-the-road-to-professional-web-development-fd8acced3121?source=friends_link&sk=1daaab5fc0008c401906b1670aff8085"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | Git - Version Control</a></h2>
+          <h2 id="toc"><a href="https://medium.com/@alexander.s.augenstein/on-the-road-to-professional-web-development-t-o-c-cb1b5b02ace1?source=friends_link&sk=d533ed7c977fed8ce240daea3e9e55bd"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">On The Road To Professional Web Development | Table Of Contents</a></h2>
+          <h2 id="cppinterview"><a href="https://medium.com/@alexander.s.augenstein/how-i-passed-the-c-code-interview-in-3-weeks-a3e350214a01?source=friends_link&sk=b00aa63ab5ff1ed12ea58d8581b3b6b0"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">Passing The C++ Code Interview In 3 Weeks</a></h2>
+          <h2 id="pyvjs"><a href="https://medium.com/@alexander.s.augenstein/beginners-guide-to-python-vs-javascript-in-one-big-table-22bc78bdf880?source=friends_link&sk=fb192efe6f700cd6c86fdadf570d3b63"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">Programming Language Comparison Chart | Python vs. Javascript</a></h2>
+          <h2 id="roadmap"><a href="https://medium.com/@alexander.s.augenstein/want-to-get-paid-to-code-from-home-start-with-a-roadmap-d95ac05f3b8c?source=friends_link&sk=e0adc1e429f5dd9fc57390bc113480f5"><img class="img32" src="assets/svg/monogram.svg" alt="medium's monogram logo"></img><span class="tab">Want To Get Paid To Code From Home? Start With A Roadmap</a></h2>
         </main>
         <main id="page-more">
-          <h1>More!</h1>
+          <h1 id="more">More!</h1>
           <p>Thanks for clicking this far into the site.<br>
           This page exists to link to various projects that live elsewhere. (You'll see more here in the next commit)<br><br>
           I'm looking into building an image management app for a former photographer,

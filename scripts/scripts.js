@@ -22,10 +22,24 @@ function setContent(props) {
 
 function setSidebar(props) {
   var mq = window.matchMedia( "(min-width: 840px)" );
+  var sidebarList = document.getElementsByClassName("left-sidebar")
   if (mq.matches) {
-    var sidebarList = document.getElementsByClassName("left-sidebar")
     for (let eachSidebar of sidebarList) { eachSidebar.style.display =  'none' }
     var clickedSidebar = document.getElementById(props)
     clickedSidebar.style.display = 'block'
   }
+  else {
+    for (let eachSidebar of sidebarList) { eachSidebar.style.display =  'none' }
+  }
+}
+
+// register service worker
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('sw.js').then(function(registration) {
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
 }
