@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:    
     - name: Run npm lint action
-      uses: ./.github/actions/lint.yml
+      uses: ./.github/actions/lint
