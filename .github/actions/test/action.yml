@@ -5,10 +5,10 @@ runs:
   steps:
 
     - name: Install dependencies
-      shell: bash
+      shell: pwsh
       working-directory: vite-react-app
       run: npm ci
     - name: Run test
-      shell: bash
+      shell: pwsh
       working-directory: vite-react-app
       run: npm run test
