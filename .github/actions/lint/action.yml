@@ -2,14 +2,14 @@ name: 'Lint'
 description: 'Run eslint'
 runs:
   using: "composite"
-  defaults:
-    run: 
-      working-directory: /vite-react-app
-      shell: bash
   steps:
     - name: Checkout code
       uses: actions/checkout@v4
     - name: Install dependencies
+      shell: bash
+      working-directory: /vite-react-app
       run: npm install
     - name: Run lint
+      shell: bash
+      working-directory: /vite-react-app
       run: npm run lint
