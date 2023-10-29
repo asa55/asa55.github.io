@@ -3,8 +3,6 @@ description: 'Run eslint'
 runs:
   using: "composite"
   steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
     - name: Install dependencies
       shell: bash
       working-directory: vite-react-app
