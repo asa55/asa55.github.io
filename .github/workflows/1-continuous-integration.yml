@@ -12,4 +12,12 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
     - name: Run npm lint action
-      uses: ./.github/actions/lint-action.yml
+      uses: ./.github/actions/lint
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Run npm build action
+      uses: ./.github/actions/build

@@ -1,0 +1,15 @@
+name: 'Build'
+description: 'Run tsc && vite build'
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Install dependencies
+      shell: bash
+      working-directory: vite-react-app
+      run: npm install
+    - name: Run build
+      shell: bash
+      working-directory: vite-react-app
+      run: npm run build
