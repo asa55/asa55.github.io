@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: lint
-    - uses: actions/lint
+    - run: actions/lint
