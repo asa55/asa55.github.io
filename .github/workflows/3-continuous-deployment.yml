@@ -2,4 +2,11 @@ name: Continuous Deployment
 
 on:
   release:
-    types: [published]
+    types: [created]
+
+jobs:
+
+  todo:
+    runs-on: ubuntu-latest
+    steps:    
+    - run: echo
