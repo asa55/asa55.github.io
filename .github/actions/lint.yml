@@ -13,7 +13,3 @@ runs:
         node-version: '20.x'
     - run: npm install
     - run: npm run lint
-      shell: bash
-runs:
-
- steps:
