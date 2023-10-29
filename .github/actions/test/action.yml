@@ -7,7 +7,7 @@ runs:
     - name: Install dependencies
       shell: bash
       working-directory: vite-react-app
-      run: npm ci
+      run: npm install --omit=dev
     - name: Run test
       shell: bash
       working-directory: vite-react-app
