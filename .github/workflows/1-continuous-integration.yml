@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '20.x'
-      - run: cd vite-react-app
+      - run: cd ./vite-react-app
       - run: npm run lint
 
   build:
@@ -29,5 +29,5 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '20.x'
-      - run: cd vite-react-app
+      - run: cd ./vite-react-app
       - run: npm run build
