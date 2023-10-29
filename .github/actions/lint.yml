@@ -1,8 +1,11 @@
-name: Lint
+name: 'Lint'
+description: 'Run eslint'
+inputs:
 
-defaults:
-  run: 
-    working-directory: ./vite-react-app
+runs:
+  defaults:
+    run:
+      working-directory: ./vite-react-app
  steps:
   - uses: actions/checkout@v4
   - name: Use Node.js
