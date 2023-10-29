@@ -13,10 +13,6 @@ runs:
       working-directory: vite-react-app
       run: npm run test
     - uses: actions/setup-node@v3
-    - name: Install Playwright
-      shell: pwsh
-      working-directory: vite-react-app/tests
-      run: npx playwright install --with-deps
     - name: Run Playwright tests
       shell: pwsh
       working-directory: vite-react-app/tests
