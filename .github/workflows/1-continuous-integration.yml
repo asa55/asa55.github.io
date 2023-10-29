@@ -6,9 +6,14 @@ on:
       - 'main'
 
 jobs:
+
   lint:
 
     runs-on: ubuntu-latest
+
+    defaults:
+      run: 
+        working-directory: ./vite-react-app
 
     steps:
       - uses: actions/checkout@v4
@@ -16,20 +21,20 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '20.x'
-      - run: | 
-        cd ./vite-react-app
-        npm run lint
+      - run: npm run lint
 
   build:
 
     runs-on: ubuntu-latest
 
+    defaults:
+      run: 
+        working-directory: ./vite-react-app
+
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '20.x'
-      - run: | 
-        cd ./vite-react-app
-        npm run build
+      - run: npm run build
