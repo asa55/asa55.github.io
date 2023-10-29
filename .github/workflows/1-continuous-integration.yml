@@ -9,6 +9,7 @@ jobs:
 
   lint:
     runs-on: ubuntu-latest
-    steps:
+    steps:    
+    - uses: actions/checkout@v1
     - name: lint
-    - run: actions/lint
+    - uses: ./.github/actions/lint
