@@ -9,7 +9,7 @@ runs:
       working-directory: vite-react-app
       run: npm ci
     - name: Run test
-      shell: cmd
+      shell: bash
       working-directory: vite-react-app
       run: npm run test
     - uses: actions/checkout@v3
