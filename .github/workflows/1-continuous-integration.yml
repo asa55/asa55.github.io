@@ -8,6 +8,8 @@ on:
 jobs:
   lint:
     runs-on: ubuntu-latest
-    steps:    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
     - name: Run npm lint action
       uses: ./.github/actions/lint
