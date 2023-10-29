@@ -1,5 +1,5 @@
-name: 'Build'
-description: 'Run npm build'
+name: 'Test'
+description: 'Run npm test'
 runs:
   using: "composite"
   steps:
@@ -9,7 +9,7 @@ runs:
       shell: bash
       working-directory: vite-react-app
       run: npm install
-    - name: Run build
+    - name: Run test
       shell: bash
       working-directory: vite-react-app
-      run: npm run build
+      run: npm run test
