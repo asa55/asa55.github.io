@@ -6,7 +6,7 @@ runs:
     - name: Install dependencies
       shell: bash
       working-directory: vite-react-app
-      run: npm install
+      run: npm ci
     - name: Run lint
       shell: bash
       working-directory: vite-react-app
