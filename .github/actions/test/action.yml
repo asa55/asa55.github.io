@@ -8,7 +8,7 @@ runs:
       shell: bash
       working-directory: vite-react-app
       run: npm ci
-    - name: Run vitest
+    - name: Run test
       shell: bash
       working-directory: vite-react-app
       run: npm run test
