@@ -2,4 +2,13 @@ name: 'Lint'
 description: 'Run eslint'
 runs:
   using: "composite"
-
+  steps:
+    - uses: actions/checkout@v4
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20.x'
+    - run: npm install
+      working-directory: ./vite-react-app
+    - run: npm run lint
+      working-directory: ./vite-react-app
