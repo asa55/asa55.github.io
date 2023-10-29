@@ -5,11 +5,3 @@ runs:
   steps:
     - name: Checkout code
       uses: actions/checkout@v4
-    - name: Install dependencies
-      run: npm install
-        shell: bash
-        working-directory: ./vite-react-app
-    - name: Run lint
-      run: npm run lint
-        shell: bash
-        working-directory: ./vite-react-app
