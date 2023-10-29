@@ -1,13 +1,25 @@
-name: Lint
+name: Continuous Integration
 
-defaults:
-  run: 
-    working-directory: ./vite-react-app
- steps:
-  - uses: actions/checkout@v4
-  - name: Use Node.js
-    uses: actions/setup-node@v3
-    with:
-      node-version: '20.x'
-  - run: npm install
-  - run: npm run lint
+on:
+  push:
+    branches-ignore:
+      - 'main'
+
+jobs:
+
+  lint:
+
+    runs-on: ubuntu-latest
+
+    defaults:
+      run: 
+        working-directory: ./vite-react-app
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+      - run: npm install
+      - run: npm run lint
