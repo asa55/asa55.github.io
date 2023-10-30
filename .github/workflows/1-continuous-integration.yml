@@ -15,7 +15,7 @@ jobs:
       uses: ./.github/actions/lint
 
   build:
-    #needs: lint
+    needs: lint
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
@@ -24,7 +24,7 @@ jobs:
       uses: ./.github/actions/build
 
   unit:
-    #needs: build
+    needs: build
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
@@ -33,7 +33,7 @@ jobs:
       uses: ./.github/actions/test-unit
 
   e2e:
-    #needs: unit
+    needs: unit
     runs-on: ubuntu-latest
     container:
       image: mcr.microsoft.com/playwright:v1.39.0-jammy
