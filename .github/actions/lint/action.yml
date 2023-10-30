@@ -1,0 +1,13 @@
+name: 'Lint'
+description: 'Run eslint'
+runs:
+  using: "composite"
+  steps:
+    - name: Install dependencies
+      shell: bash
+      working-directory: vite-react-app
+      run: npm ci
+    - name: Run lint
+      shell: bash
+      working-directory: vite-react-app
+      run: npm run lint

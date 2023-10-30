@@ -1,0 +1,48 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches-ignore:
+      - 'main'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Run npm lint action
+      uses: ./.github/actions/lint
+
+  build:
+    needs: lint
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Run npm build action
+      uses: ./.github/actions/build
+
+  unit:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Run npm test action
+      uses: ./.github/actions/test-unit
+
+  e2e:
+    needs: unit
+    runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright:v1.39.0-jammy
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Install dependencies
+      working-directory: vite-react-app
+      run: npm ci
+    - name: Run npm test action
+      working-directory: vite-react-app
+      run: npx playwright test

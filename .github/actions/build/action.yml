@@ -1,0 +1,13 @@
+name: 'Build'
+description: 'Run npm build'
+runs:
+  using: "composite"
+  steps:
+    - name: Install dependencies
+      shell: bash
+      working-directory: vite-react-app
+      run: npm ci
+    - name: Run build
+      shell: bash
+      working-directory: vite-react-app
+      run: npm run build
