@@ -41,8 +41,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
     - name: Install dependencies
-      working-directory: vite-react-app
       run: npm ci
     - name: Run npm test action
-      working-directory: vite-react-app
       run: npx playwright test
