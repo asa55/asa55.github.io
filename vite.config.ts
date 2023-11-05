@@ -7,7 +7,4 @@ export default defineConfig({
   test: {
     exclude: [...configDefaults.exclude, 'tests/e2e/*'],
   },
-  build: {
-    outDir: "docs",
-  },
 })
