@@ -3,7 +3,6 @@ description: 'Run unit tests'
 runs:
   using: "composite"
   steps:
-
     - name: Install dependencies
       shell: bash
       run: npm ci
