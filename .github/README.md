@@ -34,3 +34,7 @@ flowchart LR
 * Unit and E2E tests are part of CI pipeline
 * Unit tests via vitest
 * E2E via Playwright
+
+## Notes on license
+
+Source code is MIT, all rights reserved for site content. In other words, feel free to use code snippets but remove any information about me.
