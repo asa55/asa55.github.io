@@ -1,30 +1,37 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import logo from '/logo.svg'
+import githubLogo from './assets/GitHub_Logo.png'
 import 'bulma/css/bulma.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [navbarActive, toggleNavbarActive] = useState(false)
 
   return (
     <>
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a className="navbar-item" href="https://bulma.io">
-            <img src={reactLogo} alt="React logo" />
+            <img src={logo} alt="Logo" />
           </a>
 
-          <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <a role="button"
+            className={`navbar-burger ${navbarActive ? "is-active" : ""}`}
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+            onClick={() => toggleNavbarActive((navbarActive) => !navbarActive)}
+          >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
         </div>
 
-        <div id="navbarBasicExample" className="navbar-menu">
+        <div id="navbarBasicExample" className={`navbar-menu ${navbarActive ? "is-active" : ""}`} >
           <div className="navbar-start">
             <a className="navbar-item">
-              Home
+              <img src={githubLogo} alt="GitHub logo" />
             </a>
 
             <a className="navbar-item">
@@ -40,28 +47,9 @@ function App() {
                 <a className="navbar-item">
                   About
                 </a>
-                <a className="navbar-item">
-                  Jobs
-                </a>
-                <a className="navbar-item">
-                  Contact
-                </a>
                 <hr className="navbar-divider" />
                 <a className="navbar-item">
                   Report an issue
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="navbar-end">
-            <div className="navbar-item">
-              <div className="buttons">
-                <a className="button is-primary">
-                  <strong>Sign up</strong>
-                </a>
-                <a className="button is-light">
-                  Log in
                 </a>
               </div>
             </div>
@@ -72,7 +60,6 @@ function App() {
       <section className="section">
         <div className="columns">
           <div className="column is-one-fifth">
-            First column
           </div>
           <div className="column">
             <h1 className="title">Section</h1>
@@ -130,7 +117,6 @@ function App() {
 
           </div>
           <div className="column is-one-fifth">
-            Third column
           </div>
         </div>
       </section>
@@ -140,11 +126,6 @@ function App() {
             <strong>asa55.github.io</strong> by <a href="https://github.com/asa55">asa55</a>. The source code is licensed
             <a href="http://opensource.org/licenses/mit-license.php"> MIT</a>. All rights reserved for the website content.
           </p>
-          <button onClick={() => setCount((count) => count + 1)}
-            className="button is-dark"
-          >
-            count is {count}
-          </button>
         </div>
       </footer>
     </>
