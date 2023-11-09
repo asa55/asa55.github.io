@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import viteLogo from '/vite.svg'
-import logo from '/logo.svg'
+import myLogo from '/logo.svg'
 import githubLogo from './assets/GitHub_Logo.png'
+import mediumLogo from './assets/Medium-Logo-Black-RGB.svg'
+import linkedinLogo from './assets/LinkedIn-Blue-26@2x.png'
 import 'bulma/css/bulma.css'
 
 function App() {
@@ -9,10 +11,10 @@ function App() {
 
   return (
     <>
-      <nav className="navbar" role="navigation" aria-label="main navigation">
+      <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
-          <a className="navbar-item" href="https://bulma.io">
-            <img src={logo} alt="Logo" />
+          <a className="navbar-item" href="https://github.com/asa55/asa55.github.io">
+            <img src={myLogo} alt="asa55 logo" />
           </a>
 
           <a role="button"
@@ -30,29 +32,15 @@ function App() {
 
         <div id="navbarBasicExample" className={`navbar-menu ${navbarActive ? "is-active" : ""}`} >
           <div className="navbar-start">
-            <a className="navbar-item">
+            <a className="navbar-item" href="https://github.com/asa55">
               <img src={githubLogo} alt="GitHub logo" />
             </a>
-
-            <a className="navbar-item">
-              Documentation
+            <a className="navbar-item" href="https://medium.com/@alexander.s.augenstein">
+              <img width={110} src={mediumLogo} alt="Medium logo" />
             </a>
-
-            <div className="navbar-item has-dropdown is-hoverable">
-              <a className="navbar-link">
-                More
-              </a>
-
-              <div className="navbar-dropdown">
-                <a className="navbar-item">
-                  About
-                </a>
-                <hr className="navbar-divider" />
-                <a className="navbar-item">
-                  Report an issue
-                </a>
-              </div>
-            </div>
+            <a className="navbar-item is-expanded" href="https://www.linkedin.com/in/alex-augenstein">
+              <img width={85} src={linkedinLogo} alt="Linkedin logo" />
+            </a>
           </div>
         </div>
       </nav>
