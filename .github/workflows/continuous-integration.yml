@@ -38,7 +38,7 @@ jobs:
       run: |
         git config --global user.name "${{ github.actor }}"
         git config --global user.email "${{ github.actor }}@pitt.edu"
-        git push -u https://github.com/asa55/test.git main --force
+        git push -u https://github.com/asa55/test.git main --force --all -m "automated commit"
 
   unit:
     if: github.repository == 'asa55/asa55.github.io'
