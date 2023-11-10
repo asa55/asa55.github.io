@@ -40,7 +40,7 @@ flowchart LR
 ## ℹ️ Testing
 
 * Unit (vitest), E2E (Playwright), SAST (CodeQL) tests are part of CI pipeline
-* Local development results in the creation of a dist folder with contents. Following local development, this can get pushed upstream or not, doesn't really matter, it gets paved over by CI/CD pipelines with fresh build content regardless
+* Local development results in the creation of a dist folder with contents. This gets pushed upstream. Successful build is required by the pipeline but that result isn't used for prod deployment. An upgrade would be to pull the contents from the test env and deploy that. I don't want to have automated commits to main and I don't want another long-lived branch. There are solutions to this, but for now I'm being pragmatic about the complexity of the CI/CD solution which for the purposes of this personal project is in great shape.
 * E2E testing happens on the asa55.github.io/test endpoint, before changes make their way to asa55.github.io
 
 ## ℹ️ License
