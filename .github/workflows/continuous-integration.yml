@@ -39,7 +39,7 @@ jobs:
       env:
         API_TOKEN_GITHUB: ${{ secrets.PAT }}
       with:
-        source-directory: 'dist'
+        source-directory: .
         destination-github-username: 'asa55'
         destination-repository-name: 'test'
         user-email: asa55@pitt.edu
