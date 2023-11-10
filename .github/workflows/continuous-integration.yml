@@ -23,7 +23,7 @@ jobs:
     - name: Run npm lint action
       uses: ./.github/actions/lint
 
-  build:
+  cleanup:
     if: github.repository == 'asa55/asa55.github.io'
     needs: lint
     runs-on: ubuntu-latest
@@ -42,6 +42,35 @@ jobs:
         API_TOKEN_GITHUB: ${{ secrets.PAT }}
       with:
         source-directory: '.temp'
+        destination-github-username: 'asa55'
+        destination-repository-name: 'test'
+    - name: Commit to test repository
+      uses: cpina/github-action-push-to-another-repository@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.PAT }}
+      with:
+        source-directory: .
+        destination-github-username: 'asa55'
+        destination-repository-name: 'test'
+
+
+  build:
+    if: github.repository == 'asa55/asa55.github.io'
+    needs: cleanup
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:      
+        token: ${{ secrets.PAT }}
+    - name: Run npm build action
+      uses: ./.github/actions/build
+    - name: Clean out test repository
+      uses: cpina/github-action-push-to-another-repository@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.PAT }}
+      with:
+        source-directory: .
         destination-github-username: 'asa55'
         destination-repository-name: 'test'
     - name: Commit to test repository
