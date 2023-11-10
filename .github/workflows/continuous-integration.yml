@@ -12,8 +12,8 @@ permissions:
   id-token: write
 
 jobs:
+  if: github.repository == 'asa55/asa55.github.io'
   lint:
-    if: github.repository == 'asa55/asa55.github.io'
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
@@ -24,7 +24,6 @@ jobs:
       uses: ./.github/actions/lint
 
   build:
-    if: github.repository == 'asa55/asa55.github.io'
     needs: lint
     runs-on: ubuntu-latest
     steps:
@@ -39,14 +38,13 @@ jobs:
       env:
         API_TOKEN_GITHUB: ${{ secrets.PAT }}
       with:
-        source-directory: '.'
+        source-directory: 'dist'
         destination-github-username: 'asa55'
         destination-repository-name: 'test'
         user-email: asa55@pitt.edu
         target-branch: main
 
   unit:
-    if: github.repository == 'asa55/asa55.github.io'
     needs: [lint, build]
     runs-on: ubuntu-latest
     steps:
@@ -56,7 +54,6 @@ jobs:
       uses: ./.github/actions/test-unit
 
   sast:
-    if: github.repository == 'asa55/asa55.github.io'
     needs: [lint, build]
     runs-on: ${{ (matrix.language == 'swift' && 'macos-latest') || 'ubuntu-latest' }}
     timeout-minutes: ${{ (matrix.language == 'swift' && 120) || 360 }}
@@ -81,7 +78,6 @@ jobs:
         category: "/language:${{matrix.language}}"
 
   e2e:
-    if: github.repository == 'asa55/asa55.github.io'
     needs: [unit, sast]
     runs-on: ubuntu-latest
     container:
