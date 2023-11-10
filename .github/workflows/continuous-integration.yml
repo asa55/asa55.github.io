@@ -37,7 +37,7 @@ jobs:
     - name: Copy repo contents into temp directory
       run: |
         mkdir .temp
-        cp -r . .temp
+        rsync -r . .temp --exclude .temp
     - name: Push to test repository
       uses: cpina/github-action-push-to-another-repository@main
       env:
