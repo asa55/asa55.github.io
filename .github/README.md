@@ -1,5 +1,4 @@
-![example workflow](https://github.com/asa55/asa55.github.io/actions/workflows/continuous-integration.yml/badge.svg) | ![example workflow](https://github.com/asa55/asa55.github.io/actions/workflows/continuous-deployment.yml/badge.svg)
---- | --- 
+![example workflow](https://github.com/asa55/asa55.github.io/actions/workflows/continuous-integration.yml/badge.svg) ![example workflow](https://github.com/asa55/asa55.github.io/actions/workflows/continuous-deployment.yml/badge.svg)
 
 ## ℹ️ Dev dependencies
 
@@ -22,7 +21,7 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    id1(Push to not main)-- triggers -->id2(Lint and build)-- updates -->id3(asa55.github.io/test)-- triggers -->id3(Unit, E2E, SAST testing)-- permits -->id4(Merge to main)
+    id1(Push to not main)-- triggers -->id2(Lint and build)-- updates -->id3(asa55.github.io/test)-- triggers -->id4(Unit, E2E, SAST testing)-- permits -->id5(Merge to main)
 ```
 
 ## ℹ️ Deployment workflow
