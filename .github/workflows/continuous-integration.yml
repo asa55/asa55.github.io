@@ -34,11 +34,20 @@ jobs:
         token: ${{ secrets.PAT }}
     - name: Run npm build action
       uses: ./.github/actions/build
-    - name: Commit to test repository
+    - name: Make temp directories
       run: |
-        git config --global user.name "${{ github.actor }}"
-        git config --global user.email "${{ github.actor }}@pitt.edu"
-        git push -u https://github.com/asa55/test.git main --force --all -m "automated commit"
+        mkdir .temp
+        mkdir .temp/.github
+        cp dist .temp
+        cp .github .temp/.github
+    - name: Commit to test repository
+      uses: cpina/github-action-push-to-another-repository@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.PAT }}
+      with:
+        source-directory: .temp
+        destination-github-username: 'asa55'
+        destination-repository-name: 'test'
 
   unit:
     if: github.repository == 'asa55/asa55.github.io'
