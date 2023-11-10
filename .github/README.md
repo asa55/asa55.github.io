@@ -1,5 +1,5 @@
-![example workflow](https://github.com/asa55/asa55.github.io/actions/workflows/continuous-integration.yml/badge.svg) | ![example workflow](https://github.com/asa55/asa55.github.io/actions/workflows/continuous-delivery.yml/badge.svg) | ![example workflow](https://github.com/asa55/asa55.github.io/actions/workflows/deployment.yml/badge.svg)
---- | --- | ---
+![example workflow](https://github.com/asa55/asa55.github.io/actions/workflows/continuous-integration.yml/badge.svg) | ![example workflow](https://github.com/asa55/asa55.github.io/actions/workflows/continuous-deployment.yml/badge.svg)
+--- | --- 
 
 ## Development environment
 
