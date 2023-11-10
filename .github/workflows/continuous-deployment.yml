@@ -53,6 +53,7 @@ jobs:
 
   deploy-prod:
     if: github.repository == 'asa55/asa55.github.io'
+    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
