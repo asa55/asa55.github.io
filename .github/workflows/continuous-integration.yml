@@ -13,7 +13,6 @@ permissions:
 
 jobs:
   lint:
-    if: github.repository == 'asa55/asa55.github.io'
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
@@ -24,7 +23,6 @@ jobs:
       uses: ./.github/actions/lint
 
   build:
-    if: github.repository == 'asa55/asa55.github.io'
     needs: lint
     runs-on: ubuntu-latest
     steps:
@@ -37,8 +35,10 @@ jobs:
     - name: Make temp directories
       run: |
         mkdir .temp
+        mkdir .temp/.github
+        mkdir .temp/.github/workflows
         cp -r dist .temp
-        cp -r .github .temp/
+        cp .github/workflows/continuous-integration.yml .temp/.github/workflows/
     - name: Commit to test repository
       uses: cpina/github-action-push-to-another-repository@main
       env:
@@ -49,7 +49,6 @@ jobs:
         destination-repository-name: 'test'
 
   unit:
-    if: github.repository == 'asa55/asa55.github.io'
     needs: [lint, build]
     runs-on: ubuntu-latest
     steps:
@@ -59,7 +58,6 @@ jobs:
       uses: ./.github/actions/test-unit
 
   sast:
-    if: github.repository == 'asa55/asa55.github.io'
     needs: [lint, build]
     runs-on: ${{ (matrix.language == 'swift' && 'macos-latest') || 'ubuntu-latest' }}
     timeout-minutes: ${{ (matrix.language == 'swift' && 120) || 360 }}
@@ -84,7 +82,6 @@ jobs:
         category: "/language:${{matrix.language}}"
 
   e2e:
-    if: github.repository == 'asa55/asa55.github.io'
     needs: [unit, sast]
     runs-on: ubuntu-latest
     container:
