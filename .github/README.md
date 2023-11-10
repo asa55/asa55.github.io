@@ -40,7 +40,6 @@ flowchart LR
 ## ℹ️ Testing
 
 * Unit (vitest), E2E (Playwright), SAST (CodeQL) tests are part of CI pipeline
-* Local development results in the creation of a dist folder with contents. Following local development, this can get pushed upstream or not, doesn't really matter, it gets paved over by CI/CD pipelines with fresh build content regardless
 * E2E testing happens on the asa55.github.io/test endpoint, before changes make their way to asa55.github.io
 
 ## ℹ️ License
