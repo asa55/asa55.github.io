@@ -2,7 +2,7 @@ name: Deploy static content to Pages
 
 on:
   push:
-    branches: ["main", "test"]
+    branches: 'main'
 
   workflow_dispatch:
 
@@ -19,15 +19,21 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}test
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v3
-      - name: Upload artifact
+      - name: Upload prod artifact
         uses: actions/upload-pages-artifact@v2
+        if: github.repository == 'asa55/asa55.github.io'
+        with:
+          path: 'dist'
+      - name: Upload test artifact
+        uses: actions/upload-pages-artifact@v2
+        if: github.repository == 'asa55/test'
         with:
           path: '.'
       - name: Deploy to GitHub Pages
