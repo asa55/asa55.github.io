@@ -23,37 +23,6 @@ jobs:
     - name: Run npm lint action
       uses: ./.github/actions/lint
 
-  cleanup:
-    if: github.repository == 'asa55/asa55.github.io'
-    needs: lint
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      with:      
-        token: ${{ secrets.PAT }}
-    - name: Run npm build action
-      uses: ./.github/actions/build
-    - name: Make empty temp directory
-      run:  mkdir .temp
-    - name: Clean out test repository
-      uses: cpina/github-action-push-to-another-repository@main
-      env:
-        API_TOKEN_GITHUB: ${{ secrets.PAT }}
-      with:
-        source-directory: '.temp'
-        destination-github-username: 'asa55'
-        destination-repository-name: 'test'
-    - name: Commit to test repository
-      uses: cpina/github-action-push-to-another-repository@main
-      env:
-        API_TOKEN_GITHUB: ${{ secrets.PAT }}
-      with:
-        source-directory: .
-        destination-github-username: 'asa55'
-        destination-repository-name: 'test'
-
-
   build:
     if: github.repository == 'asa55/asa55.github.io'
     needs: cleanup
@@ -65,22 +34,11 @@ jobs:
         token: ${{ secrets.PAT }}
     - name: Run npm build action
       uses: ./.github/actions/build
-    - name: Clean out test repository
-      uses: cpina/github-action-push-to-another-repository@main
-      env:
-        API_TOKEN_GITHUB: ${{ secrets.PAT }}
-      with:
-        source-directory: .
-        destination-github-username: 'asa55'
-        destination-repository-name: 'test'
     - name: Commit to test repository
-      uses: cpina/github-action-push-to-another-repository@main
-      env:
-        API_TOKEN_GITHUB: ${{ secrets.PAT }}
-      with:
-        source-directory: .
-        destination-github-username: 'asa55'
-        destination-repository-name: 'test'
+      run: |
+        git config --global user.name "${{ github.actor }}"
+        git config --global user.email "${{ github.actor }}@pitt.edu"
+        git push remote https://github.com/asa55/test.git main --force
 
   unit:
     if: github.repository == 'asa55/asa55.github.io'
