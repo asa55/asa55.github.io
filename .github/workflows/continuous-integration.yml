@@ -37,7 +37,7 @@ jobs:
       env:
         API_TOKEN_GITHUB: ${{ secrets.PAT }}
       with:
-        source-directory: '.github'
+        source-directory: '/'
         destination-github-username: 'asa55'
         destination-repository-name: 'test'
 
