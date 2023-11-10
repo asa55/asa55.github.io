@@ -20,7 +20,7 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    id1(Push to not main)-- triggers -->id2(Integration pipeline)-- permits -->id3(Merge into main)-- triggers -->id4(Delivery pipeline)-- permits -->Release-- triggers -->id6(Deployment pipeline)-- updates -->asa55.github.io
+    id1(Push to not main)-- triggers -->id2(Integration pipeline)-- permits -->id3(Merge into main)-- triggers -->id3(Deployment pipeline)-- updates -->asa55.github.io
 ```
 
 ## Notes on security

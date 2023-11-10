@@ -1,11 +1,9 @@
-name: Deployment
+name: Continuous Deployment
 
 on:
   push:
-    tags:
-      - 'v*'
-
-  workflow_dispatch:
+    branches:
+      - 'main'
 
 permissions:
   contents: read

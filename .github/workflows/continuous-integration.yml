@@ -1,9 +1,15 @@
 name: Continuous Integration
 
 on:
+  workflow_dispatch:
   push:
     branches-ignore:
       - 'main'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   lint:
@@ -15,16 +21,22 @@ jobs:
       uses: ./.github/actions/lint
 
   build:
-    needs: lint
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
+      with:      
+        token: ${{ secrets.PAT }}
     - name: Run npm build action
       uses: ./.github/actions/build
+    - name: Create Branch
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        push_options: '--force'
+        skip_checkout: true
 
   unit:
-    needs: build
+    needs: [lint, build]
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
@@ -33,7 +45,7 @@ jobs:
       uses: ./.github/actions/test-unit
 
   e2e:
-    needs: unit
+    needs: [lint, build]
     runs-on: ubuntu-latest
     container:
       image: mcr.microsoft.com/playwright:v1.39.0-jammy
