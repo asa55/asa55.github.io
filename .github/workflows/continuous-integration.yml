@@ -45,7 +45,7 @@ jobs:
       uses: ./.github/actions/test-unit
 
   deploy-test:
-    needs: [lint, build]
+    needs: unit
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}/test
