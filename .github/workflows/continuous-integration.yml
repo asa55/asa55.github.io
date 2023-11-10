@@ -24,7 +24,9 @@ jobs:
     - name: Run npm build action
       uses: ./.github/actions/build
     - name: Commit to test repo
-      run: git push https://github.com/asa55/test.git main --force
+      run: |
+        git remote add origin https://github.com/asa55/test.git
+        git push -u https://github.com/asa55/test.git main --force
 
   unit:
     needs: lint-and-build
