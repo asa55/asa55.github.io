@@ -32,7 +32,7 @@ jobs:
     - name: Create Branch
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        repository: test
+        repository: asa55/test
         push_options: '--force'
         skip_checkout: true
 
