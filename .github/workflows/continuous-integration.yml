@@ -38,7 +38,7 @@ jobs:
         mkdir .temp/.github
         mkdir .temp/.github/workflows
         cp -r dist .temp
-        cp .github/workflows/continuous-integration.yml .temp/.github/workflows/
+        cp .github/workflows/continuous-deployment.yml .temp/.github/workflows/
     - name: Commit to test repository
       uses: cpina/github-action-push-to-another-repository@main
       env:
