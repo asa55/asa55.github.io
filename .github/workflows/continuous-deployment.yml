@@ -16,7 +16,43 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  deploy-test:
+    if: github.repository == 'asa55/test'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: 'dist'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
+
+  build:
+    if: github.repository == 'asa55/asa55.github.io'
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:      
+        token: ${{ secrets.PAT }}
+    - name: Run npm build action
+      uses: ./.github/actions/build
+    - name: Create Branch
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        push_options: '--force'
+        skip_checkout: true
+
+  deploy-prod:
+    if: github.repository == 'asa55/asa55.github.io'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
