@@ -45,7 +45,7 @@ jobs:
       uses: ./.github/actions/test-unit
 
   e2e:
-    needs: deploy-test
+    needs: [lint, build]
     runs-on: ubuntu-latest
     container:
       image: mcr.microsoft.com/playwright:v1.39.0-jammy
