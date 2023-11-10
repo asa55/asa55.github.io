@@ -38,8 +38,8 @@ jobs:
       run: |
         mkdir .temp
         mkdir .temp/.github
-        cp dist .temp
-        cp .github .temp/.github
+        cp -r dist .temp
+        cp -r .github .temp/.github
     - name: Commit to test repository
       uses: cpina/github-action-push-to-another-repository@main
       env:
