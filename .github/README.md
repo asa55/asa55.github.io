@@ -4,11 +4,11 @@
 
 Not limited to this, it's what I'm using:
 
-* Win11 (OS)
-  * Chocolatey (Windows client software management)
-    * VSCode (Editor)
-    * git (VCS) (integrated with GitHub ofc using buitin cred manager and OAuth versus e.g. a PAT)
-    * NodeJS (Comes with NPM for package management and enables local dev server)
+* Win11
+  * Chocolatey
+    * VSCode
+    * git
+    * NodeJS
 
 ## ℹ️ Development workflow
 
