@@ -43,18 +43,6 @@ jobs:
     - name: Run npm test action
       uses: ./.github/actions/test-unit
 
-  e2e:
-    needs: lint-and-build
-    runs-on: ubuntu-latest
-    container:
-      image: mcr.microsoft.com/playwright:v1.39.0-jammy
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-    - name: Install dependencies
-      run: npm ci
-    - name: Run npm test action
-      run: npx playwright test
   sast:
     needs: lint-and-build
     runs-on: ${{ (matrix.language == 'swift' && 'macos-latest') || 'ubuntu-latest' }}
@@ -78,3 +66,17 @@ jobs:
       uses: github/codeql-action/analyze@v2
       with:
         category: "/language:${{matrix.language}}"
+
+  e2e:
+    needs: [unit, sast]
+    runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright:v1.39.0-jammy
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Install dependencies
+      run: npm ci
+    - name: Run npm test action
+      run: npx playwright test
+
