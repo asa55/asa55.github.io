@@ -37,9 +37,8 @@ jobs:
     - name: Make temp directories
       run: |
         mkdir .temp
-        mkdir .temp/.github
         cp -r dist .temp
-        cp -r .github .temp/.github
+        cp -r .github .temp/
     - name: Commit to test repository
       uses: cpina/github-action-push-to-another-repository@main
       env:
