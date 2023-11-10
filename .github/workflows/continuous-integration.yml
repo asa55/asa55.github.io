@@ -25,7 +25,7 @@ jobs:
 
   build:
     if: github.repository == 'asa55/asa55.github.io'
-    needs: cleanup
+    needs: lint
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
