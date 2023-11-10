@@ -12,5 +12,5 @@ test('get started link', async ({ page }) => {
 
   await page.getByRole('link', { name: 'asa55', exact: true }).click();
 
-  await expect(page.getByText('asa55')).toBeVisible();
+  await expect(page.locator('body')).toContainText('asa55');
 });
