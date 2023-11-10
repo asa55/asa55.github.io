@@ -1,10 +1,10 @@
 name: Continuous Integration
 
 on:
-  workflow_dispatch:
   push:
-    branches-ignore:
-      - [main, test]
+    branches-ignore: ["main", "test"]
+
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -37,7 +37,7 @@ jobs:
       env:
         API_TOKEN_GITHUB: ${{ secrets.PAT }}
       with:
-        source-directory: .
+        source-directory: '.'
         destination-github-username: 'asa55'
         destination-repository-name: 'test'
         user-email: asa55@pitt.edu
