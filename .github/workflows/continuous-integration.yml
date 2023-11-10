@@ -41,7 +41,7 @@ jobs:
         destination-github-username: 'asa55'
         destination-repository-name: 'test'
         user-email: asa55@pitt.edu
-        target-branch: main
+        target-branch: test
 
   unit:
     needs: [lint, build]
