@@ -23,16 +23,16 @@ jobs:
       uses: ./.github/actions/lint
     - name: Run npm build action
       uses: ./.github/actions/build
-      - name: Push to test repository
-        uses: cpina/github-action-push-to-another-repository@main
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.PAT }}
-        with:
-          source-directory: 'output'
-          destination-github-username: 'asa55'
-          destination-repository-name: 'test'
-          user-email: asa55@pitt.edu
-          target-branch: main
+    - name: Push to test repository
+      uses: cpina/github-action-push-to-another-repository@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.PAT }}
+      with:
+        source-directory: 'output'
+        destination-github-username: 'asa55'
+        destination-repository-name: 'test'
+        user-email: asa55@pitt.edu
+        target-branch: main
 
   unit:
     needs: lint-and-build
