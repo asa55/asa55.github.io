@@ -1,10 +1,10 @@
 name: Continuous Integration
 
 on:
-  workflow_dispatch:
   push:
-    branches-ignore:
-      - 'main'
+    branches-ignore: ["main", "test"]
+
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -17,10 +17,13 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
+      with:      
+        token: ${{ secrets.PAT }}
     - name: Run npm lint action
       uses: ./.github/actions/lint
 
   build:
+    needs: lint
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
@@ -29,11 +32,16 @@ jobs:
         token: ${{ secrets.PAT }}
     - name: Run npm build action
       uses: ./.github/actions/build
-    - name: Create Branch
-      uses: stefanzweifel/git-auto-commit-action@v5
+    - name: Push to test repository
+      uses: cpina/github-action-push-to-another-repository@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.PAT }}
       with:
-        push_options: '--force'
-        skip_checkout: true
+        source-directory: '.'
+        destination-github-username: 'asa55'
+        destination-repository-name: 'test'
+        user-email: asa55@pitt.edu
+        target-branch: main
 
   unit:
     needs: [lint, build]
@@ -44,8 +52,32 @@ jobs:
     - name: Run npm test action
       uses: ./.github/actions/test-unit
 
-  e2e:
+  sast:
     needs: [lint, build]
+    runs-on: ${{ (matrix.language == 'swift' && 'macos-latest') || 'ubuntu-latest' }}
+    timeout-minutes: ${{ (matrix.language == 'swift' && 120) || 360 }}
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+    strategy:
+      fail-fast: true
+      matrix:
+        language: [ 'javascript-typescript' ]
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    - name: Initialize CodeQL
+      uses: github/codeql-action/init@v2
+    - name: Autobuild
+      uses: github/codeql-action/autobuild@v2
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v2
+      with:
+        category: "/language:${{matrix.language}}"
+
+  e2e:
+    needs: [unit, sast]
     runs-on: ubuntu-latest
     container:
       image: mcr.microsoft.com/playwright:v1.39.0-jammy
@@ -56,3 +88,4 @@ jobs:
       run: npm ci
     - name: Run npm test action
       run: npx playwright test
+

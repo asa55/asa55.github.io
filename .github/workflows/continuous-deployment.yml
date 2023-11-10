@@ -1,9 +1,10 @@
-name: Continuous Deployment
+name: Deploy static content to Pages
 
 on:
   push:
-    branches:
-      - 'main'
+    branches: ["main", "test"]
+
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -22,15 +23,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PAT }}
+        uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: 'dist'
+          path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
