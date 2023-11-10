@@ -12,7 +12,7 @@ permissions:
   id-token: write
 
 jobs:
-  build:
+  lint-and-build:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
@@ -23,15 +23,11 @@ jobs:
       uses: ./.github/actions/lint
     - name: Run npm build action
       uses: ./.github/actions/build
-    - name: Create Branch
-      uses: stefanzweifel/git-auto-commit-action@v5
-      with:
-        repository: asa55/test
-        push_options: '--force'
-        skip_checkout: true
+    - name: Commit to test repo
+      run: git push https://github.com/asa55/test.git main --force
 
   unit:
-    needs: [lint, build]
+    needs: lint-and-build
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
@@ -40,7 +36,7 @@ jobs:
       uses: ./.github/actions/test-unit
 
   e2e:
-    needs: [lint, build]
+    needs: lint-and-build
     runs-on: ubuntu-latest
     container:
       image: mcr.microsoft.com/playwright:v1.39.0-jammy
@@ -52,7 +48,7 @@ jobs:
     - name: Run npm test action
       run: npx playwright test
   sast:
-    needs: [lint, build]
+    needs: lint-and-build
     runs-on: ${{ (matrix.language == 'swift' && 'macos-latest') || 'ubuntu-latest' }}
     timeout-minutes: ${{ (matrix.language == 'swift' && 120) || 360 }}
     permissions:
