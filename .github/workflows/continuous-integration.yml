@@ -34,16 +34,22 @@ jobs:
         token: ${{ secrets.PAT }}
     - name: Run npm build action
       uses: ./.github/actions/build
-    - name: Copy repo contents into temp directory
-      run: |
-        mkdir .temp
-        rsync -ar . .temp --exclude .temp
-    - name: Push to test repository
+    - name: Make empty temp directory
+      run:  mkdir .temp
+    - name: Clean out test repository
       uses: cpina/github-action-push-to-another-repository@main
       env:
         API_TOKEN_GITHUB: ${{ secrets.PAT }}
       with:
-        source-directory: 'src'
+        source-directory: '.temp'
+        destination-github-username: 'asa55'
+        destination-repository-name: 'test'
+    - name: Commit to test repository
+      uses: cpina/github-action-push-to-another-repository@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.PAT }}
+      with:
+        source-directory: .
         destination-github-username: 'asa55'
         destination-repository-name: 'test'
 
