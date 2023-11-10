@@ -30,8 +30,6 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-      with:      
-        token: ${{ secrets.PAT }}
     - name: Run npm build action
       uses: ./.github/actions/build
     - name: Push to test repository
@@ -39,7 +37,7 @@ jobs:
       env:
         API_TOKEN_GITHUB: ${{ secrets.PAT }}
       with:
-        source-directory: .
+        source-directory: '.github'
         destination-github-username: 'asa55'
         destination-repository-name: 'test'
 
