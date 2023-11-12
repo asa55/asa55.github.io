@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import viteLogo from '/vite.svg'
 import myLogo from '/logo.svg'
 import githubLogo from './assets/GitHub_Logo.png'
 import mediumLogo from './assets/Medium-Logo-Black-RGB.svg'
