@@ -4,11 +4,16 @@
 
 Not limited to this, it's what I'm using:
 
-* Win11
-  * Chocolatey
-    * VSCode
-    * git
-    * NodeJS
+* **OS** Win11 (22H2)
+  * **software manager** Chocolatey
+    * **editor** VSCode
+    * **version control** git
+    * **dev server** NodeJS
+      * **frontend framework** React
+      * **lang/compatibility** Typescript
+      * **task runner** NPM scripts
+      * **module bundler** Vite
+      * **CSS framework** Bulma
 
 ## ℹ️ Development workflow
 
@@ -41,6 +46,12 @@ flowchart LR
 
 * Unit (vitest), E2E (Playwright), SAST (CodeQL) tests are part of CI pipeline
 * E2E testing happens on the asa55.github.io/test endpoint, before changes make their way to asa55.github.io
+
+## Conventions
+
+* Project structure based largely on `vite-react-app` defaults
+* Test definitions in `/tests/`
+* Delivery bundle in `/dist/`
 
 ## ℹ️ License
 
