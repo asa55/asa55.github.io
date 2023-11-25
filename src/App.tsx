@@ -56,22 +56,6 @@ function App() {
           </div>
           <div className="column">
             <h1 className="title">Hello 👋 thanks for visiting my <em>about me</em> page</h1>
-            <p className="is-small">
-              Nice to meet you 🤠 name's Alex. If you're here, you likely found a link from one of my sources listed up in the navbar ☝️
-            </p>
-            <br />
-            <p>
-              Recently I've found myself formalizing my systems engineering studies. In my career, I've been fortunate to have the opportunity to support requirements documents, specifications, V&V procedures, and more direct experience in the systems world. The standards I used were largely internal, and now I've identified some great resources I'm working through presently: (1) the Systems Engineering Body of Knowledge (SEBoK) (2) the NASA Systems Engineering Handbook (3) the INCOSE Handbook (4) ISO/IEC/IEEE 15288 (5) MIT 16.842 Fundamentals of Systems Engineering. There are others. What I'm finding is that there is substantial overlap between my experiences in both electrical and software engineering. But there is a space I'm particularly interested in right now, systems engineering in an Agile context. There is a <a href="https://www.youtube.com/watch?v=CHuu7rBPI0M">fascinating webinar here</a> from the author of an INCOSE best paper award on this topic in 2022. The central claim is that systems engineering is inherently antagonistic to Agile, but not completely incompatible. At this time I'm actively refining my views on this, and squaring these thoughts against my career experiences. Stay tuned as <a href="https://medium.com/@alexander.s.augenstein">I blog on Medium</a> every so often, and this is likely to manifest as a post there.
-            </p>
-            <br />
-            <p>
-              You may read through this site and think, wow, this guy is a ML and robotics wiz. The reality is that it has been some time since I've been steeped in those worlds. I would not hesitate for a moment to dive back in, but I still work on all kinds of interesting systems. In the words of Anant Agarwal, it's what we engineers do 😁. I'm happy having the continued privilege to work alongside a ton of awesome people on all kinds of cool projects. My wide range of interests and experiences are not all reflected here. This page is mainly to gesture to the type of person I see myself as, and to gin up conversation. Where legal and ethical, I'm happy to discuss some of my career experiences further!
-            </p>
-            <br />
-            <p>
-              With those caveats out of the way, here are some things I'd like you to know about me:
-            </p>
-            <br />
             <div className="tile is-ancestor">
               <div className="tile is-vertical is-8">
                 <div className="tile">
