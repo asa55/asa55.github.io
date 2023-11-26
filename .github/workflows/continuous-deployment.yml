@@ -10,6 +10,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  token: read
 
 concurrency:
   group: "pages"
@@ -22,7 +23,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
         token: ${{ secrets.PAT }}
     - name: Run npm build action
       uses: ./.github/actions/build
