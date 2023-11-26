@@ -37,8 +37,7 @@ jobs:
         mkdir .temp
         mkdir .temp/.github
         mkdir .temp/.github/workflows
-        cp -r dist .temp
-        cp .github/workflows/continuous-deployment.yml .temp/.github/workflows/
+        cp -r . .temp
     - name: Commit to test repository
       uses: cpina/github-action-push-to-another-repository@main
       env:
@@ -87,10 +86,6 @@ jobs:
     container:
       image: mcr.microsoft.com/playwright:v1.39.0-jammy
     steps:
-    - name: Wait required to checkout latest code
-      uses: GuillaumeFalourd/wait-sleep-action@v1
-      with:
-        time: '1m'
     - name: Checkout code
       uses: actions/checkout@v4
     - name: Install dependencies

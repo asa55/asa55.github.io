@@ -55,78 +55,43 @@ function App() {
           <div className="column is-2">
           </div>
           <div className="column">
-            <h1 className="title">Hello 👋 thanks for visiting my <em>about me</em> page</h1>
+            <h1 className="title">Hello 👋 thanks for visiting</h1>
+            <h2 className="subtitle">To respect the needs of my current employer, the content here is predominantly non-work-related. Find me on <a href="https://www.linkedin.com/in/alex-augenstein">LinkedIn</a> and <a href="https://medium.com/@alexander.s.augenstein">Medium</a> for more info!</h2>
             <div className="tile is-ancestor">
               <div className="tile is-vertical is-8">
                 <div className="tile">
                   <div className="tile is-parent is-vertical">
                     <article className="tile is-child notification is-primary">
-                      <p className="title">DevSecOps</p>
-                      <p className="is-small">For a recent task, I've read and internalized <a href="https://dodcio.defense.gov/Library/">all of the docs here</a>, and more surrounding these. <br />A long time prior I put together <a href="https://codesandbox.io/s/github/asa55/class-sre-implements-devops">this summary</a> of Google's take on Site Reliability Engineering (a subset of DevOps)</p>
+                      <p className="title">Software Engineering</p>
+                      <p className="is-small">
+                        Ask me about <a href="https://dodcio.defense.gov/Library/">DevSecOps as defined by the DoD</a>
+                        <br />
+                        <br />
+                        Ask me about <a href="https://codesandbox.io/s/github/asa55/class-sre-implements-devops">Site Reliability Engineering as defined by Google</a>
+                        <br />
+                        <br />
+                        Check out the CI/CD pipelines I wrote for <a href="https://github.com/asa55/asa55.github.io">the site you're currently reading</a>
+                        <br />
+                        <br />
+                        I started learning cloud in 2019 and received an <a href="https://www.credly.com/badges/34976473-40f4-452b-86e7-b6751834ff4a">aws cloud pratitioner certification</a>
+                        <br />
+                        <br />
+                        My next job used Azure cloud, so I created and studied <a href="https://asa55.github.io/docs-as-flashcards/docs/downloads.html">flashcards from official docs</a>
+                      </p>
                     </article>
                     <article className="tile is-child notification is-warning">
-                      <p className="title">Information Technology</p>
-                      <p className="is-small">I've worked in enterprise IT for a few years now as a DevOps engineer. I'm not at liberty to discuss the details here, but one thing you can do to assess my skills here would be to inspect the source for the site you're currently reading. It's a personal project, not my crown jewel, but I think it speaks to the way I approach problems in this area. I do some sysadmin work and support IaC development and deployment.</p>
-                    </article>
-                  </div>
-                  <div className="tile is-parent">
-                    <article className="tile is-child notification is-info">
-                      <p className="title">M.S. thesis</p>
-                      <p className="is-small">Machine learning is a massive field moving at breakneck speeds. In terms of industry applications, reinforcement learning is still only a small sliver. It is budding but has incredible growth potential. For my interests, it is one important area where feedback control systems and machine learning meet. My M.S. thesis discusses this in a bit more detail - click the image to give it a read!</p>
-                      <br />
-                      <figure className="image is-6by3">
-                        <a href="https://d-scholarship.pitt.edu/36179/1/augensteinas_etdPitt03302019.pdf">
-                          <img src={msthesisImage} alt="MS thesis image" />
-                        </a>
-                      </figure>
-                    </article>
-                  </div>
-                </div>
-                <div className="tile is-parent">
-                  <article className="tile is-child notification is-danger">
-                    <p className="title">Math is fun and cool, actually</p>
-                    <p className="is-small">A mechE friend and I were sitting at a bar after work when he sent me <a href="https://www.youtube.com/watch?v=HEfHFsfGXjs">this 3B1B video</a>. The video asserts that under certain conditions, the number of collisions between two masses and a wall can be used to approximate the digits of π with arbitrary accuracy. There is a solution video that shakes out the math, but for whatever reason we became completely captivated by the desire to solve this problem ourselves. Back of the napkin calculations weren't cutting it. Luckily we lived at the same apartment complex in the same hall, and it was a Friday night. My wife and I were having friends over anyway, so after the bar we sharpened our pencils and got to it. For our other friends it was good for a laugh while we worked on this tirelessly through the wee hours (we have videos, of course). One by one our other friends dropped off and went home, wife went to bed, my buddy and I pressed on, crunching numbers. Must have been one or two in the morning when we finally sorted out the math, exhausted and exhilarated! That was quite a few years ago now, pre-pandemic era. But a cherished memory for me, and I think completely indicative of how I prefer to spend my spare time. We wrote some Python that I ended up dropping into a Jupyter notebook - if you want to see that in action you can <a href="https://www.kaggle.com/code/alexboxer4/digits-of-pi-from-elastic-collisions?scriptVersionId=14895614#538654">find it on Kaggle here.</a></p>
-                  </article>
-                </div>
-              </div>
-              <div className="tile is-parent">
-                <article className="tile is-child notification is-success">
-                  <p className="title">Cloud</p>
-                  <p className="is-small">Once upon a time I had a certification in AWS. Not long after, I found myself in a situation where I had to learn a lot about Azure cloud quickly, so I made a bunch of flashcards and shared them for future me and <em>just in case</em> someone else was interested. You can <a href="https://asa55.github.io/docs-as-flashcards/">find them here</a>, you'll need to download the whole bundle, I tore down the individual sets of cards. These are already out of date, Azure Active Directory is now called Microsoft Entra ID for example. If you actually want to learn cloud, just get your coffee pot ready and read the docs. <br /><br />Topics include:<br />C#<br /> JavaScript<br />Terraform<br />Azure API-Management<br />Azure App Services<br />Azure Storage<br />Azure Functions<br />Azure Key Vault<br />Azure Policy<br />Azure Private Link<br />Azure REST API<br />Azure Service Bus<br />Azure Virtual Machines<br />Azure Virtual Network</p>
-                </article>
-              </div>
-            </div>
-            <div className="tile is-ancestor">
-              <div className="tile is-parent">
-                <article className="tile is-child notification is-success">
-                  <p className="title">Robots! 🤖</p>
-                  <p className="is-small">Click the images to read something I wrote up in <em>ECE 2647, Nonlinear Control Systems</em>. This one was particularly fun as my team had the opportunity to design, code, implement and compare the performance of three control strategies on the same robotic arm, shown below. The control strategies used included (1) feedback linearization (2) sliding mode control (3) model reference adaptive control. As you might expect, the feedback linearization approach offered the best reference tracking performance, but the plant (robot) didn't change over the course of the experiment and disturbances were minimal (we didn't want to break our professor's cool toy). Every feedback control strategy has its place. For feedback linearization, it's going to shine in a highly controlled laboratory environment.</p>
-                  <br />
-                  <div className="content">
-                    <figure className="image is-6by3">
-                      <a href="https://www.dropbox.com/scl/fi/7g7qlblbneyq1z1y5ctse/8__3DOFRobotNonlinearControl.docx?rlkey=nzvf2ey3eh98lf686orzbo0wu&dl=0">
-                        <img src={nonlinearcontrolImage} alt="Nonlinear control paper image" />
-                      </a>
-                    </figure>
-                    <figure className="image is-6by3">
-                      <a href="https://www.dropbox.com/scl/fi/7g7qlblbneyq1z1y5ctse/8__3DOFRobotNonlinearControl.docx?rlkey=nzvf2ey3eh98lf686orzbo0wu&dl=0">
-                        <img src={nonlinearcontrolrobotImage} alt="Nonlinear control robot image" />
-                      </a>
-                    </figure>
-                    <figure className="image is-6by3">
-                      <a href="https://www.dropbox.com/scl/fi/7g7qlblbneyq1z1y5ctse/8__3DOFRobotNonlinearControl.docx?rlkey=nzvf2ey3eh98lf686orzbo0wu&dl=0">
-                        <img src={nonlinearcontrolperformanceImage} alt="Nonlinear control performance image" />
-                      </a>
-                    </figure>
-                  </div>
-                </article>
-              </div>
-              <div className="tile is-vertical is-8">
-                <div className="tile">
-                  <div className="tile is-parent is-vertical">
-                    <article className="tile is-child notification is-primary">
-                      <p className="title">Genetic algorithms</p>
-                      <p className="is-small">Click the image to read something I wrote up in <em>ECE 2195, Special Topics: Computing & Biology</em></p>
+                      <p className="title">Electrical Engineering</p>
+                      <p className="is-small">
+                        My B.S. and M.S. are both from the University of Pittsburgh Swanson School of Electrical and Computer Engineering
+                        <br />
+                        <br />
+                        The first 6 years of my career were electrical engineering heavy, ask me about electrical cabinet and enclosure design, layout, fabrication, programmable logic controllers, applications in the 5 - 480V range
+                        <br />
+                        <br />
+                        My year of co-operative education was electrical engineering heavy, ask me about printed circuit board design and fabrication
+                        <br />
+                        <br />
+                        Click the image below to read something my team and I wrote up in <em>ECE 2195, Special Topics: Computing & Biology</em></p>
                       <br />
                       <div className="content">
                         <figure className="image is-6by3">
@@ -136,36 +101,90 @@ function App() {
                         </figure>
                       </div>
                     </article>
-                    <article className="tile is-child notification is-warning">
-                      <p className="title">Neural nets</p>
-                      <p className="is-small">This was a fun little app I wrote that lets you train a neural net. Note that the weights are randomized to begin with, so expect to get incorrect results at first. Hand-write a character, tell the neural net what it is, and the classification will get better the more samples you feed it. <a href="https://asa55.github.io/tfjs-demo/index.html">Click here to try for yourself</a></p>
-                    </article>
                   </div>
                   <div className="tile is-parent">
                     <article className="tile is-child notification is-info">
-                      <p className="title">Electrical engineering</p>
-                      <p className="is-small">You may notice that given my substantial experience and education in this area, you aren't seeing many sections on this website about the topic. <a href="https://www.linkedin.com/in/alex-augenstein">Find me on LinkedIn for details</a>. There's not a lot I'm at liberty to discuss here, but in broad strokes I'll comment that I've used AutoCAD heavily, and worked closely with technicians to build out and wire up the things I drew. The things I made, if done wrong, had the potential to seriously harm people or worse. I fully understood the gravity of this responsibility and performed my work accordingly. I have never been responsible for a safety incident. For systems I was cognizant over, some of the testing and V&V I did on my own, some I wrote test procedures for and delegated work. This also applies to control system implementations of my design, which were not limited to electrical considerations. Thermal, hydraulic, pressure, flow control and more were in bounds for the control systems tasks I performed. And time series data logging and monitoring as well (and lots and lots of paperwork, of course).</p>
+                      <p className="title">Control Systems Engineering</p>
+                      <p className="is-small">
+                        Ask me about my career experience applying model based control to safety critical systems
+                        <br />
+                        <br />
+                        My M.S. research was at the intersection of machine learning and feedback control systems. Click the image below to read my thesis titled: <em>"Feudal Networks for Hierarchical Reinforcement Learning Revisited"</em></p>
+                      <br />
+                      <figure className="image is-6by3">
+                        <a href="https://d-scholarship.pitt.edu/36179/1/augensteinas_etdPitt03302019.pdf">
+                          <img src={msthesisImage} alt="MS thesis image" />
+                        </a>
+                      </figure>
+                      <br />
+                      <br />
+                      <p className="is-small">Click the images below to read something my team and I wrote up in <em>ECE 2647, Nonlinear Control Systems</em>. Three control strategies are designed and applied to the same robotic arm, shown below.</p>
+                      <br />
+                      <div className="content">
+                        <figure className="image is-6by3">
+                          <a href="https://www.dropbox.com/scl/fi/7g7qlblbneyq1z1y5ctse/8__3DOFRobotNonlinearControl.docx?rlkey=nzvf2ey3eh98lf686orzbo0wu&dl=0">
+                            <img src={nonlinearcontrolImage} alt="Nonlinear control paper image" />
+                          </a>
+                        </figure>
+                        <figure className="image is-6by3">
+                          <a href="https://www.dropbox.com/scl/fi/7g7qlblbneyq1z1y5ctse/8__3DOFRobotNonlinearControl.docx?rlkey=nzvf2ey3eh98lf686orzbo0wu&dl=0">
+                            <img src={nonlinearcontrolrobotImage} alt="Nonlinear control robot image" />
+                          </a>
+                        </figure>
+                        <figure className="image is-6by3">
+                          <a href="https://www.dropbox.com/scl/fi/7g7qlblbneyq1z1y5ctse/8__3DOFRobotNonlinearControl.docx?rlkey=nzvf2ey3eh98lf686orzbo0wu&dl=0">
+                            <img src={nonlinearcontrolperformanceImage} alt="Nonlinear control performance image" />
+                          </a>
+                        </figure>
+                      </div>
+
                     </article>
                   </div>
                 </div>
                 <div className="tile is-parent">
                   <article className="tile is-child notification is-danger">
-                    <p className="title">Neural nets (the hard way)</p>
-                    <p className="is-small"> They can be implemented by hand, click the image below to learn how. Compliments of my time in <em>ECE 2195, Special Topics: Machine Learning</em></p>
-                    <div className="content">
-                      <figure className="image is-6by3">
-                        <a href="https://www.dropbox.com/sh/v1y7rq5hsd6g16l/AADKh8Z6A3aC_r3DebGhSGPka?dl=0&preview=NeuralNetsFromScratch.docx">
-                          <img src={neuralnetImage} alt="Neural net image" />
-                        </a>
-                      </figure>
-                    </div>
+                    <p className="title">Systems Engineering</p>
+                    <p className="is-small">
+                      Ask me about MIT 16.842
+                      <br />
+                      <br />
+                      Ask me about the NASA Systems Engineering Handbook
+                      <br />
+                      <br />
+                      Ask me about the INCOSE Systems Engineering Handbook
+                      <br />
+                      <br />
+                      Ask me about ISO/IEC/IEEE 15288
+                    </p>
                   </article>
                 </div>
               </div>
+              <div className="tile is-parent">
+                <article className="tile is-child notification is-success">
+                  <p className="title">Math!</p>
+                  <p className="is-small">
+                    I have a minor in math from the University of Pittsburgh
+                    <br />
+                    <br />
+                    I get a lot of joy out of digging deep into math heavy topics just for fun. A short story I like sharing about this... A mechE friend and I were sitting at a bar after work when he sent me <a href="https://www.youtube.com/watch?v=HEfHFsfGXjs">this 3B1B video</a>. The video asserts that under certain conditions, the number of collisions between two masses and a wall can be used to approximate the digits of π with arbitrary accuracy. There is a solution video that shakes out the math, but for whatever reason we became completely captivated by the desire to solve this problem ourselves. Back of the napkin calculations weren't cutting it. Luckily we lived at the same apartment complex in the same hall, and it was a Friday night. My wife and I were having friends over anyway, so after the bar we sharpened our pencils and got to it. For our other friends it was good for a laugh while we worked on this tirelessly through the wee hours (we have videos, of course). One by one our other friends dropped off and went home, wife went to bed, my buddy and I pressed on, crunching numbers. Must have been one or two in the morning when we finally sorted out the math, exhausted and exhilarated! That was quite a few years ago now, pre-pandemic era. But a cherished memory for me, and I think completely indicative of how I prefer to spend my spare time. We wrote some Python that I ended up dropping into a Jupyter notebook - if you want to see that in action you can <a href="https://www.kaggle.com/code/alexboxer4/digits-of-pi-from-elastic-collisions?scriptVersionId=14895614#538654">find it on Kaggle here.</a>
+                    <br />
+                    <br />
+                    Neural nets can be implemented by hand - understanding the details is math heavy. Click the image below to to see my write up. Compliments of my time in <em>ECE 2195, Special Topics: Machine Learning</em>
+                  </p>
+                  <div className="content">
+                    <figure className="image is-6by3">
+                      <a href="https://www.dropbox.com/sh/v1y7rq5hsd6g16l/AADKh8Z6A3aC_r3DebGhSGPka?dl=0&preview=NeuralNetsFromScratch.docx">
+                        <img src={neuralnetImage} alt="Neural net image" />
+                      </a>
+                    </figure>
+                  </div>
+                  <br />
+                  <p className="is-small">
+                    The write up above shows you how to implement neural nets the hard way. But there's no need to do all the heavy lifting yourself, as shown in this <a href="https://asa55.github.io/tfjs-demo/index.html">TFJS demo applet</a> I wrote some years ago
+                  </p>
+                </article>
+              </div>
             </div>
-
-          </div>
-          <div className="column is-2">
           </div>
         </div>
       </section>
