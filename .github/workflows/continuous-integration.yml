@@ -36,6 +36,7 @@ jobs:
       run: |
         mkdir .temp
         rsync -Rar . .temp --exclude .temp --exclude node_modules
+        git add -A
     - name: Commit to test repository
       uses: cpina/github-action-push-to-another-repository@main
       env:
