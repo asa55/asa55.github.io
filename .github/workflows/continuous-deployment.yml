@@ -21,9 +21,9 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-      with:      
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
         token: ${{ secrets.PAT }}
-        persist-credentials: false
     - name: Run npm build action
       uses: ./.github/actions/build
     - name: Create Branch
