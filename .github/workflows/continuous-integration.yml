@@ -37,7 +37,7 @@ jobs:
         mkdir .temp
         mkdir .temp/.github
         mkdir .temp/.github/workflows
-        cp -r . .temp
+        rsync . .temp --exclude .temp
     - name: Commit to test repository
       uses: cpina/github-action-push-to-another-repository@main
       env:
