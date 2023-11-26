@@ -35,9 +35,7 @@ jobs:
     - name: Make temp directories
       run: |
         mkdir .temp
-        mkdir .temp/.github
-        mkdir .temp/.github/workflows
-        rsync . .temp --exclude .temp
+        rsync -r . .temp --exclude .temp
     - name: Commit to test repository
       uses: cpina/github-action-push-to-another-repository@main
       env:
