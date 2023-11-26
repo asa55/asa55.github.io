@@ -32,10 +32,26 @@ jobs:
         token: ${{ secrets.PAT }}
     - name: Run npm build action
       uses: ./.github/actions/build
-    - name: Push changes to test repo
+    - name: Make temp directories
       run: |
-        git add -A
-        git push -u https://${{ secrets.PAT }}@github.com/asa55/test.git main
+        mkdir .temp
+        cp -r .github .temp
+        cp -r dist .temp
+        cp -r public .temp
+        cp -r src .temp
+        cp index.html .temp
+        cp package.json .temp
+        cp package-lock.json .temp
+        cp tsconfig.json .temp
+        cp tsconfig.node.json .temp
+    - name: Commit to test repository
+      uses: cpina/github-action-push-to-another-repository@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.PAT }}
+      with:
+        source-directory: .temp
+        destination-github-username: 'asa55'
+        destination-repository-name: 'test'
 
   unit:
     needs: [lint, build]
