@@ -32,19 +32,10 @@ jobs:
         token: ${{ secrets.PAT }}
     - name: Run npm build action
       uses: ./.github/actions/build
-    - name: Make temp directories
+    - name: Push changes to test repo
       run: |
-        mkdir .temp
-        rsync -Rar . .temp --exclude .temp --exclude node_modules
-    - name: Commit to test repository
-      uses: cpina/github-action-push-to-another-repository@main
-      env:
-        API_TOKEN_GITHUB: ${{ secrets.PAT }}
-      with:
-        source-directory: .temp
-        destination-github-username: 'asa55'
-        destination-repository-name: 'test'
-        target-branch: 'main'
+        git add -A
+        git push -u https://${{ secrets.PAT }}@github.com/asa55/test.git main
 
   unit:
     needs: [lint, build]
