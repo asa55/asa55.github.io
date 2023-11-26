@@ -23,10 +23,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Wait required to checkout latest code
-        uses: GuillaumeFalourd/wait-sleep-action@v1
-        with:
-          time: '1m'
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Pages

@@ -87,10 +87,6 @@ jobs:
     container:
       image: mcr.microsoft.com/playwright:v1.39.0-jammy
     steps:
-    - name: Wait required to checkout latest code
-      uses: GuillaumeFalourd/wait-sleep-action@v1
-      with:
-        time: '1m'
     - name: Checkout code
       uses: actions/checkout@v4
     - name: Install dependencies
